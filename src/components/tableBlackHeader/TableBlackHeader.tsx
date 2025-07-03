@@ -29,7 +29,7 @@ const TableBlackHeader = ({
         {list.map(({ label, content }, index) => (
           <View key={`table-header-${label}`}>
             {index === 0 && (
-              <View style={tw('w-full h-px bg-lightGrey')}></View>
+              <View style={tw('w-full h-px bg-neutral-100')}></View>
             )}
             <View style={tw('w-full flex flex-row justify-between text-black')}>
               <View style={tw('flex-1 p-2 pb-10 font-semibold h-full')}>
@@ -39,7 +39,7 @@ const TableBlackHeader = ({
                 <Text>{renderText(content)}</Text>
               </View>
             </View>
-            <View style={tw('w-full h-px bg-lightGrey')}></View>
+            <View style={tw('w-full h-px bg-neutral-100')}></View>
           </View>
         ))}
       </View>

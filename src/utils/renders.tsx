@@ -1,14 +1,23 @@
-import { Text } from '@react-pdf/renderer'
+import { Text, Link } from '@react-pdf/renderer'
 import { tw } from './tailwind'
 import { Image } from '@react-pdf/renderer'
 import List from '../components/list/List'
 
-export const renderText = (text: string) => {
-  const parts = text.split(/(<bold>.*?<\/bold>|<b>.*?<\/b>|<italic>.*?<\/italic>|<underline>.*?<\/underline>|<boldunderline>.*?<\/boldunderline>|<bolditalic>.*?<\/bolditalic>|<br>|<image src='.*?'>|<ul>.*?<\/ul>)/g)
+export const renderText = (text: string | undefined) => {
+  if (!text) return ''
+
+  const parts = text.split(/(<bold>.*?<\/bold>|<b>.*?<\/b>|<italic>.*?<\/italic>|<underline>.*?<\/underline>|<boldunderline>.*?<\/boldunderline>|<bolditalic>.*?<\/bolditalic>|<br>|<image src='.*?'>|<ul>.*?<\/ul>|<a href='.*?'>.*?<\/a>)/g)
 
   return parts.map((part, index) => {
     if (part === '<br>') {
       return '\n'
+    }
+    if (part.startsWith('<a href=') && part.endsWith('>')) {
+      const link = part.match(/href='(.*?)'/)?.[1] || ''
+      const text = part.replace(/<a href='.*?'>|<\/a>/g, '')
+      return (
+        <Link src={link} key={index}>{text}</Link>
+      )
     }
     if (part.startsWith('<ul>') && part.endsWith('</ul>')) {
       const listItems = part

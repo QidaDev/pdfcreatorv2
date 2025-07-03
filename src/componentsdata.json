@@ -1,0 +1,1373 @@
+{
+  "sections": {
+    "cover": [
+      {
+        "type": "Cover",
+        "props": {
+          "title": "CATALÓGO DE COMPONENTES",
+          "subtitle": "AXIS PDF",
+          "image": "images/cover/cover.png",
+          "bottomRightText1": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterCover",
+        "props": {
+          "name": "Juan Carlos De Román",
+          "role": "Frontend Developer at VCX Team"
+        }
+      }
+    ],
+    "index": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Index",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Index",
+        "props": {
+          "color": "section-purple",
+          "titleFontSize": "18px",
+          "fontSize": "14px",
+          "oneColumn": true,
+          "withLetters": true,
+          "items": [
+            {
+              "title": "Introducción",
+              "text": "La prevención continua de factores de riesgo modificables es crucial para reducir el riesgo de aparición y desarrollo de enfermedades neurodegenerativas."
+            },
+            {
+              "title": "Claves para tu bienestar",
+              "text": "Se presenta un resumen de la valoración realizada y de las recomendaciones a seguir para proporcionar una fotografía clara del punto de partida."
+            }
+          ],
+          "marginBottom": 12
+        }
+      },
+      {
+        "type": "Index",
+        "props": {
+          "items": [
+            {
+              "title": "Introducción",
+              "text": "La prevención continua de factores de riesgo modificables es crucial para reducir el riesgo de aparición y desarrollo de enfermedades neurodegenerativas."
+            },
+            {
+              "title": "Claves para tu bienestar",
+              "text": "Se presenta un resumen de la valoración realizada y de las recomendaciones a seguir para proporcionar una fotografía clara del punto de partida."
+            },
+            {
+              "title": "Recomendaciones",
+              "text": "Se establecen objetivos en cada área de recomendación para fomentar un envejecimiento saludable y prevenir el deterioro cognitivo."
+            },
+            {
+              "title": "Próximos pasos",
+              "text": "Se establecen objetivos en cada área de recomendación para fomentar un envejecimiento saludable y prevenir el deterioro cognitivo."
+            }
+          ]
+        }
+      }
+    ],
+    "title": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Title",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "color": "primary-DEFAULT",
+          "text": "PREVENCIÓN CONTINUA PARA UNA VIDA PLENA",
+          "marginTop": 6
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "color": "section-turquoise",
+          "text": "PREVENCIÓN CONTINUA PARA UNA VIDA PLENA",
+          "fontSize": "20px",
+          "marginTop": 6
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "Título con tracking personalizado",
+          "trackingWidest": true,
+          "fontSize": "24px",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "Título sin tracking",
+          "trackingWidest": false,
+          "fontSize": "18px",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "Título con margen personalizado",
+          "marginTop": 12,
+          "marginBottom": 8,
+          "fontSize": "22px"
+        }
+      }
+    ],
+    "text": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Text",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<p><bold>En primer lugar, queremos felicitarte por tu firme compromiso con el cuidado de tu salud</bold>. La prevención continua de factores de riesgo modificables y la evolución hacia hábitos saludables son componentes esenciales para una vida plena.</p><p>La evidencia científica respalda la idea de que la prevención no es simplemente un acto aislado, sino un pacto continuo a lo largo de la vida.</p>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "section-yellow",
+          "text": "Texto con diferentes tamaños de fuente y colores para mostrar las variantes disponibles.",
+          "fontSize": "20px",
+          "marginTop": 12
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Texto con margen izquierdo y derecho personalizado.",
+          "marginLeft": 20,
+          "marginRight": 20,
+          "fontSize": "14px",
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Texto con line-height personalizado para mejor legibilidad.",
+          "lineHeight": "1.8",
+          "fontSize": "16px",
+          "color": "section-turquoise"
+        }
+      }
+    ],
+    "image": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Image",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Image",
+        "props": {
+          "src": "images/image/introduction-infography-es.png",
+          "width": "50px",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "Image",
+        "props": {
+          "src": "images/image/introduction-infography-es.png",
+          "width": "300px",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "Image",
+        "props": {
+          "src": "images/image/introduction-infography-es.png",
+          "width": "100px",
+          "marginBottom": 10,
+          "marginLeft": "auto",
+          "marginRight": "auto"
+        }
+      }
+    ],
+    "banner": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Banner",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "text": "Nunca es demasiado temprano ni demasiado tarde para cuidar de tu salud"
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "color": "section-blue",
+          "fontSize": "16px",
+          "text": "Banner con diferentes configuraciones de margen y tamaño de fuente"
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "color": "section-yellow",
+          "fontSize": "10px",
+          "lineHeight": "1",
+          "marginLeft": 12,
+          "marginRight": 12,
+          "text": "Banner con line-height personalizado para mejor espaciado"
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "color": "section-turquoise",
+          "marginLeft": 0,
+          "marginRight": 0,
+          "text": "Banner sin márgenes laterales para ocupar todo el ancho"
+        }
+      }
+    ],
+    "list": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: List",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "List",
+        "props": {
+          "marginLeft": 6,
+          "items": [
+            "<bold>Sigue así</bold>: representan aspectos de tu vida en los que estás haciendo un buen trabajo y que contribuyen positivamente a tu salud y bienestar.",
+            "<bold>Áreas de mejora</bold>: hay margen para implementar mejoras que te ayudarán a alcanzar un mayor nivel de salud y bienestar.",
+            "<bold>Áreas que requieren atención</bold>: áreas prioritarias a trabajar para intentar adoptar un estilo de vida más saludable."
+          ]
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "Lista simple sin margen izquierdo",
+            "Segundo elemento de la lista",
+            "Tercer elemento con texto más largo para mostrar el comportamiento del componente"
+          ],
+          "marginLeft": 0
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "Lista con checkboxes",
+            "Elemento marcado como completado",
+            "Otro elemento pendiente"
+          ],
+          "haveCheckbox": true,
+          "marginLeft": 6,
+          "marginBottom": 8
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "<bold>Elemento con formato</bold>: descripción del elemento",
+            "<italic>Elemento en cursiva</italic>: otra descripción",
+            "<underline>Elemento subrayado</underline>: descripción final"
+          ],
+          "marginLeft": 12
+        }
+      }
+    ],
+    "numbered-list": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: NumberedList",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "NumberedList",
+        "props": {
+          "items": [
+            {
+              "title": "Lista numerada simple",
+              "content": "Contenido del primer elemento de la lista numerada."
+            },
+            {
+              "title": "Segundo elemento",
+              "content": "Contenido del segundo elemento con más texto para mostrar el comportamiento del componente."
+            }
+          ]
+        }
+      },
+      {
+        "type": "NumberedList",
+        "props": {
+          "marginTop": 8,
+          "withLetters": true,
+          "items": [
+            {
+              "title": "Lista con letras",
+              "content": "Este elemento usa letras en lugar de números."
+            },
+            {
+              "title": "Segundo elemento con letra",
+              "content": "Otro elemento que usa letras para la numeración."
+            }
+          ]
+        }
+      }
+    ],
+    "section-summary": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: SectionSummary",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 1,
+          "color": "section-yellow",
+          "title": "Actividad física",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red"
+              
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": true
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green"
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "https://www.qida.es/"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 2,
+          "color": "section-green",
+          "title": "Nutricional",
+          "content": "En un lugar de la Mancha de cuyo nombre no quiero acordarme...",
+          "tags": [
+            {
+              "text": "Opción 1",
+              "color": "section-yellow"
+            },
+            {
+              "text": "Opción 2",
+              "color": "section-blue",
+              "selected": true
+            }
+          ],
+          "linkText": "Ver más",
+          "linkUrl": "https://www.qida.es/"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 3,
+          "color": "section-red",
+          "title": "Resumen con diferentes colores",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+          "tags": [
+            {
+              "text": "Urgente",
+              "color": "tag-red",
+              "selected": true
+            },
+            {
+              "text": "No urgente",
+              "color": "tag-green"
+            }
+          ],
+          "linkText": "Ver más detalles",
+          "linkUrl": "https://www.qida.es/"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 4,
+          "color": "section-orange",
+          "title": "Resumen sin enlace",
+          "content": "Este resumen no incluye enlace para mostrar la variante sin link.",
+          "tags": [
+            {
+              "text": "Opción 1",
+              "color": "section-orange",
+              "selected": true
+            },
+            {
+              "text": "Opción 2",
+              "color": "section-blue"
+            },
+            {
+              "text": "Opción 3",
+              "color": "section-green"
+            }
+          ]
+        }
+      }
+    ],
+    "alert": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Alert",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "text": "Advertencia simple sin formato especial, solo texto normal para mostrar la variante básica."
+        }
+      }
+    ],
+    "table-black-header": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componentes: TableBlackHeader",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Qüestionari internacional d'activitat física (IPAQ)",
+          "list": [
+            {
+              "label": "Descripció de l'escala de valoració",
+              "content": "IPAQ és un qüestionari internacional d'activitat física que indica el tipus i el nivell d'activitat física que fas a la teva vida quotidiana."
+            },
+            {
+              "label": "Data de valoració",
+              "content": "30/01/2025"
+            },
+            {
+              "label": "Resultat",
+              "content": "Nivell baix o inactiu d'activitat física"
+            }
+          ]
+        }
+      }
+    ],
+    "content-panel": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componentes: ContentPanel",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Tabla con color personalizado",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "Contenido de la tabla con color personalizado."
+              }
+            }
+          ],
+          "color": "section-purple",
+          "colorLight": "sectionLight-purple"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Tabla sólo con titulo",
+          "color": "section-turquoise",
+          "colorLight": "sectionLight-turquoise"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Tabla sólo con titulo",
+          "color": "section-blue",
+          "colorLight": "sectionLight-blue",
+          "icon": "images/colored-table/cognitive-white.png"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Tabla sólo con titulo",
+          "color": "section-red",
+          "colorLight": "sectionLight-red",
+          "icon": "images/colored-table/heart-white.png"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "content": [
+            { 
+              "type": "Text",
+              "props": {
+                "text": "<bold>Exemples d'activitats</bold>",
+                "marginBottom": 4
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Qualsevol tipus d'educació i aprenentatge, com aprendre un idioma o ballar.",
+                  "Desenvolupar activitats creatives, com ara la dansa, la pintura, el dibuix, tocar un instrument musical o cantar.",
+                  "Fer trencaclosques, mots encreuats o jugar a jocs de taula.",
+                  "Participar en activitats socials, com ara reunions o esdeveniments en centres socials.",
+                  "Col·laborar amb organitzacions, associacions o programes de voluntariat.",
+                  "Assistir a museus, concerts, obres de teatre i altres esdeveniments culturals.",
+                  "Jugar a l'ordinador o tauleta activitats que estimulin el cervell."
+                ],
+                "marginBottom": 4,
+                "marginRight": 4,
+                "marginLeft": 6
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      }
+    ],
+    "table": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componentes: Table",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Table",
+        "props": {
+          "headerColor": "section-green",
+          "rowColor": "sectionLight-green",
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría"],
+            ["Categoría 2", "Descripción de la segunda categoría"]
+          ],
+          "fontSize": "11px",
+          "cellHaveRightArrow": true,
+          "cellRightArrowColor": "#9eca38",
+          "cellBottomPadding": 6,
+          "headerCompressed": true
+        }
+      },
+      {
+        "type": "Table",
+        "props": {
+          "headerColor": "section-purple",
+          "rowColor": "sectionLight-purple",
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría"]
+          ],
+          "fontSize": "11px",
+          "cellBottomPadding": 4
+        }
+      },
+      {
+        "type": "Table",
+        "props": {
+          "headerColor": "section-yellow",
+          "roundedCorners": true,
+          "marginBottom": 0,
+          "cellBottomPadding": 6,
+          "tableRows": [
+            [
+              "1. Aeròbica",
+              "<ul><li>Millorar la capacitat funcional.</li><li>Reduir la morbimortalitat. </li><li>Reduir els factors de risc cardiovascular (HTA, diabetis mellitus de tipus 2, dislipidèmies, càncer, etc.). </li><li>Controlar el pes i la composició corporal.</li>></ul>",
+              "<ul><li>Entre 2.5 i 5 hores setmanals d'exercici aeròbic moderat.</li><li>5 dies/setmana, o 75-150 minuts/setmana a intensitat vigorosa 3 dies/setmana, o combinacions.</li></ul>",
+              "<ul><li>Caminar, senderisme.</li><li>Trotar, córrer, anar amb bici, ballar.</li><li>Natació, aquagym, gimnàs o aeròbic.</li><li>Esports de pista: pàdel, tenis, etc.</li></ul>"
+            ]
+          ],
+          "tableHeader": [
+            "CAPACITAT", 
+            "OBJECTIU", 
+            "DURADA,\nINTENSITAT I\nFREQÜÈNCIA", 
+            "TIPOLOGIA\nD'ACTIVITAT"
+          ]
+        }
+      }
+    ],
+    "state-bar": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: StateBar",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "Baix",
+              "subText": "Menor activitat"
+            },
+            {
+              "selected": true,
+              "text": "Moderat",
+              "subText": ""
+            },
+            {
+              "text": "Alt",
+              "subText": "Major activitat"
+            }
+          ],
+          "areaColor": "section-yellow",
+          "none": false,
+          "currentYear": "2025",
+          "marginBottom": 8
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:8-10",
+              "subText": "Possible deteriorament"
+            },
+            {
+              "text": "B:5-7",
+              "subText": ""
+            },
+            {
+              "text": "C:3-4",
+              "subText": ""
+            },
+            {
+              "text": "D:0-2",
+              "subText": "Sense possible deteriorament",
+              "selected": true
+            }
+          ],
+          "areaColor": "section-purple",
+          "none": false,
+          "currentYear": "2022",
+          "marginBottom": 8
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "< 18.5",
+              "subText": "Pes insuficient"
+            },
+            {
+              "text": "18.5-24.9",
+              "subText": "Pes saludable"
+            },
+            {
+              "text": "25-26.9",
+              "subText": "Sobrepès I"
+            },
+            {
+              "text": "27-29.9",
+              "subText": "Sobrepès II"
+            },
+            {
+              "selected": true,
+              "text": "30-34.9",
+              "subText": "Obesitat tipus I"
+            },
+            {
+              "text": "35-39.9",
+              "subText": "Obesitat tipus II"
+            },
+            {
+              "text": "40-49.9",
+              "subText": "Obesitat tipus III"
+            },
+            {
+              "text": "> 50",
+              "subText": "Obesitat tipus IV"
+            }
+          ],
+          "areaColor": "section-green",
+          "none": false,
+          "currentYear": "2025"
+        }
+      }
+    ],
+    "cards": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: Cards",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "title": "Fichas de trabajo",
+          "color": "section-green",
+          "colorLight": "sectionLight-green",
+          "items": [
+            {
+              "text": "1. Ejercicios para la estimulación física: Iniciación al fortalecimiento muscular",
+              "description": "Ejercita tu musculatura con ejercicios moderados",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "2. Ejercicios para la estimulación física: Fortalecimiento Muscular y coordinación",
+              "description": "Ejercicios de fuerza para potenciar tu musculatura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Abrir ficha"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "title": "Fichas de trabajo con diferentes colores",
+          "color": "section-blue",
+          "colorLight": "sectionLight-blue",
+          "items": [
+            {
+              "text": "Ficha de trabajo 1",
+              "description": "Descripción de la primera ficha de trabajo",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Ficha de trabajo 2",
+              "description": "Descripción de la segunda ficha de trabajo",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Abrir ficha"
+            }
+          ]
+        }
+      }
+    ],
+    "link-list": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: LinkList",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-green",
+          "iconColor": "green",
+          "marginBottom": 8,
+          "list": [
+            {
+              "text": "Ejercicios para la estimulación física: La actividad física como rutina. Aprende a crear hábitos saludables",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Acceder"
+            },
+            {
+              "text": "Gimnasia para adultos mayores",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Acceder"
+            }
+          ]
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Lista de enlaces con otro color",
+          "color": "section-purple",
+          "iconColor": "purple",
+          "list": [
+            {
+              "text": "Enlace 1 con color púrpura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Enlace 1"
+            },
+            {
+              "text": "Enlace 2 con color púrpura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Enlace 2"
+            }
+          ]
+        }
+      }
+    ],
+    "image-banner": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: ImageBanner",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Banner con imagen personalizada",
+          "text": "Texto del banner con imagen para mostrar las variantes disponibles."
+        }
+      }
+    ],
+    "tip-list": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: TipList",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucos para consumir más cereales integrales.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Compra solo las variedades integrales de los derivados de los cereales: pan integral, arroz integral, pasta integral, etc.",
+                  "Escoge alimentos integrales mínimamente procesados, que solo contengan el cereal en cuestión o cuantos menos ingredientes mejor."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Lista de consejos con diferentes colores",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Consejo 1 con color azul",
+                  "Consejo 2 con color azul"
+                ],
+                "haveCheckbox": false,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Lista de consejos con checkboxes",
+          "color": "section-yellow",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Consejo con checkbox 1",
+                  "Consejo con checkbox 2"
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "banner-op": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: BannerOP",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "BannerOP",
+        "props": {
+          "fullName": "Marta Gimenez",
+          "professionalTitle": "Orientador/a Personal | Qida",
+          "academicTitle": "Psicóloga",
+          "collegiateNo": "Col·legiada n° 23456",
+          "image": "images/banner-op/op.png",
+          "items": [
+            {
+              "image": "images/banner-op/phone-filled.png",
+              "text": "+34 665009491"
+            },
+            {
+              "image": "images/banner-op/chat.png",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Mensajería"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BannerOP",
+        "props": {
+          "fullName": "Ana García",
+          "professionalTitle": "Orientador/a Personal | Qida",
+          "academicTitle": "Psicóloga",
+          "collegiateNo": "Col·legiada n° 12345",
+          "image": "images/banner-op/op.png",
+          "items": [
+            {
+              "image": "images/banner-op/phone-filled.png",
+              "text": "+34 600123456"
+            },
+            {
+              "image": "images/banner-op/chat.png",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Mensajería"
+            }
+          ]
+        }
+      }
+    ],
+    "banner-certified": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: BannerCertified",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "BannerCertified",
+        "props": {
+          "text": "Qida es la primera compañía de su sector en convertirse en B Corp en España al cumplir los estándares más altos en términos de ejercicio social y ambiental, transparencia y responsabilidad legal y compromiso de impacto positivo.",
+          "image": "images/banner-certified/bcorp.png"
+        }
+      },
+      {
+        "type": "BannerCertified",
+        "props": {
+          "text": "Ejemplo de banner de certificación con texto personalizado y logo de certificación.",
+          "image": "images/banner-certified/bcorp.png"
+        }
+      }
+    ],
+    "banner-social-links": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: BannerSocialLinks",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "BannerSocialLinks",
+        "props": {
+          "links": [
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--qida.png",
+              "text": "Qida.es"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--facebook.png",
+              "text": "Facebook"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--linkedin.png",
+              "text": "Linkedin"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--instagram.png",
+              "text": "Instagram"
+            }
+          ]
+        }
+      },
+      {
+        "type": "BannerSocialLinks",
+        "props": {
+          "links": [
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--qida.png",
+              "text": "Qida.es"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--facebook.png",
+              "text": "Facebook"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--linkedin.png",
+              "text": "Linkedin"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--instagram.png",
+              "text": "Instagram"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--twitter.png",
+              "text": "Twitter"
+            }
+          ]
+        }
+      }
+    ],
+    "banner-communication": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: BannerCommunication",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "BannerCommunication",
+        "props": {
+          "title": "Canales de comunicación",
+          "items": [
+            {
+              "image": "images/banner-communication/chat.png",
+              "title": "Mensajería",
+              "text": "Tu Orientador/a personal te atenderá en las próximas 24 horas laborables."
+            },
+            {
+              "image": "images/banner-communication/phone-filled.png",
+              "title": "Teléfono",
+              "text": "Tu Orientador/a Personal te atenderá de lunes a viernes de 9 a 18 horas."
+            }
+          ]
+        }
+      },
+      {
+        "type": "BannerCommunication",
+        "props": {
+          "title": "Canales de comunicación",
+          "items": [
+            {
+              "image": "images/banner-communication/chat.png",
+              "title": "Mensajería",
+              "text": "Tu Orientador/a personal te atenderá en las próximas 24 horas laborables."
+            },
+            {
+              "image": "images/banner-communication/phone-filled.png",
+              "title": "Teléfono",
+              "text": "Tu Orientador/a Personal te atenderá de lunes a viernes de 9 a 18 horas."
+            },
+            {
+              "image": "images/banner-communication/email.png",
+              "title": "Email",
+              "text": "Envíanos un email y te responderemos en 48 horas."
+            }
+          ]
+        }
+      }
+    ],
+    "absolute-center": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: AbsoluteCenter",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "AbsoluteCenter",
+        "props": {
+          "content": [
+            {
+              "type": "Title",
+              "props": {
+                "text": "Contenido centrado",
+                "color": "primary-DEFAULT"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "Este contenido está centrado absolutamente en la página."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "AbsoluteCenter",
+        "props": {
+          "content": [
+            {
+              "type": "Image",
+              "props": {
+                "src": "images/qida-logo.png",
+                "width": 200,
+                "marginLeft": "auto",
+                "marginRight": "auto"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "Logo centrado con texto",
+                "marginTop": 10,
+                "textAlign": "center"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "header-section": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: HeaderSection",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "HeaderSection",
+        "props": {
+          "title": "Sección con header personalizado",
+          "smallText": "TEXTO PEQUEÑO",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025",
+          "showSectionTitleOnEveryPage": true
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Esta sección muestra un header de sección con diferentes configuraciones."
+        }
+      }
+    ],
+    "page-break": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Componente: PageBreak",
+          "smallText": "CATALÓGO DE COMPONENTES",
+          "personName": "Juan Carlos De Román",
+          "date": "27 de junio de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "El componente PageBreak se usa para crear saltos de página. Se muestra automáticamente cuando se incluye en el JSON."
+        }
+      },
+      {
+        "type": "PageBreak"
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Este texto aparece en una nueva página después del PageBreak."
+        }
+      }
+    ],
+    "FIN": [
+      {
+        "type": "AbsoluteCenter",
+        "props": {
+          "content": [
+            {
+              "type": "Image",
+              "props": {
+                "src": "images/qida-logo.png",
+                "width": 150,
+                "marginLeft": "auto",
+                "marginRight": "auto"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

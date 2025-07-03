@@ -3,11 +3,17 @@ import { PDFViewer } from '@react-pdf/renderer'
 
 import Generator from './Generator';
 
-const Viewer = () => {
+interface ViewerProps {
+  data?: any
+}
+
+const Viewer = ({ 
+  data 
+}: ViewerProps) => {
   return (
     <div className="w-full h-screen">
       <PDFViewer style={{ width: "100%", height: "100%" }}>
-        <Generator />
+        <Generator data={data} />
       </PDFViewer>
     </div>
   );

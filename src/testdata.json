@@ -6,6 +6,7 @@
         "props": {
           "title": "PLAN DE PREVENCIÓN Y\nREDUCCIÓN DE RIESGOS",
           "subtitle": "PERSONALIZADO (2025)",
+          "image": "images/cover/cover.png",
           "roundedTag": "Seguimiento proactivo",
           "bottomLeftText1": "MYBOX VIDACARE",
           "bottomLeftText2": "María Cristina Mulet",
@@ -13,7 +14,11 @@
         }
       },
       {
-        "type": "FooterCover"
+        "type": "FooterCover",
+        "props": {
+          "name": "Marta Gimenez",
+          "role": "Orientador/a Personal y Tecnic@ de encendido de impresoras"
+        }
       }
     ],
     "contenido": [
@@ -30,7 +35,7 @@
         "type": "FooterLogo"
       },
       {
-        "type": "GridIndex",
+        "type": "Index",
         "props": {
           "items": [
             {
@@ -107,7 +112,7 @@
       {
         "type": "Image",
         "props": {
-          "src": "images/test-images/introduction-infography-es.png",
+          "src": "images/image/introduction-infography-es.png",
           "width": "440px",
           "marginBottom": 10
         }
@@ -150,6 +155,7 @@
       {
         "type": "List",
         "props": {
+          "marginLeft": 6,
           "items": [
             "<bold>Sigue así</bold>: representan aspectos de tu vida en los que estás haciendo un buen trabajo y que contribuyen positivamente a tu salud y bienestar. ¡Sigue así!", 
             "<bold>Áreas de mejora</bold>: hay margen para implementar mejoras que te ayudarán a alcanzar un mayor nivel de salud y bienestar. ¡Tienes la oportunidad de sentirte aún mejor!", 
@@ -168,23 +174,22 @@
         "type": "SectionSummary",
         "props": {
           "number": 1,
-          "color": "yellow",
+          "color": "section-yellow",
           "title": "Actividad física",
           "content": "El análisis de la actividad física muestra un patrón de sedentarismo que requiere atención inmediata. Se observa una disminución significativa en la actividad diaria, con menos de 30 minutos de ejercicio moderado por semana. La resistencia cardiovascular está por debajo de los niveles recomendados para la edad, y la fuerza muscular muestra un deterioro progresivo. Es fundamental implementar un programa de ejercicio gradual que incluya caminatas diarias, ejercicios de fuerza básicos y actividades de flexibilidad. Se recomienda comenzar con sesiones cortas de 10-15 minutos e ir incrementando gradualmente la intensidad y duración.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red",
+              "color": "tag-red",
               "selected": true
             },
             {
               "text": "Mejora",
-              "color": "orange"
-            },
-            
+              "color": "tag-orange"
+            },           
             {
               "text": "Sigue así",
-              "color": "green"
+              "color": "tag-green"
             }
           ],
           "linkText": "Ver fichas de trabajo recomendadas",
@@ -195,23 +200,22 @@
         "type": "SectionSummary",
         "props": {
           "number": 2,
-          "color": "green",
+          "color": "section-green",
           "title": "Nutricional",
           "content": "El estado nutricional presenta áreas de mejora significativas. Se detecta un consumo excesivo de alimentos procesados y azúcares refinados, mientras que la ingesta de frutas, verduras y proteínas de calidad es insuficiente. Los patrones de hidratación son irregulares, con un consumo de agua por debajo de lo recomendado. La distribución de las comidas a lo largo del día no es óptima, con largos períodos de ayuno seguidos de comidas copiosas. Se sugiere implementar un plan de alimentación estructurado que priorice alimentos naturales, mantenga horarios regulares y asegure una hidratación adecuada.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red"
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "orange",
+              "color": "tag-orange",
               "selected": true
-            },
-            
+            },           
             {
               "text": "Sigue así",
-              "color": "green"
+              "color": "tag-green"
             }
           ],
           "linkText": "Ver fichas de trabajo recomendadas",
@@ -222,22 +226,21 @@
         "type": "SectionSummary",
         "props": {
           "number": 3,
-          "color": "turquoise",
+          "color": "section-turquoise",
           "title": "Cognitivo",
           "content": "El funcionamiento cognitivo se mantiene en niveles óptimos, mostrando buena capacidad de atención y memoria. Las habilidades de resolución de problemas y toma de decisiones son adecuadas, con un tiempo de respuesta apropiado. La capacidad de concentración se mantiene estable durante períodos prolongados, y la memoria de trabajo funciona eficientemente. Se observa una buena adaptabilidad a nuevas situaciones y tareas. Para mantener estos niveles, se recomienda continuar con actividades de estimulación cognitiva como lectura, juegos de estrategia y aprendizaje de nuevas habilidades.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red"
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "orange"
-            },
-            
+              "color": "tag-orange"
+            },           
             {
               "text": "Sigue así",
-              "color": "green",
+              "color": "tag-green",
               "selected": true
             }
           ],
@@ -249,23 +252,22 @@
         "type": "SectionSummary",
         "props": {
           "number": 4,
-          "color": "purple",
+          "color": "section-purple",
           "title": "Bienestar emocional",
           "content": "El bienestar emocional presenta áreas que requieren atención. Se detectan niveles elevados de estrés y ansiedad, con dificultades en la gestión emocional. Los patrones de sueño son irregulares, afectando el descanso y la recuperación. La capacidad de afrontamiento ante situaciones estresantes muestra signos de deterioro. Es importante implementar técnicas de relajación, establecer rutinas de sueño saludables y desarrollar estrategias de manejo del estrés. Se recomienda la práctica regular de mindfulness y la búsqueda de apoyo social cuando sea necesario.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red"
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "orange",
+              "color": "tag-orange",
               "selected": true
-            },
-            
+            },            
             {
               "text": "Sigue así",
-              "color": "green"
+              "color": "tag-green"
             }
           ],
           "linkText": "Ver fichas de trabajo recomendadas",
@@ -276,23 +278,22 @@
         "type": "SectionSummary",
         "props": {
           "number": 5,
-          "color": "red",
+          "color": "section-red",
           "title": "Social",
           "content": "Las interacciones sociales muestran un deterioro significativo que requiere atención inmediata. Se observa un aumento en el aislamiento social y una disminución en la participación en actividades grupales. La comunicación interpersonal presenta dificultades, con tendencia al conflicto en las relaciones cercanas. La red de apoyo social se ha reducido notablemente en los últimos meses. Es crucial trabajar en la reconstrucción de conexiones sociales, mejorar las habilidades de comunicación y fomentar la participación en actividades comunitarias. Se sugiere buscar grupos de interés común y mantener contacto regular con familiares y amigos.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red",
+              "color": "tag-red",
               "selected": true
             },
             {
               "text": "Mejora",
-              "color": "orange"
-            },
-            
+              "color": "tag-orange"
+            },            
             {
               "text": "Sigue así",
-              "color": "green"
+              "color": "tag-green"
             }
           ],
           "linkText": "Ver fichas de trabajo recomendadas",
@@ -303,22 +304,21 @@
         "type": "SectionSummary",
         "props": {
           "number": 6,
-          "color": "orange",
+          "color": "section-orange",
           "title": "Audio y visual",
           "content": "Las capacidades auditivas y visuales se mantienen en buen estado. La agudeza visual es adecuada para las actividades diarias, con una buena percepción de colores y contrastes. La audición se mantiene dentro de rangos normales, con capacidad para distinguir diferentes tonos y frecuencias. No se detectan problemas significativos en la coordinación ojo-mano ni en la percepción espacial. Para mantener estas capacidades, se recomienda realizar revisiones periódicas, proteger los sentidos de estímulos excesivos y mantener una iluminación adecuada en los espacios de trabajo y ocio.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red"
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "orange"
-            },
-            
+              "color": "tag-orange"
+            },           
             {
               "text": "Sigue así",
-              "color": "green",
+              "color": "tag-green",
               "selected": true
             }
           ],
@@ -331,22 +331,21 @@
         "type": "SectionSummary",
         "props": {
           "number": 7,
-          "color": "blue",
+          "color": "section-blue",
           "title": "Tabaco y alcohol",
           "content": "El consumo de tabaco y alcohol se mantiene en niveles controlados. No se detecta consumo de tabaco en los últimos meses, y la ingesta de alcohol se limita a ocasiones sociales específicas, dentro de los límites recomendados. La capacidad de autocontrol en situaciones sociales es adecuada, y no se observan signos de dependencia. Se mantiene una buena conciencia sobre los riesgos asociados y se aplican estrategias efectivas de evitación. Es importante mantener estos hábitos saludables y continuar con el monitoreo regular de estos comportamientos.",
           "tags": [
             {
               "text": "Atención",
-              "color": "red"
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "orange"
-            },
-            
+              "color": "tag-orange"
+            },   
             {
               "text": "Sigue así",
-              "color": "green",
+              "color": "tag-green",
               "selected": true
             }
           ],
@@ -355,7 +354,7 @@
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
         }
@@ -393,7 +392,6 @@
                   "type": "Text",
                   "props": {
                     "marginBottom": 2,
-                    "marginLeft": "[25px]",
                     "text": "Recull la <bold>valoració de l'àrea realitzada amb Laura</bold>, el teu Orientador/a Personal. El resultat de l'escala inclou un indicatiu:"
                   }
                 },
@@ -401,16 +399,16 @@
                   "type": "Text",
                   "props": {
                     "marginBottom": 2,
-                    "marginLeft": 20,
-                    "text": "<image src='images/test-images/check-icon.png'> Si el resultat es troba dins dels paràmetres adequats segons l'escala, s'identifica amb una marca de verificació per indicar un resultat positiu."
+                    "marginLeft": 10,
+                    "text": "<image src='images/image/check-icon.png'> Si el resultat es troba dins dels paràmetres adequats segons l'escala, s'identifica amb una marca de verificació per indicar un resultat positiu."
                   }
                 },
                 {
                   "type": "Text",
                   "props": {
                     "marginBottom": 0,
-                    "marginLeft": 20,
-                    "text": "<image src='images/test-images/warning-icon.png'> Si el resultat no està dins dels paràmetres adequats segons l'escala, s'identifica amb un senyal d'advertència per assenyalar un resultat que requereix atenció o millora."
+                    "marginLeft": 10,
+                    "text": "<image src='images/image/warning-icon.png'> Si el resultat no està dins dels paràmetres adequats segons l'escala, s'identifica amb un senyal d'advertència per assenyalar un resultat que requereix atenció o millora."
                   }
                 }
               ]
@@ -450,17 +448,17 @@
           "tags": [
             {
               "text": "Atención",
-              "color": "red",
-              "selected": true
+              "color": "error-700"
             },
             {
               "text": "Mejora",
-              "color": "orange"
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": true
             },
-            
             {
               "text": "Sigue así",
-              "color": "green"
+              "color": "success-700"
             }
           ]
         }
@@ -497,14 +495,14 @@
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "marginBottom": 6,
           "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
         }
       },
       {
-        "type": "ScalePerYear",
+        "type": "StateBar",
         "props": {
           "scales": [
             {
@@ -598,7 +596,7 @@
         "type": "PageBreak"
       },
       {
-        "type": "TableList",
+        "type": "Table",
         "props": {
           "headerColor": "section-yellow",
           "roundedCorners": true,
@@ -663,10 +661,11 @@
         "type": "PageBreak"
       },
       {
-        "type": "GridWorkSheets",
+        "type": "Cards",
         "props": {
           "title": "Fitxes de treball",
-          "color": "yellow",
+          "color": "section-yellow",
+          "colorLight": "sectionLight-yellow",
           "items": [
             {
               "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
@@ -714,7 +713,8 @@
         "type": "LinkList",
         "props": {
           "title": "Enllaços d'ampliació",
-          "color": "yellow",
+          "color": "section-yellow",
+          "iconColor": "yellow",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -748,7 +748,7 @@
         "type": "List",
         "props": {
           "itemsSeparation": 3,
-          "marginLeft": "[-12px]",
+          "marginLeft": 2,
           "items": [
             "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
             "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat", 
@@ -774,7 +774,7 @@
         "type": "List",
         "props": {
           "itemsSeparation": 3,
-          "marginLeft": "[-12px]",
+          "marginLeft": 2,
           "items": [
             "<bold>Reducció del risc de mortalitat per múltiples causes.</bold>",
             "<bold>Prevenció i control de malalties</bold> associades amb un risc més gran de deteriorament cognitiu, com ara malalties cardiovasculars, diabetis i síndrome metabòlica, i redueix el risc de certs tipus de càncer, així com el sobrepès i obesitat.",
@@ -861,7 +861,7 @@
         "type": "PageBreak"
       },
       {
-        "type": "ScalePerYear",
+        "type": "StateBar",
         "props": {
           "scales": [
             {
@@ -904,14 +904,14 @@
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "marginBottom": 6,
           "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "marginBottom": 6,
           "lineHeight": "1.6",
@@ -945,7 +945,7 @@
         }
       },
       {
-        "type": "ScalePerYear",
+        "type": "StateBar",
         "props": {
           "scales": [
             {
@@ -1016,7 +1016,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "1. Verdures i hortalisses",
           "content": [
@@ -1038,6 +1038,7 @@
               "props": {
                 "marginTop": 0,
                 "marginBottom": 2,
+                "marginLeft": 6,
                 "items": [
                   "1 plat d'amanida.",
                   "1 plat de verdura cuita (mongeta tendra, minestra…)",
@@ -1052,7 +1053,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "2. Fruita",
           "content": [
@@ -1080,6 +1081,7 @@
               "props": {
                 "marginTop": 0,
                 "marginBottom": 2,
+                "marginLeft": 6,
                 "items": [
                   "1 plat d'amanida.",
                   "1 plat de verdura cuita (mongeta tendra, minestra…)",
@@ -1094,7 +1096,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "3. Llegums",
           "content": [
@@ -1123,7 +1125,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "4. Fruits secs",
           "content": [
@@ -1152,7 +1154,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "5. Cereals integrals",
           "content": [
@@ -1178,14 +1180,167 @@
         "props": {
           "title": "Trucs per consumir més cereals integrals.",
           "color": "section-green",
-          "list": [
-            "Compra només les varietats integrals dels derivats dels cereals: pa integral, arròs integral, pasta integral, cuscús integral, etc.", 
-            "Escull aliments integrals mínimament processats, que només continguin el cereal en qüestió o com menys ingredients millor."
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Compra només les varietats integrals dels derivats dels cereals: pa integral, arròs integral, pasta integral, cuscús integral, etc.", 
+                  "Escull aliments integrals mínimament processats, que només continguin el cereal en qüestió o com menys ingredients millor."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
           ]
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
+        "props": {
+          "title": "6. Oli d'oliva verge",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "L'oli d'oliva verge és una font important d'energia, ja que està compost totalment per greixos. Tot i que l'aportació calòrica és la mateixa que la d'altres olis vegetals, el tipus de greixos que conté fa que el consum es relacioni amb menys risc de patir malalties cardiovasculars i algun tipus de càncer.\n D'una forma orientativa, es recomana el consum d'entre 4 i 6 racions d'oli d'oliva al dia, tenint en compte que una ració equival a una cullerada sopera (10 ml) de oli."
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "7. Peix i ous",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "Els peixos són una bona font de proteïnes d'elevada qualitat, vitamina D i iode, i són molt rics en àcids grassos poliinsaturats omega-3, especialment peixos blaus. La recomanació de consum de peix és de 2-3 vegades a la setmana.\n Els ous ens aporten proteïnes d'elevada qualitat, vitamines (A, D i B12) i minerals (fòsfor i seleni). La recomanació de consum d'ous és de 3-4 cops a la setmana."
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "8. Carn vermella processada",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "La carn és un aliment ric en proteïnes, alguns minerals i vitamines. Conté diferents quantitats de greixos en funció de l'animal i la part. L'Organització Mundial de la Salut recomana reduir el consum de carn vermella i de carn processada, ja que el consum excessiu es relaciona amb un increment del risc de certs problemes de salut (malalties cardiovasculars, hipertensió arterial, excés de pes, diabetis mellitus de tipus 2, càncer, etc.).\n L'alimentació ha de ser basada preferentment en aliments d'origen vegetal, es pot consumir carn de 3 a 4 cops a la setmana (màxim d'1 a 2 racions d'aquestes de carn vermella). "
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "9. Sal",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<p>La sal és un condiment alimentari format per clorur de sodi. Ni el clor ni el sodi de la sal són imprescindibles, ja que són elements que es troben en molts altres aliments. En canvi, el consum excessiu de sal es relaciona amb més prevalença de malalties (hipertensió arterial, infarts, ictus, càncer d'estómac i mortalitat en general).</p><p>Consumeix menys de 5 grams (aproximadament una culleradeta) al dia.</p>"
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucs per reduir el consum de sal",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Minimitza la quantitat de sal que afegeixes als aliments.",
+                  "Redueix al màxim la ingesta d'aliments processats rics en sal, especialment els ultraprocessats com patates xips, embotits, pernil dolç, pernil salat, galetes, salses, conserves i plats precuinats, entre d'altres.",
+                  "Fixa't en la quantitat de sal que contenen els aliments o productes. Es considera que un producte té “molta sal” quan té 1,25 o més grams de sal per cada 100 grams, mentre es considera que aporta “poca sal” quan té 0,25 grams (o menys) de sal per cada 100 grams d'aliment.",
+                  "Substitueix la sal per espècies (pebre, clau, canyella, comí, cardamom, nou moscada, etc.), herbes aromàtiques (alfàbrega, julivert, cibulet, romaní, orenga, llorer, farigola, etc.) i altres condiments (picada de all i julivert, suc de llimona, sèsam, pipes pelades sense sal, vinagre, all en pols, etc.).",
+                  "Escull fruits secs sense sal.",
+                  "Tingues en compte que les salses, en general, solen tenir molta sal. En particular, la salsa de soja té molta sal."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "10. Sucre",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<p>L'Organització Mundial de la Salut recomana que la ingesta de sucres lliures no sobrepassi el 10% de l'energia total consumida al dia, tot i que s'indica que una ingesta de menys del 5% tindria beneficis per a la salut addicionals.</p><p>No cal consumir sucres afegits de cap tipus, ja que la glucosa que necessita l'organisme prové dels aliments farinacis, algunes hortalisses, llet i llegums.</p> <p>No hi ha un consum segur de sucre; si més no, millor.</p>"
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucs per reduir el consum de sucre.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Evita al màxim aliments processats i ultraprocessats, com ara pastisseria, galetes, cereals de l'esmorzar, postres lactis, fruita en almívar, entre d'altres.",
+                  "Minimitza la quantitat de sucre que afegeixes al cafè i infusions.",
+                  "Utilitza la fruita per endolcir aliments com el iogurt.",
+                  "Prioritza el consum de fruites senceres en lloc de sucs comercials o casolans.",
+                  "Si prepares dolços a casa, redueix a la meitat la quantitat de sucre que indica la recepta. També pots fer servir fruites molt madures per endolcir.",
+                  "A mesura que anem reduint el consum de sucre el nostre paladar s'hi acostuma i la necessitat de consumir-lo cada vegada és menor."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "11. Begudes",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<p>La millor opció sempre és l'aigua, ja que no conté alcohol, ni sucres, ni edulcorants.</p><p>L'Organització Mundial de la Salut recomana a les persones beure suficient aigua durant tot el dia per mantenir-se hidratades.</p>"
+              }
+            }
+          ],
+          "color": "section-green",
+          "colorLight": "sectionLight-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
         "props": {
           "title": "12. Lactis",
           "content": [
@@ -1209,6 +1364,7 @@
       {
         "type": "List",
         "props": {
+          "marginLeft": 6,
           "items": [
             "Mantingues un pes saludable.",
             "Elimina o limita el consum de dolços, brioixeria i refrescos.",
@@ -1230,7 +1386,7 @@
         }
       },
       { 
-        "type": "TableList",
+        "type": "Table",
         "props": {
           "headerColor": "section-green",
           "rowColor": "sectionLight-green",
@@ -1260,6 +1416,34 @@
             [
               "5. Cereals integrals", 
               "En cada menjar. Són opcions recomanables el blat de moro, el mill, la civada, el blat o l'arròs integral sense processar."
+            ],
+            [
+              "6. Oli d'oliva verge", 
+              "Consum d'entre 4 i 6 racions al dia."
+            ],
+            [
+              "7. Peix i ous", 
+              "Consum de peix: 2-3 vegades a la setmana. Ous: 3-4 vegades a la setmana."
+            ],
+            [
+              "8. Carn", 
+              "Els greixos presents en el peix i aliments d'origen vegetal són preferibles. Es pot consumir carn de 3 a 4 vegades a la setmana (màxim 1 a 2 racions d'aquestes de carn vermella). No prenguis processats (embotits)."
+            ],
+            [
+              "9. Sal", 
+              "No afegeixis sal als menjars. Redueix l'excés d'ingesta de sal en la dieta a menys de 5 g/dia (aproximadament una culleradeta)."
+            ],
+            [
+              "10. Sucre", 
+              "No existeix un consum segur de sucre; com menys, millor. L'OMS recomana que la ingesta de sucres lliures no sobrepassi el 10% de l'energia total consumida al dia, a pesar que s'indica que una ingesta de menys del 5% tindria beneficis per a la salut addicionals."
+            ],
+            [
+              "11. Begudes", 
+              "Diàriament. La millor opció sempre és l'aigua, ja que no conté alcohol, ni sucres, ni edulcorants."
+            ],
+            [
+              "12. Lactis", 
+              "Diàriament, sense sucre i desnatats.\n\nEn cas d'intolerància a la lactosa, al·lèrgia a la llet o seguir una dieta vegana, algunes alternatives poden ser la llet vegetal fortificada amb calci (com la llet d'ametlla, soia o civada) i els iogurts d'origen vegetal."
             ]
           ]
         }
@@ -1281,44 +1465,33 @@
         "type": "PageBreak"
       },
       {
-        "type": "GridWorkSheets",
+        "type": "Cards",
         "props": {
           "title": "Fitxes de treball",
-          "color": "green",
+          "color": "section-green",
+          "colorLight": "sectionLight-green",
           "items": [
             {
-              "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
-              "description": "Exercita la teva musculatura amb exercicis moderats",
+              "text": "1. La importància de hidratar-se correctament",
+              "description": "Consells per mantenir-te hidratat",
               "linkSrc": "https://www.google.com",
               "linkText": "Obrir fitxa"
             },
             {
-              "text": "2. Exercicis per a l'estimulació física: Enfortiment Muscular i coordinació",
-              "description": "Exercicis de força per a potenciar la teva musculatura",
+              "text": "2. Introdueix 3 peces de fruita al dia per a una alimentació saludable",
+              "description": "T'ajudem a fomentar el consum regular de fruita per millorar la teva salut i benestar",
               "linkSrc": "https://www.google.com",
               "linkText": "Obrir fitxa"
             },
             {
-              "text": "3. Exercicis d'estimulació física: resistència cardiovascular",
-              "description": "Aplica aquests exercicis dinàmics variant les seves intensitats per a obtenir millors resultats",
+              "text": "3. Ultraprocessats i emocions",
+              "description": "Limpacte del consum dultraprocessats en les emocions i altres símptomes neurològics",
               "linkSrc": "https://www.google.com",
               "linkText": "Obrir fitxa"
             },
             {
-              "text": "4. Exercicis per a l'estimulació física: Activa't! Summa salut amb aquestes dues rutinest",
-              "description": "Exercicis dinàmics per a enfortir la teva resistència cardiovascular",
-              "linkSrc": "https://www.google.com",
-              "linkText": "Obrir fitxa"
-            },
-            {
-              "text": "5. Exercicis per a l'estimulació física: 3 exercicis per practicar desde casa",
-              "description": "Comença a activar-te i practica aquests exercicis en la teva rutina diària",
-              "linkSrc": "https://www.google.com",
-              "linkText": "Obrir fitxa"
-            },
-            {
-              "text": "6. Exercicis per a l'estimulació física: Articula la teva força! 7 exercicis per a enfortir les teves articulacions",
-              "description": "La importància de cuidar les teves articulacions per a una vida activa i saludable",
+              "text": "4. El secret està en els colors",
+              "description": "Atreveix-te a incloure una varietat de colors en els teus plats per a millorar la teva salut i benestar!",
               "linkSrc": "https://www.google.com",
               "linkText": "Obrir fitxa"
             }
@@ -1326,26 +1499,34 @@
         }
       },
       {
-        "type": "PageBreak"
-      },
-      {
         "type": "LinkList",
         "props": {
           "title": "Enllaços d'ampliació",
-          "color": "green",
+          "color": "section-green",
+          "iconColor": "green",
           "list": [
             {
-              "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
+              "text": "Dieta mediterrània i els seus beneficis",
               "linkSrc": "https://www.google.com",
               "linkText": "Accedeix"
             },
             {
-              "text": "Gimnàstica per a adults majors",
+              "text": "Dieta saludable, el resultat d'una compra intel·ligent",
               "linkSrc": "https://www.google.com",
               "linkText": "Accedeix"
             },
             {
-              "text": "Últimes dades de l'impacte de l'activitat física en la prevenció i tractament de les demències",
+              "text": "La dieta en la prevenció de Malalties Neurodegeneratives",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "3 passos per a crear el teu propi menú",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Els ultraprocessats: enemics del bon funcionament cognitiu",
               "linkSrc": "https://www.google.com",
               "linkText": "Accedeix"
             }
@@ -1366,13 +1547,10 @@
         "type": "List",
         "props": {
           "itemsSeparation": 3,
-          "marginLeft": "[-12px]",
+          "marginLeft": 6,
           "items": [
-            "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
-            "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat", 
-            "És <bold>important que comuniquis al teu professional de referència qualsevol factor de risc, símptoma o malaltia</bold> no informada prèviament, per adaptar la recomanació d'activitat física realitzada.",
-            "Fes sempre exercicis d'escalfament i estiraments per reduir el risc de lesions.",
-            "Si durant l'exercici físic apareix algun símptoma com dolor articular, muscular, disnea intensa, mareig, cefalea, dolor toràcic, rampes musculars o un altre símptoma que et preocupi, has de reduir el ritme o parar i consultar amb el teu professional de salut de referència."
+            "Les recomanacions nutricionals proporcionades han de ser considerades com una guia bàsica per a una alimentació saludable. És fonamental tenir en compte que podrien requerir ajustaments segons les intoleràncies individuals, patrons nutricionals específics o característiques personals per a garantir una dieta adequada i segura.",
+            "Sempre és recomanable parlar amb un professional de la salut per a obtenir recomanacions personalitzades i específiques segons cada situació o qualsevol canvi que puguis experimentar al teu estat de salut general."
           ]
         }
       },
@@ -1394,7 +1572,7 @@
         "props": {
           "src": "images/oms.png",
           "title": "Recomanació de l'Organització Mundial de la Salut",
-          "text": "L'OMS recomana fermament fer activitat física per mantenir una funció cognitiva normal i reduir el risc de deteriorament cognitiu."
+          "text": "L'OMS recomana una alimentació similar a la mediterrània als adults amb una funció cognitiva normal o amb un deteriorament cognitiu lleu, ja que pot reduir el risc de desenvolupar deteriorament cognitiu o de demència."
         }
       }
     ],
@@ -1455,14 +1633,14 @@
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "marginBottom": 6,
           "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
         }
       },
       {
-        "type": "ScalePerYear",
+        "type": "StateBar",
         "props": {
           "scales": [
             {
@@ -1488,7 +1666,6 @@
           "currentYear": "2025"
         }
       },
-     
       {
         "type": "Text",
         "props": {
@@ -1552,9 +1729,6 @@
         }
       },
       {
-        "type": "PageBreak"
-      },
-      {
         "type": "Title",
         "props": {
           "text": "C. PAUTES CLAU"
@@ -1567,7 +1741,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "Activitats cognitives",
           "color": "section-turquoise",
@@ -1591,7 +1765,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "color": "section-turquoise",
           "colorLight": "sectionLight-turquoise",
@@ -1616,7 +1790,8 @@
                   "Jugar a l'ordinador o tauleta activitats que estimulin el cervell."
                 ],
                 "marginBottom": 4,
-                "marginRight": 4
+                "marginRight": 4,
+                "marginLeft": 6
               }
             }
           ]
@@ -1636,13 +1811,11 @@
         }
       },
       {
-        "type": "PageBreak"
-      },
-      {
-        "type": "GridWorkSheets",
+        "type": "Cards",
         "props": {
           "title": "Fitxes de treball",
-          "color": "turquoise",
+          "color": "section-turquoise",
+          "colorLight": "sectionLight-turquoise",
           "items": [
             {
               "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
@@ -1684,13 +1857,11 @@
         }
       },
       {
-        "type": "PageBreak"
-      },
-      {
         "type": "LinkList",
         "props": {
           "title": "Enllaços d'ampliació",
-          "color": "turquoise",
+          "color": "section-turquoise",
+          "iconColor": "turquoise",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -1711,9 +1882,6 @@
         }
       },
       {
-        "type": "PageBreak"
-      },
-      {
         "type": "Title",
         "props": {
           "text": "E. TINGUES EN COMPTE...",
@@ -1724,7 +1892,7 @@
         "type": "List",
         "props": {
           "itemsSeparation": 3,
-          "marginLeft": "[-12px]",
+          "marginLeft": 6,
           "items": [
             "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
             "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat", 
@@ -1794,50 +1962,53 @@
       {
         "type": "TableBlackHeader",
         "props": {
-          "title": "Test de Pfeiffer",
+          "title": "Escala d'Ansietat i Depressió de Goldberg (EADG)",
           "list": [
             {
               "label": "Descripció de l'escala de valoració",
-              "content": "El Test Pfeiffer és una prova de cribratge, dissenyada per detectar possibles indicis de deteriorament cognitiu. Aquesta escala consta de 10 preguntes que avaluen diferents aspectes de la funció cognitiva, com ara la memòria, l'atenció, el raonament i el càlcul."
+              "content": "<p>L'Escala d'Ansietat i Depressió de Goldberg (EADG) és una eina utilitzada per avaluar la presència i la gravetat dels símptomes d'ansietat i depressió en una persona. Consta de dues subescales: una per avaluar els símptomes d'ansietat i una altra per avaluar els símptomes de depressió.</p> <p>La subescala d'ansietat conté nou ítems que avaluen símptomes com la inquietud, la tensió, la preocupació i la por. La subescala de depressió conté nou ítems que avaluen símptomes com ara la tristesa, la falta d'esperança, la manca d'interès i el cansament.</p>"
             },
             {
               "label": "Data de valoració",
               "content": "30/01/2025"
             },
             {
-              "label": "Resultat",
-              "content": "No realitzat, (María Cristina Mulet no indica problemes cognitius)"
+              "label": "Resultat subescala ansietat",
+              "content": "0/9 punts"
+            },
+            {
+              "label": "Resultat subescala depressió ",
+              "content": "0/9 punts"
             }
           ]
         }
       },
       {
-        "type": "Warning",
+        "type": "Alert",
         "props": {
           "marginBottom": 6,
           "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
         }
       },
       {
-        "type": "ScalePerYear",
+        "type": "Text",
+        "props": {
+          "text": "<underline>Subescala ansietat</underline>",
+          "marginBottom": 2
+        }
+      },
+      {
+        "type": "StateBar",
         "props": {
           "scales": [
             {
-              "text": "A:8-10",
-              "subText": "Possible deteriorament"
-            },
-            {
-              "text": "B:5-7",
-              "subText": ""
-            },
-            {
-              "text": "C:3-4",
-              "subText": ""
-            },
-            {
-              "text": "D:0-2",
-              "subText": "Sense possible deteriorament",
+              "text": "0-3",
+              "subText": "Probabilitat baixa de tenir ansietat ",
               "selected": true
+            },
+            {
+              "text": "4-9",
+              "subText": "Probabilitat alta de tenir ansietat"
             }
           ],
           "areaColor": "section-purple",
@@ -1845,42 +2016,36 @@
           "currentYear": "2025"
         }
       },
-     
       {
         "type": "Text",
         "props": {
-          "marginLeft": 7,
-          "marginBottom": 0,
-          "text": "A. <underline>Puntuació de 8-10</underline>: possible deteriorament cognitiu sever."
+          "text": "<underline>Subescala depressió</underline>",
+          "marginBottom": 2
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "0-1",
+              "subText": "Probabilitat baixa de tenir depressió ",
+              "selected": true
+            },
+            {
+              "text": "2-9",
+              "subText": "Probabilitat alta de tenir depressió"
+            }
+          ],
+          "areaColor": "section-purple",
+          "none": false,
+          "currentYear": "2025"
         }
       },
       {
         "type": "Text",
         "props": {
-          "marginLeft": 7,
-          "marginBottom": 0,
-          "text": "B. <underline>Puntuació de 5-7</underline>: possible deteriorament cognitiu moderat."
-        }
-      },
-      {
-        "type": "Text",
-        "props": {
-          "marginLeft": 7,
-          "marginBottom": 0,
-          "text": "C. <underline>Puntuació de 3-4</underline>: possible deteriorament cognitiu lleu."
-        }
-      },
-      {
-        "type": "Text",
-        "props": {
-          "marginLeft": 7,
-          "text": "D. <underline>Puntuació de 0-2</underline>: absència de possible deteriorament cognitiu."
-        }
-      },
-      {
-        "type": "Text",
-        "props": {
-          "text": "En relació amb el resultat, <bold>María Cristina Mulet, indiques tenir una conservació òptima de les teves capacitats cognitives. Continua així!</bold>"
+          "text": "<p>En relació al resultat, <bold>Playwright chromium, després de la realització de l'Escala d'Ansietat i Depressió de Goldberg no es detecta evidència de depressió ni ansietat.</bold></p><p>Addicionalment, i en relació amb el resultat de la valoració del somni, s'han detectat problemes del somni.</p>"
         }
       },
       {
@@ -1892,13 +2057,16 @@
       {
         "type": "Text",
         "props": {
-          "text": "<bold>L'objectiu principal és mantenir o millorar les teves habilitats cognitives, enfortint les connexions neuronals i augmentant la reserva cognitiva</bold>, amb la finalitat de reduir el risc d'aparició de deteriorament cognitiu."
+          "text": "Tenim un doble objectiu:"
         }
       },
       {
-        "type": "Text",
+        "type": "List",
         "props": {
-          "text": "L'estimulació cognitiva regular pot ser beneficiosa per a mantenir un rendiment cognitiu òptim i prevenir el deteriorament cognitiu associat amb l'envelliment."
+          "items": [
+            "L'objectiu principal és mantenir i millorar el teu benestar emocional.",
+            "L'objectiu principal és millorar el nivell de satisfacció del son."
+          ]
         }
       },
       {
@@ -1917,7 +2085,7 @@
         }
       },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "title": "Benestar Emocional",
           "color": "section-purple",
@@ -1960,8 +2128,48 @@
           "content": "<bold>Fer exercici físic de manera regular, portar una dieta equilibrada i saludable, evitar el consum d'alcohol i tabac</bold>, serien exemples d'hàbits saludables que poden millorar la salut emocional."
         }
       },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Motivació",
+          "color": "section-purple",
+          "content": "{texto}"
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Objectius assolibles.",
+          "color": "section-purple",
+          "content": "{texto}"
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Motivació",
+          "color": "section-purple",
+          "content": "{texto}"
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Emocions positives.",
+          "color": "section-purple",
+          "content": "{texto}"
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Gestió de l'estrés.",
+          "color": "section-purple",
+          "content": "{texto}"
+        }
+      },
       {
-        "type": "ColoredTable",
+        "type": "ContentPanel",
         "props": {
           "color": "section-purple",
           "colorLight": "sectionLight-purple",
@@ -1986,15 +2194,97 @@
                   "Jugar a l'ordinador o tauleta activitats que estimulin el cervell."
                 ],
                 "marginBottom": 4,
-                "marginRight": 4
+                "marginRight": 4,
+                "marginLeft": 6
               }
             }
           ]
         }
       },
+      { 
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, us recomanem les següents pautes d'higiene del son:"
+        }
+      },
       {
         "type": "PageBreak"
       },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Higiene del son",
+          "color": "section-purple",
+          "colorLight": "sectionLight-purple",
+          "icon": "images/colored-table/moon.png",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Horari",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Desconexió digital.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Substàncies excitants.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Activitat física.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Indumentària.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Entorn.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+      { 
+        "type": "TipList",
+        "props": {
+          "title": "Cerca ajuda professional si cal.",
+          "color": "section-purple",
+          "content": "{texto}",
+          "marginBottom": 6
+        }
+      },
+
+
       {
         "type": "Title",
         "props": {
@@ -2009,10 +2299,11 @@
         }
       },
       {
-        "type": "GridWorkSheets",
+        "type": "Cards",
         "props": {
           "title": "Fitxes de treball",
-          "color": "purple",
+          "color": "section-purple",
+          "colorLight": "sectionLight-purple",
           "items": [
             {
               "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
@@ -2067,7 +2358,7 @@
         "type": "List",
         "props": {
           "itemsSeparation": 3,
-          "marginLeft": "[-12px]",
+          "marginLeft": 6,
           "items": [
             "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
             "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat", 
@@ -2096,6 +2387,1284 @@
           "src": "images/oms.png",
           "title": "Recomanació de l'Organització Mundial de la Salut",
           "text": "L'OMS recomana fermament fer activitat física per mantenir una funció cognitiva normal i reduir el risc de deteriorament cognitiu."
+        }
+      }
+    ],
+    "social": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMANACIONS: 05. SOCIALS",
+          "title": "05. Socials",
+          "color": "section-red",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "red",
+              "selected": true
+            },
+            {
+              "text": "Mejora",
+              "color": "orange"
+            },
+            {
+              "text": "Sigue así",
+              "color": "green"
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTAT DE LES ESCALES DE VALORACIÓ"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relació amb el resultat, <bold>María Cristina Mulet, indiques tenir una conservació òptima de les teves capacitats cognitives. Continua així!</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJECTIUS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>L'objectiu principal és mantenir o millorar les teves habilitats cognitives, enfortint les connexions neuronals i augmentant la reserva cognitiva</bold>, amb la finalitat de reduir el risc d'aparició de deteriorament cognitiu."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "L'estimulació cognitiva regular pot ser beneficiosa per a mantenir un rendiment cognitiu òptim i prevenir el deteriorament cognitiu associat amb l'envelliment."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTES CLAU"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, els teus gustos i preferències, et recomanem les següents activitats:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Activitats socials",
+          "color": "section-red",
+          "colorLight": "sectionLight-red",
+          "icon": "images/colored-table/heart-white.png",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 4,
+          "marginTop": 2,
+          "marginBottom": 10,
+          "text": "Prueba de pautas para ver el texto"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLLAÇOS D'AMPLIACIÓ I FITXES DE TREBALL"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "María Cristina Mulet, perquè puguis començar a treballar en l'objectiu proposat, hem seleccionat el material exclusivament per a tu, basat en els teus gustos, preferències i necessitats. Aquest material inclou fitxes de treball, que t'ajudaran a assolir la meta desitjada, i articles d'interès, perquè puguis aprofundir en temes relacionats amb l'activitat física."
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "title": "Fitxes de treball",
+          "color": "section-red",
+          "colorLight": "sectionLight-red",
+          "items": [
+            {
+              "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
+              "description": "Exercita la teva musculatura amb exercicis moderats",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            },
+            {
+              "text": "2. Exercicis per a l'estimulació física: Enfortiment Muscular i coordinació",
+              "description": "Exercicis de força per a potenciar la teva musculatura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            }
+          ]
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enllaços d'ampliació",
+          "color": "red",
+          "list": [
+            {
+              "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Gimnàstica per a adults majors",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Últimes dades de l'impacte de l'activitat física en la prevenció i tractament de les demències",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            }
+          ]
+        }
+      },
+      {
+        "type": "PageBreak"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TINGUES EN COMPTE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
+            "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat", 
+            "És <bold>important que comuniquis al teu professional de referència qualsevol factor de risc, símptoma o malaltia</bold> no informada prèviament, per adaptar la recomanació d'activitat física realitzada.",
+            "Fes sempre exercicis d'escalfament i estiraments per reduir el risc de lesions.",
+            "Si durant l'exercici físic apareix algun símptoma com dolor articular, muscular, disnea intensa, mareig, cefalea, dolor toràcic, rampes musculars o un altre símptoma que et preocupi, has de reduir el ritme o parar i consultar amb el teu professional de salut de referència."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. PER QUÈ HAURIA DE SEGUIR AQUESTES RECOMANACIONS?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "Segons l'Organització Mundial de la Salut (OMS), l'alimentació té una influència transcendental en el funcionament adequat del cervell i en la reducció de factors modificables relacionats amb malalties neurodegeneratives. A més, l'alimentació també pot influir en el nostre estat emocional i en el benestar general."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomanació de l'Organització Mundial de la Salut",
+          "text": "L'OMS recomana fermament fer activitat física per mantenir una funció cognitiva normal i reduir el risc de deteriorament cognitiu."
+        }
+      }
+    ],
+    "auditiva-y-ocular": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMANACIONS: 06. AUDITIVES I OCULARS",
+          "title": "06. Auditives i oculars",
+          "color": "section-orange",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "red"
+            },
+            {
+              "text": "Mejora",
+              "color": "orange"
+            },
+            {
+              "text": "Sigue así",
+              "color": "green",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTAT DE LES ESCALES DE VALORACIÓ"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relació amb el resultat, <bold>María Cristina Mulet, indiques tenir una conservació òptima de les teves capacitats cognitives. Continua així!</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJECTIUS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Tenim un doble objectiu:"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "L'objectiu principal és mantenir una cura auditiva òptima, limitant el risc de pèrdua auditiva.",
+            "Addicionalment, i en relació amb la capacitat visual, l'objectiu principal és mantenir una cura ocular òptima, limitant el risc de pèrdua ocular."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTES CLAU"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, els teus gustos i preferències, et recomanem les següents activitats:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Capacitat auditiva",
+          "color": "section-orange",
+          "colorLight": "sectionLight-orange",
+          "icon": "images/colored-table/hearing-white.png",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Higiene auditiva.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "<bold>Renta i seca les teves oïdes</bold> amb una tovallola. Deixa una mica de cera per a protegir-te.", 
+                  "<bold>Evita introduir objectes o bastonets de cotó</bold> per evitar taps o lesions.",
+                  "<bold>Renta i seca les teves oïdes</bold> amb una tovallola. Deixa una mica de cera per a protegir-te.", 
+                  "<bold>Evita introduir objectes o bastonets de cotó</bold> per evitar taps o lesions."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Seguiment i valoració periòdica.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Consciència i informació.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Medicació.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            }
+          ]
+        }
+      },
+      { 
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, et recomanem les pautes següents per cuidar la teva capacitat ocular:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Capacitat ocular",
+          "color": "section-orange",
+          "colorLight": "sectionLight-orange",
+          "icon": "images/colored-table/hearing-white.png",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Higiene ocular.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "<bold>Renta i seca les teves oïdes</bold> amb una tovallola. Deixa una mica de cera per a protegir-te.", 
+                  "<bold>Evita introduir objectes o bastonets de cotó</bold> per evitar taps o lesions.",
+                  "<bold>Renta i seca les teves oïdes</bold> amb una tovallola. Deixa una mica de cera per a protegir-te.", 
+                  "<bold>Evita introduir objectes o bastonets de cotó</bold> per evitar taps o lesions."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Seguiment i valoració periòdica.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLLAÇOS D'AMPLIACIÓ I FITXES DE TREBALL"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "María Cristina Mulet, perquè puguis començar a treballar en l'objectiu proposat, hem seleccionat el material exclusivament per a tu, basat en els teus gustos, preferències i necessitats. Aquest material inclou fitxes de treball, que t'ajudaran a assolir la meta desitjada, i articles d'interès, perquè puguis aprofundir en temes relacionats amb l'activitat física."
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "title": "Fitxes de treball",
+          "color": "section-orange",
+          "colorLight": "sectionLight-orange",
+          "items": [
+            {
+              "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
+              "description": "Exercita la teva musculatura amb exercicis moderats",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            },
+            {
+              "text": "2. Exercicis per a l'estimulació física: Enfortiment Muscular i coordinació",
+              "description": "Exercicis de força per a potenciar la teva musculatura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            }
+          ]
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enllaços d'ampliació",
+          "color": "section-orange",
+          "iconColor": "orange",
+          "list": [
+            {
+              "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Gimnàstica per a adults majors",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Últimes dades de l'impacte de l'activitat física en la prevenció i tractament de les demències",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TINGUES EN COMPTE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
+            "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat"
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. PER QUÈ HAURIA DE SEGUIR AQUESTES RECOMANACIONS?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "Segons l'Organització Mundial de la Salut (OMS), l'alimentació té una influència transcendental en el funcionament adequat del cervell i en la reducció de factors modificables relacionats amb malalties neurodegeneratives. A més, l'alimentació també pot influir en el nostre estat emocional i en el benestar general."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomanació de l'Organització Mundial de la Salut",
+          "text": "L'OMS recomana fermament fer activitat física per mantenir una funció cognitiva normal i reduir el risc de deteriorament cognitiu."
+        }
+      }
+    ],
+    "tabaco-y-alcohol": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMANACIONS: 07. TABAC I ALCOHOL",
+          "title": "07. Tabac i alcohol",
+          "color": "section-blue",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "red",
+              "selected": true
+            },
+            {
+              "text": "Mejora",
+              "color": "orange"
+            },
+            {
+              "text": "Sigue así",
+              "color": "green"
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTAT DE LES ESCALES DE VALORACIÓ"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Test de Fagerström",
+          "list": [
+            {
+              "label": "Descripció de l'escala de valoració",
+              "content": "El test de Fagerström és una eina utilitzada per avaluar la dependència física i psicològica d'una persona cap a la nicotina.\n\nConsta d'una sèrie de preguntes que avaluen la quantitat de cigarretes que una persona es fuma al dia, el moment en què es fuma la primera cigarreta del dia, la dificultat per deixar de fumar i altres símptomes associats a l'abstinència.\n\nLa puntuació total del test indica el nivell de dependència a la nicotina."
+            },
+            {
+              "label": "Data de valoració",
+              "content": "30/01/2025"
+            },
+            {
+              "label": "Resultat",
+              "content": "No realitzat, indica que no fuma"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:0-2",
+              "subText": ""
+            },
+            {
+              "text": "B:3-4",
+              "subText": ""
+            },
+            {
+              "text": "C:5-6",
+              "subText": ""
+            }
+          ],
+          "areaColor": "section-blue",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "C. <underline>Puntuació de 5-6:</underline>: dependència alta a la nicotina."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuació de 3-4</underline>: dependència moderada a la nicotina."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuació de 0-2</underline>: dependència baixa a la nicotina."
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Test de Richmond",
+          "list": [
+            {
+              "label": "Descripció de l'escala de valoració",
+              "content": "El Test de Richmond es fa servir en el context de deixar de fumar. Consta de 10 preguntes i s'utilitza per avaluar el grau de dependència física i psicològica al tabac. Algunes de les preguntes inclouen la freqüència de consum de tabac, la quantitat de cigarros fumats al dia, la dificultat d'abstenir el tabac i la necessitat de fumar en situacions específiques i l'experiència de símptomes d'abstinència."
+            },
+            {
+              "label": "Data de valoració",
+              "content": "30/01/2025"
+            },
+            {
+              "label": "Resultat",
+              "content": "No realitzat, indica que no fuma"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:0-3",
+              "subText": ""
+            },
+            {
+              "text": "B:4-5",
+              "subText": ""
+            },
+            {
+              "text": "C:6-7",
+              "subText": ""
+            },
+            {
+              "text": "D:8-10",
+              "subText": ""
+            }
+          ],
+          "areaColor": "section-blue",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "D. <underline>Puntuació de 8-10:</underline>: motivació alta per deixar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "C. <underline>Puntuació de 6-7:</underline>: motivació moderada per deixar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuació de 4-5</underline>: motivació dubtosa per deixar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuació de 0-3</underline>: motivació nul·la o baixa per a deixar de fumar."
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "AUDIT-C",
+          "list": [
+            {
+              "label": "Descripció de l'escala de valoració",
+              "content": "L'AUDIT-C és un qüestionari breu dissenyat per detectar problemes relacionats amb el consum d'alcohol, desenvolupat per l'Organització Mundial de la Salut (OMS). Consta de tres preguntes que es centren en la quantitat i la freqüència del consum d'alcohol.\n\n La puntuació de l'AUDIT-C varia de 0 a 12, i es considera que una puntuació igual o major a 4 indica un major risc de problemes relacionats amb l'alcohol."
+            },
+            {
+              "label": "Data de valoració",
+              "content": "30/01/2025"
+            },
+            {
+              "label": "Resultat",
+              "content": "0/12 punts (Sense risc de desenvolupar problemes amb l'alcohol)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultat facilitat no representa, de cap manera, un diagnòstic mèdic</bold> ni pretén substituir un servei d'atenció mèdica, així com tampoc determinar algun tractament a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "0-4",
+              "subText": ""
+            },
+            {
+              "text": "5-12",
+              "subText": ""
+            }
+          ],
+          "areaColor": "section-blue",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuació menor que 5:</underline>: consum d'alcohol de baix risc."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuació més gran que 5</underline>: consum d'alcohol de risc o perjudicial."
+        }
+      },
+      { 
+        "type": "Text",
+        "props": {
+          "text": "Playwright chromium, felicitats per no haver fumat mai, continua així!"
+        }
+      },
+      { 
+        "type": "Text",
+        "props": {
+          "text": "En relació amb el resultat obtingut sobre el teu consum d'alcohol, Playwright chromium, felicitats per no consumir alcohol! Aquesta és una decisió molt saludable que pot tenir molts beneficis per a la teva salut. Continua així"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJECTIUS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Tenim un doble objectiu:"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "L'objectiu principal és mantenir una cura auditiva òptima, limitant el risc de pèrdua auditiva.",
+            "Addicionalment, i en relació amb la capacitat visual, l'objectiu principal és mantenir una cura ocular òptima, limitant el risc de pèrdua ocular."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTES CLAU"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, els teus gustos i preferències, et recomanem les següents activitats:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Tabac",
+          "color": "section-blue",
+          "colorLight": "sectionLight-blue",
+          "icon": "images/colored-table/hearing-white.png",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Consum",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "Si no fumes, és important que no comencis a fer-ho."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Viu en un ambient lliure de fum.",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "No hi ha un nivell segur d'exposició al fum. Evita els llocs on es fuma i no permetis que es fumi a casa o al cotxe"
+              }
+            }
+          ]
+        }
+      },
+      { 
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració realitzada, et recomanem les pautes següents per cuidar la teva capacitat ocular:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "title": "Alcohol",
+          "color": "section-blue",
+          "colorLight": "sectionLight-blue",
+          "icon": "images/colored-table/hearing-white.png",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Consum",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Mantenir una correcta higiene auditiva</bold>, és a dir, una cura òptima de les teves orelles, evitant que es puguin malmetre per pràctiques perjudicials que mantenim en el temps."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLLAÇOS D'AMPLIACIÓ I FITXES DE TREBALL"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "María Cristina Mulet, perquè puguis començar a treballar en l'objectiu proposat, hem seleccionat el material exclusivament per a tu, basat en els teus gustos, preferències i necessitats. Aquest material inclou fitxes de treball, que t'ajudaran a assolir la meta desitjada, i articles d'interès, perquè puguis aprofundir en temes relacionats amb l'activitat física."
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "title": "Fitxes de treball",
+          "color": "section-blue",
+          "colorLight": "sectionLight-blue",
+          "items": [
+            {
+              "text": "1. Exercicis per a l'estimulació física: Iniciació a l'enfortiment muscular",
+              "description": "Exercita la teva musculatura amb exercicis moderats",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            },
+            {
+              "text": "2. Exercicis per a l'estimulació física: Enfortiment Muscular i coordinació",
+              "description": "Exercicis de força per a potenciar la teva musculatura",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Obrir fitxa"
+            }
+          ]
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enllaços d'ampliació",
+          "color": "section-blue",
+          "iconColor": "blue",
+          "list": [
+            {
+              "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Gimnàstica per a adults majors",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            },
+            {
+              "text": "Últimes dades de l'impacte de l'activitat física en la prevenció i tractament de les demències",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Accedeix"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TINGUES EN COMPTE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Quan no puguis complir les recomanacions descrites</bold>, o presentis una afecció crònica, <bold>hauràs de procurar realitzar activitats físiques d'acord amb les teves possibilitats.</bold>", 
+            "Es recomana <bold>començar amb petites dosis d'activitat física, per anar augmentant gradualment</bold> la durada, freqüència i intensitat"
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. PER QUÈ HAURIA DE SEGUIR AQUESTES RECOMANACIONS?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Segons l'Organització Mundial de la Salut (OMS), els beneficis de no fumar són múltiples:"
+        }
+      },
+      { 
+        "type": "List",
+        "props": {
+          "haveCheckbox": true,
+          "items": [
+            "Redueix el risc de mortalitat prematura i millora la qualitat i esperança de vida.",
+            "Disminueix el risc de desenvolupar malalties cardiovasculars, respiratòries, diferents tipus de càncers i malalties neurodegeneratives.",
+            "Millora la salut oral i disminueix el risc de desenvolupar malalties dentals.",
+            "Millora l'aparença de la pell.",
+            "Millora el benestar emocional i augmenta el rendiment físic.",
+            "Prevé la pèrdua d'olfacte i del gust.",
+            "Protegeix la salut d'amics i familiars al no exposar-los al fum.",
+            "Suposa un estalvi econòmic a llarg termini, tant a nivell individual com social.",
+            "Redueix l'impacte ambiental del tabac."
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Addicionalment, i quant als múltiples beneficis de no beure alcohol, l'Organització Mundial de la Salut (OMS) destaca:"
+        }
+      },
+      { 
+        "type": "List",
+        "props": {
+          "haveCheckbox": true,
+          "items": [
+            "Redueix el risc de desenvolupar malalties cròniques, com malalties del cor o hepàtiques, trastorns del sistema nerviós i diversos tipus de càncer.",
+            "Millora la salut mental i el benestar emocional.",
+            "Millora la qualitat del son i fomenta un son més reparador.",
+            "Millora l'aparença física i ajuda a mantenir un pes saludable.",
+            "Millora les capacitats cognitives."
+          ]
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomanació de l'Organització Mundial de la Salut",
+          "text": "L'OMS recomana fermament fer activitat física per mantenir una funció cognitiva normal i reduir el risc de deteriorament cognitiu."
+        }
+      }
+    ],
+    "proximos-pasos": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "4. Pròxims passos",
+          "smallText": "PLAN DE PREVENCIÓN Y REDUCCIÓN DE RIESGOS PERSONALIZADO",
+          "personName": "María Cristina Mulet",
+          "date": "mayo de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Et convidem a fer el primer pas i <bold>començar a incorporar aquestes recomanacions i activitats personalitzades</bold> de manera pràctica i efectiva."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "A través d'aquest pla d'acció, els materials d'ampliació, les fitxes de treball i el suport del teu/la teva Orientador/a Personal, <bold>comptes amb tots els recursos necessaris per dur-ho a terme.</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "És important que mantinguis la teva motivació i compromís per implementar aquests petits canvis en el teu estil de vida i actualitzar-los en funció de la teva evolució. Per això, <bold>realitzarem avaluacions i seguiments periòdics per valorar el teu progrés i realitzar els ajustos necessaris per actualitzar el teu Pla de Prevenció i reducció de riscos personalitzat.</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La propera comunicació programada amb Ariadna, el teu/la teva Orientador/a personal, serà d'aquí a un any. <bold>Ens posarem en contacte amb tu</bold> amb dos mesos d'antelació per agendar la data exacta."
+        }
+      },
+      {
+        "type": "BannerCommunication",
+        "props": {
+          "title": "COM COMUNICAR-TE AMB NOSALTRES?",
+          "text": "Estem a la teva disposició per ajudar-te en tot allò que necessitis, quan ho necessitis. Des del teu Portal del client podràs posar-te en contacte amb Ariadna, el teu/la teva Orientador/a Personal, ja sigui mitjançant la missatgeria integrada o per trucada telefònica directa",
+          "image": "images/banner-communication/qida-iphone.png",
+          "items": [
+            {
+              "image": "images/banner-communication/application-web.png",
+              "title": "Accés al Portal del client"
+            },
+            {
+              "image": "images/banner-communication/chat.png",
+              "title": "Missatgeria",
+              "text": "El teu/la teva Orientador/a personal t'atendrà en les pròximes 24 hores laborables."
+            },
+            {
+              "image": "images/banner-communication/phone-filled.png",
+              "title": "Telèfon",
+              "text": "El teu/La teva Orientador/a Personal t'atendrà de dilluns a divendres de 9 a 18 hores."
+            }
+          ]
+        }
+      }
+    ],
+    "autoria": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "5. Autoria",
+          "smallText": "PLAN DE PREVENCIÓN Y REDUCCIÓN DE RIESGOS PERSONALIZADO",
+          "personName": "María Cristina Mulet",
+          "date": "mayo de 2025",
+          "showSectionTitleOnEveryPage": true
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "QUI ÉS EL TEU ORIENTADOR/A PERSONAL?", 
+          "color": "primary-DEFAULT",
+          "marginTop": 6,
+          "marginBottom": 4
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Psicologa",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "BannerOP",
+        "props": {
+          "fullName": "Marta Gimenez",
+          "professionalTitle": "Orientador/a Personal | Qida",
+          "academicTitle": "Psicòloga",
+          "collegiateNo": "Col·legiada n° 23456",
+          "image": "images/banner-op/op.png",
+          "items": [
+            {
+              "image": "images/banner-op/phone-filled.png",
+              "text": "+34 665009491"
+            },
+            {
+              "image": "images/banner-op/chat.png",
+              "linkSrc": "https://www.google.com",
+              "linkText": "Missatgeria"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "L'EQUIP QIDA", 
+          "color": "primary-DEFAULT"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "L'equip que valida aquest informe està compost per professionals altament capacitats en diverses àrees, com la Psicogerontologia, Neuropsicologia, Teràpia Ocupacional, Infermeria Familiar i Comunitària, Treball social, Nutrició, Educació social i Fisioteràpia."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La nostra intervenció es basa en un enfocament d'atenció integral i multidomini. La valoració integral es realitza a través d'una entrevista clínica exhaustiva en què, entre altres aspectes, s'utilitzen escales de valoració estandarditzades i validades científicament, la fiabilitat i precisió de les quals ha estat mostrada al llarg del temps."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoració, s'estableixen recomanacions personalitzades que aborden els diferents factors de risc modificables, com l'activitat física, l'alimentació, l'estimulació cognitiva, el benestar emocional, el suport social i el consum de tabac i alcohol. Aquestes dimensions estan interrelacionades i s'aborden de manera conjunta per promocionar un envelliment saludable i prevenir els riscos associats a l'aparició de malalties neurodegeneratives."
+        }
+      },
+      {
+        "type": "PageBreak"
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "QUÈ ÉS QIDA?",
+          "color": "primary-DEFAULT"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Qida és l'empresa d'impacte social líder en serveis i productes d'alta qualitat per a l'atenció al segment sènior a casa. Té l'objectiu que més persones visquin més temps i amb més qualitat de vida a casa , promocionant un envelliment saludable i facilitant un seguiment proactiu i preventiu"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Per això, compta amb dues missions: per una banda, construir una atenció domiciliària humana, experta i de base tecnològica d'alta qualitat; d'altra banda, contribuir a elevar l'estatus social al col·lectiu cuidador."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Des de la seva fundació (2018), Qida ha atès les necessitats de més de 10.000 famílies i ha realitzat més de 5 milions d'hores en atenció domiciliària a l'Estat."
+        }
+      },
+      {
+        "type": "BannerCertified",
+        "props": {
+          "text": "Qida és la primera companyia del seu sector a convertir-se en B Corp a Espanya en complir els estàndards més alts en termes d'exercici social i ambiental, transparència i responsabilitat legal i compromís d'impacte positiu.",
+          "image": "images/banner-certified/bcorp.png"
+        }
+      },
+      {
+        "type": "BannerSocialLinks",
+        "props": {
+          "links": [
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--qida.png",
+              "text": "Qida.es"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--facebook.png",
+              "text": "Facebook"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--linkedin.png",
+              "text": "Linkedin"
+            },
+            {
+              "src": "https://www.google.com",
+              "image": "images/banner-social-links/logo--instagram.png",
+              "text": "Instagram"
+            }
+          ]
+        }
+      }
+    ],
+    "bibliografia": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "6. Bibliografia",
+          "smallText": "PLAN DE PREVENCIÓN Y REDUCCIÓN DE RIESGOS PERSONALIZADO",
+          "personName": "María Cristina Mulet",
+          "date": "mayo de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo"
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "Alcohol. Organización Mundial de la salud. 9 de mayo de 2022. Disponible en: <a href='http://www.google.com'>https://www.who.int/es/news-room/fact-sheets/detail/alcohol</a>.",
+            "Directrices de la OMS sobre actividad física y hábitos sedentarios: de un vistazo [WHO guidelines on physical activity and sedentary behaviour: at a glance]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IGO.",
+            "Estilos de vida saludables. Ministerio de sanidad. Disponible en: <a href='http://www.google.com'>https://estilosdevidasaludable.sanidad.gob.es/consumo/falsosMitos/estres/home.htm</a>",
+            "Global status report on alcohol and health 2018. Geneva: World Health Organization; 2018. Licence: CC BY-NC-SA 3.0 IGO.",
+            "Informe mundial sobre la visión [World report on vision]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IGO",
+            "Integrated care for older people (ICOPE): Guidance for person-centred assessment and pathways in primary care. Geneva: World Health Organization; 2019 (WHO/FWC/ALC/19.1). Licence: CC BY-NC-SA 3.0 IGO.",
+            "Livingston G, Huntley J, Liu KY, Costafreda SG, Selbæk G, Alladi S, Ames D, Banerjee S, Burns A, Brayne C, Fox NC, Ferri CP, Gitlin LN, Howard R, Kales HC, Kivimäki M, Larson EB, Nakasujja N, Rockwood K, Samus Q, Shirai K, Singh-Manoux A, Schneider LS, Walsh S, Yao Y, Sommerlad A, Mukadam N. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet. 2024 Jul 30:S0140-6736(24)01296-0. doi: 10.1016/S0140-6736(24)01296-0. Epub ahead of print. PMID: 39096926.",
+            "Livingston, G., Huntley, J., Sommerlad, A., Ames, D., Ballard, C., Banerjee, S., ... & Mukadam, N. (2020). Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. The Lancet, 396(10248), 413-446.",
+            "Manual básico de cuidado del oído y la audición [Basic ear and hearing care resource]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IG",
+            "Ministerio de Sanidad. Alimentación saludable. Disponible en: https://estilosdevidasaludable.sanidad.gob.es/alimentacionSaludable",
+            "Ministerio de Sanidad. Estilos de vida saludables. Prevención del tabaquismo. Disponible en:- https://estilosdevidasaludable.sanidad.gob.es/tabaco/home.htm",
+            "Organización Mundial de la Salud. Tabaco: beneficios para la salud de dejar de fumar. 25 de febrero de 2020.Disponible en:- https://www.who.int/es/news-room/questions-and-answers/item/tobacco-health-benefits-of-smoking-",
+            "Yassine, H. N., Samieri, C., Livingston, G., Glass, K., Wagner, M., Tangney, C., ... & Schneider, L. S. (2022). Nutrition state of science and dementia prevention: recommendations of the Nutrition for Dementia Prevention Working Group. The Lancet Healthy Longevity, 3(7), e501-e512."
+          ]
+        }
+      }
+    ],
+    "FIN": [
+      {
+        "type": "AbsoluteCenter",
+        "props": {
+          "content": [
+            {
+              "type": "Image",
+              "props": {
+                "src": "images/qida-logo.png",
+                "width": 150,
+                "marginLeft": "auto",
+                "marginRight": "auto"
+              }
+            }
+          ]
         }
       }
     ]

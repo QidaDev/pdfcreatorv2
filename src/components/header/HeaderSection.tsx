@@ -12,6 +12,7 @@ export interface HeaderSectionInterface {
     text: string
     color?: string
     selected?: boolean
+    selectedFontColor?: string
   }[]
   showHeaderOnEveryPage?: boolean
   showSectionTitleOnEveryPage?: boolean
@@ -38,18 +39,19 @@ const HeaderSection = ({
             <View
               style={tw(`flex flex-row items-center text-[20px] font-black`)}
             >
-              <Text style={tw('text-white')}>{renderText(title)}</Text>
+              <Text style={tw('text-black')}>{renderText(title)}</Text>
             </View>
           </View>
           <View style={tw('w-[45%] text-[12px] pr-12')}>
             {tags && tags.length > 0 && (
               <View style={tw('flex flex-row items-center')}>
                 {tags.map((tag, index) => {
-                  const tagColor = tag.selected ? `bg-tag-${tag.color} text-white font-bold border-tag-${tag.color}` : 'text-grey border-lightGrey'
+                  const selectedFontColor = tag.selectedFontColor || 'white'
+                  const tagColor = tag.selected ? `bg-${tag.color} text-${selectedFontColor} font-bold` : 'text-black'
                   const lastStyles = index === tags.length - 1 ? 'border-r-0' : ''
 
                   return (
-                    <View key={index} style={tw(`flex flex-row items-center p-2 px-4 border-r w-1/3 justify-center ${tagColor} ${lastStyles}`)}>
+                    <View key={index} style={tw(`flex flex-row items-center p-3 px-4 border-r w-1/3 justify-center border-neutral-300 ${tagColor} ${lastStyles}`)}>
                       <Text>{renderText(tag.text)}</Text>
                     </View>
                   )

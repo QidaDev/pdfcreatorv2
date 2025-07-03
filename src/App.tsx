@@ -4,6 +4,7 @@ import Viewer from "./core/Viewer"
 import Downloader from "./core/Downloader"
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { registerFonts } from './config/fonts'
+import componentsData from './componentsdata.json'
 
 registerFonts()
 
@@ -39,6 +40,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/viewer" element={<Viewer />} />
+        <Route path="/components" element={<Viewer data={componentsData} />} />
         <Route path="/download" element={<Downloader />} />
       </Routes>
     </Router>

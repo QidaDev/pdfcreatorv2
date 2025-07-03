@@ -1,15 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Text, View, Image } from '@react-pdf/renderer'
+import { Text, View } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { renderText } from '../../utils/renders'
 import RenderComponent from '../../core/RenderComponent'
 import { defaultFontSize } from '../../config/global'
-import CheckboxChecked from '../../assets/images/checkbox--checked.png'
-
 
 interface TipListProps {
   title: string
-  list?: string[]
   content?: string | React.ReactNode
   fontSize?: number | string
   color?: string
@@ -21,10 +18,9 @@ interface TipListProps {
 
 const TipList = ({ 
   title,
-  list,
   content,
   fontSize = defaultFontSize,
-  color = 'grey',
+  color = 'neutral-500',
   marginBottom = 8,
   marginTop = 0,
   marginLeft = 0,
@@ -45,12 +41,6 @@ const TipList = ({
               )}
             </>
           )}
-          {list && list.map((tip, key) => (
-            <View style={tw('flex flex-row gap-2')} key={key}>
-              <Image src={CheckboxChecked} style={tw('w-4 h-4')} />
-              <Text style={tw('flex-1')}>{renderText(tip)}</Text>
-            </View>
-          ))}
         </View>
       </View>
     </View>

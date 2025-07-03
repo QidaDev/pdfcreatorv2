@@ -95,4 +95,10 @@ export const registerFonts = () => {
       },
     ],
   })
+
+  const hyphenationCallback = (word: string): string[] => {
+    return [word]
+  }
+
+  Font.registerHyphenationCallback(hyphenationCallback)
 } 

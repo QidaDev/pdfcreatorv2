@@ -1,14 +1,13 @@
 import { View, Text, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 
-import CoverImage from '../../assets/images/cover.png'
-
 import { styles } from './styles'
-
+import { renderText } from '../../utils/renders'
 
 interface CoverProps {
   title?: string
   subtitle?: string
+  image?: string
   roundedTag?: string
   bottomLeftText1?: string
   bottomLeftText2?: string
@@ -19,6 +18,7 @@ interface CoverProps {
 const Cover = ({ 
   title,
   subtitle,
+  image,
   roundedTag,
   bottomLeftText1,
   bottomLeftText2,
@@ -30,17 +30,17 @@ const Cover = ({
       <View style={tw(styles.coverTitleWrapper)}>
         <View>
           <Text style={tw(`${styles.coverTitle} font-bold`)}>
-            {title}
+            {renderText(title)}
           </Text>
           <Text style={tw(styles.coverTitle)}>
-            {subtitle}
+            {renderText(subtitle)}
           </Text>
         </View>
         {roundedTag && (
           <View>
             <View style={tw(styles.coverRoundedTag)}>
               <View style={tw(styles.coverRoundedTagInner)}>
-                <Text style={tw(styles.coverRoundedTagText)}>{roundedTag}</Text>
+                <Text style={tw(styles.coverRoundedTagText)}>{renderText(roundedTag)}</Text>
               </View>
             </View>
           </View>
@@ -48,22 +48,22 @@ const Cover = ({
       </View>
       <View style={tw(styles.coverImageWrapper)}>
         <View style={tw(styles.coverImage)}>
-          <Image src={CoverImage} />
+          <Image src={image} />
         </View>
       </View>
       <View style={tw(styles.coverBottomWrapper)}>
         <View>
           <Text style={tw(styles.coverBottomLeftText1)}>
-            {bottomLeftText1}
+            {renderText(bottomLeftText1)}
           </Text>
-          <Text style={tw(styles.coverBottomLeftText2)}>{bottomLeftText2}</Text>
+          <Text style={tw(styles.coverBottomLeftText2)}>{renderText(bottomLeftText2)}</Text>
         </View>
         <View>
           <Text style={tw(styles.coverBottomRightText1)}>
-            {bottomRightText1}
+            {renderText(bottomRightText1)}
           </Text>
           <Text style={tw(styles.coverBottomRightText2)}>
-            {bottomRightText2}
+            {renderText(bottomRightText2)}
           </Text>
         </View>
       </View>

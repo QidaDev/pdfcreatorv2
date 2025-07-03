@@ -14,3 +14,32 @@ export const defaultMarginBottom = 5
 export const defaultMarginTop = 0
 export const defaultMarginLeft = 0
 export const defaultMarginRight = 0
+
+export const letters = [
+    'A',
+    'B',
+    'C',
+    'D',
+    'E',
+    'F',
+    'G',
+    'H',
+    'I',
+    'J',
+    'K',
+    'L',
+    'M',
+    'N',
+    'O',
+    'P',
+    'Q',
+    'R',
+    'S',
+    'T',
+    'U',
+    'V',
+    'W',
+    'X',
+    'Y',
+    'Z',
+  ]

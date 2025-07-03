@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Path, Svg } from '@react-pdf/renderer'
-import { FC } from 'react'
 
 type RightArrowSvgProps = {
   style?: any
@@ -9,7 +8,7 @@ type RightArrowSvgProps = {
   color?: string
 }
 
-export const RightArrowSvg: FC<RightArrowSvgProps> = ({
+export const RightArrowSvg: React.FC<RightArrowSvgProps> = ({
   style,
   height = '20px',
   width = '20px',

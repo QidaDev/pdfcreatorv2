@@ -1,5 +1,3 @@
-import { pagePadding } from '../../config/global'
-
 export const styles = {
     headerText: `
         text-neutral-300 pb-6 text-[10px] font-normal
