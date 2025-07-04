@@ -2327,7 +2327,8 @@
         "type": "LinkList",
         "props": {
           "title": "Enllaços d'ampliació",
-          "color": "purple",
+          "color": "section-purple",
+          "iconColor": "purple",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -2522,7 +2523,8 @@
         "type": "LinkList",
         "props": {
           "title": "Enllaços d'ampliació",
-          "color": "red",
+          "color": "section-red",
+          "iconColor": "red",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
