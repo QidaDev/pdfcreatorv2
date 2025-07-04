@@ -1,7 +1,7 @@
-import { Text, View } from '@react-pdf/renderer'
+import { Text, View, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { renderText } from '../../utils/renders'
-import { Warning as WarningIcon } from '../../assets/images/warning'
+import iconWarning from '../../assets/images/icon-warning.png'
 import { defaultLineHeight } from '../../config/global'
 
 interface AlertProps {
@@ -14,15 +14,15 @@ interface AlertProps {
 
 const Alert = ({ 
   text,
-  fontSize = '10.6px',
+  fontSize = '11px',
   lineHeight = defaultLineHeight,
   marginBottom = 5,
   marginTop = 0,
 }: AlertProps) => {
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} flex flex-row gap-2 items-center p-3 px-4 text-[${fontSize}] bg-[#FFF2CC] leading-[${lineHeight}]`)}>
-      <WarningIcon />
-      <Text style={tw('flex-1')}>{renderText(text)}</Text>
+    <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} text-neutral-900 shadow-md rounded-lg flex flex-row gap-2 items-center p-4 px-4 text-[${fontSize}] bg-warning-50 leading-[${lineHeight}]`)}>
+      <Image src={iconWarning} style={tw('w-[16px] h-[16px]')} />
+      <Text style={tw('flex-1 ml-2')}>{renderText(text)}</Text>
     </View>
   )
 }

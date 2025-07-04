@@ -26,30 +26,30 @@ const StateBar = ({
   fontSize = '12px',
 }: StateBarProps) => {
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}]`)}>
-      <View style={tw(`flex flex-row items-center`)}>
+    <View style={tw(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-neutral-900`)}>
+      <View style={tw(`flex flex-row items-center gap-0`)}>
         <View>
-          <View style={tw('w-full h-px bg-neutral-100')}></View>
-          <Text style={tw('px-2 py-1')}>{currentYear}</Text>
-          <View style={tw('w-full h-px bg-neutral-100')}></View>
+          <View style={tw('w-full h-px bg-neutral-200')}></View>
+          <Text style={tw('px-4 py-1')}>{currentYear}</Text>
+          <View style={tw('w-full h-px bg-neutral-200')}></View>
         </View>
         <View
-          style={tw('flex flex-row justify-between items-center h-10 flex-1')}
+          style={tw('flex flex-row justify-between items-center h-[23px] flex-1 gap-0 bg-neutral-200')}
         >
           <View style={tw('flex justify-center text-center')}></View>
           {scales.map(({ selected, text }, index) => {
             const background =
-              selected && !none ? `bg-${areaColor}` : 'bg-neutral-100'
+              selected && !none ? `bg-${areaColor}` : ''
 
             const textColor =
-              selected && !none ? 'text-white font-semibold' : 'text-gray-400'
-            const height = selected && !none ? 'h-10' : 'h-8'
+              selected && !none ? 'font-semibold' : 'font-regular'
+            const height = selected && !none ? 'h-11' : 'h-[23px]'
 
             return (
               <View
                 key={index}
                 style={tw(
-                  `${background} ${height} ${textColor} flex-1 flex justify-center text-center`,
+                  `${background} ${height} ${textColor} text-black flex-1 flex justify-center text-center`,
                 )}
               >
                 <Text>{renderText(text)}</Text>
@@ -60,17 +60,14 @@ const StateBar = ({
       </View>
       <View
         style={tw(
-          'flex flex-row justify-between pt-1 px-2 gap-4 items-center text-xs',
+          'flex flex-row justify-between pt-1 px-2 gap-4 items-center text-[10px]',
         )}
       >
         <Text style={tw('w-10')}></Text>
         {scales.map(({ selected, subText }, index) => {
-          const textColor =
-            selected && !none ? `text-${areaColor} font-bold` : 'text-gray-400'
-
           return (
             <Text
-              style={tw(`flex-1 text-center ${textColor}`)}
+              style={tw(`flex-1 text-center`)}
               key={`scale-per-year-${index}`}
             >
               {(!none && renderText(subText)) || ''}

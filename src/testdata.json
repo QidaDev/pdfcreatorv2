@@ -1,7 +1,190 @@
 {
   "sections": {
     "pruebas": [
-      
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "Baix",
+              "subText": "Menor activitat"
+            },
+            {
+              "selected": true,
+              "text": "Moderat",
+              "subText": ""
+            },
+            {
+              "text": "Alt",
+              "subText": "Major activitat"
+            }
+          ],
+          "areaColor": "section-yellow",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "< 18.5",
+              "subText": "Pes insuficient"
+            },
+            {
+              "text": "18.5-24.9",
+              "subText": "Pes saludable"
+            },
+            {
+              "text": "25-26.9",
+              "subText": "Sobrepès I"
+            },
+            {
+              "text": "27-29.9",
+              "subText": "Sobrepès II"
+            },
+            {
+              "selected": true,
+              "text": "30-34.9",
+              "subText": "Obesitat tipus I"
+            },
+            {
+              "text": "35-39.9",
+              "subText": "Obesitat tipus II"
+            },
+            {
+              "text": "40-49.9",
+              "subText": "Obesitat tipus III"
+            },
+            {
+              "text": "> 50",
+              "subText": "Obesitat tipus IV"
+            }
+          ],
+          "areaColor": "section-green",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "selected": true,
+              "text": "< 9",
+              "subText": "Baixa adherència a la dieta mediterrània"
+            },
+            {
+              "text": ">= 9",
+              "subText": "Bona adherència a la dieta mediterrània"
+            }
+          ],
+          "areaColor": "section-green",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:8-10",
+              "subText": "Possible deteriorament"
+            },
+            {
+              "text": "B:5-7",
+              "subText": ""
+            },
+            {
+              "text": "C:3-4",
+              "subText": ""
+            },
+            {
+              "text": "D:0-2",
+              "subText": "Sense possible deteriorament",
+              "selected": true
+            }
+          ],
+          "areaColor": "section-turquoise",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:8-10",
+              "subText": "Possible deteriorament"
+            },
+            {
+              "text": "B:5-7",
+              "subText": ""
+            },
+            {
+              "text": "C:3-4",
+              "subText": ""
+            },
+            {
+              "text": "D:0-2",
+              "subText": "Sense possible deteriorament"
+            }
+          ],
+          "areaColor": "section-turquoise",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:0-2",
+              "subText": "Consumo de bajo riego",
+              "selected": true
+            },
+            {
+              "text": "B:3-4",
+              "subText": ""
+            },
+            {
+              "text": "C:5-6",
+              "subText": "Consumo de riesgo"
+            }
+          ],
+          "areaColor": "section-blue",
+          "none": false,
+          "currentYear": "2025"
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "scales": [
+            {
+              "text": "A:0-2",
+              "subText": "Dependencia total"
+            },
+            {
+              "text": "B:3-4",
+              "subText": "",
+              "selected": true
+            },
+            {
+              "text": "C:5-6",
+              "subText": "Independencia"
+            }
+          ],
+          "areaColor": "secondary",
+          "none": false,
+          "currentYear": "2025"
+        }
+      }
     ],
     "portada": [
       {
