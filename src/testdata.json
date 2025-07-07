@@ -2,187 +2,99 @@
   "sections": {
     "pruebas": [
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "text": "Baix",
-              "subText": "Menor activitat"
-            },
-            {
-              "selected": true,
-              "text": "Moderat",
-              "subText": ""
-            },
-            {
-              "text": "Alt",
-              "subText": "Major activitat"
-            }
+          "headerColor": "section-green",
+          "rowColor": "sectionLight-green",
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría"],
+            ["Categoría 2", "Descripción de la segunda categoría"]
           ],
-          "areaColor": "section-yellow",
-          "none": false,
-          "currentYear": "2025"
+          "fontSize": "11px",
+          "cellHaveRightArrow": true,
+          "cellRightArrowColor": "#9eca38",
+          "cellBottomPadding": 6,
+          "headerCompressed": true
         }
       },
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "text": "< 18.5",
-              "subText": "Pes insuficient"
-            },
-            {
-              "text": "18.5-24.9",
-              "subText": "Pes saludable"
-            },
-            {
-              "text": "25-26.9",
-              "subText": "Sobrepès I"
-            },
-            {
-              "text": "27-29.9",
-              "subText": "Sobrepès II"
-            },
-            {
-              "selected": true,
-              "text": "30-34.9",
-              "subText": "Obesitat tipus I"
-            },
-            {
-              "text": "35-39.9",
-              "subText": "Obesitat tipus II"
-            },
-            {
-              "text": "40-49.9",
-              "subText": "Obesitat tipus III"
-            },
-            {
-              "text": "> 50",
-              "subText": "Obesitat tipus IV"
-            }
+          "headerColor": "section-purple",
+          "rowColor": "sectionLight-purple",
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría"]
           ],
-          "areaColor": "section-green",
-          "none": false,
-          "currentYear": "2025"
+          "fontSize": "11px",
+          "cellBottomPadding": 4
         }
       },
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "selected": true,
-              "text": "< 9",
-              "subText": "Baixa adherència a la dieta mediterrània"
-            },
-            {
-              "text": ">= 9",
-              "subText": "Bona adherència a la dieta mediterrània"
-            }
+          "headerColor": "section-yellow",
+          "roundedCorners": true,
+          "cellBottomPadding": 6,
+          "contentFontSize": "10px",
+          "tableRows": [
+            [
+              "1. Aeròbica",
+              "<ul><li>Millorar la capacitat funcional.</li><li>Reduir la morbimortalitat. </li><li>Reduir els factors de risc cardiovascular (HTA, diabetis mellitus de tipus 2, dislipidèmies, càncer, etc.). </li><li>Controlar el pes i la composició corporal.</li></ul>",
+              "<ul><li>Entre 2.5 i 5 hores setmanals d'exercici aeròbic moderat.</li><li>5 dies/setmana, o 75-150 minuts/setmana a intensitat vigorosa 3 dies/setmana, o combinacions.</li></ul>",
+              "<ul><li>Caminar, senderisme.</li><li>Trotar, córrer, anar amb bici, ballar.</li><li>Natació, aquagym, gimnàs o aeròbic.</li><li>Esports de pista: pàdel, tenis, etc.</li></ul>"
+            ]
           ],
-          "areaColor": "section-green",
-          "none": false,
-          "currentYear": "2025"
+          "tableHeader": [
+            "CAPACITAT", 
+            "OBJECTIU", 
+            "DURADA,\nINTENSITAT I\nFREQÜÈNCIA", 
+            "TIPOLOGIA\nD'ACTIVITAT"
+          ]
         }
       },
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "text": "A:8-10",
-              "subText": "Possible deteriorament"
-            },
-            {
-              "text": "B:5-7",
-              "subText": ""
-            },
-            {
-              "text": "C:3-4",
-              "subText": ""
-            },
-            {
-              "text": "D:0-2",
-              "subText": "Sense possible deteriorament",
-              "selected": true
-            }
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría\nDescripción de la primera categoría"],
+            ["Categoría 2", "Descripción de la segunda categoría\nDescripción de la segunda categoría"]
           ],
-          "areaColor": "section-turquoise",
-          "none": false,
-          "currentYear": "2025"
+          "fontSize": "11px",
+          "cellBottomPadding": 6,
+          "headerCompressed": true
         }
       },
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "text": "A:8-10",
-              "subText": "Possible deteriorament"
-            },
-            {
-              "text": "B:5-7",
-              "subText": ""
-            },
-            {
-              "text": "C:3-4",
-              "subText": ""
-            },
-            {
-              "text": "D:0-2",
-              "subText": "Sense possible deteriorament"
-            }
+          "tableHeader": ["CATEGORÍA", "DESCRIPCIÓN"],
+          "tableRows": [
+            ["Categoría 1", "Descripción de la primera categoría"]
           ],
-          "areaColor": "section-turquoise",
-          "none": false,
-          "currentYear": "2025"
+          "fontSize": "11px"
         }
       },
       {
-        "type": "StateBar",
+        "type": "Table",
         "props": {
-          "scales": [
-            {
-              "text": "A:0-2",
-              "subText": "Consumo de bajo riego",
-              "selected": true
-            },
-            {
-              "text": "B:3-4",
-              "subText": ""
-            },
-            {
-              "text": "C:5-6",
-              "subText": "Consumo de riesgo"
-            }
+          "marginBottom": 0,
+          "tableRows": [
+            [
+              "1. Aeròbica",
+              "<ul><li>Millorar la capacitat funcional.</li><li>Reduir la morbimortalitat. </li><li>Reduir els factors de risc cardiovascular (HTA, diabetis mellitus de tipus 2, dislipidèmies, càncer, etc.). </li><li>Controlar el pes i la composició corporal.</li></ul>",
+              "<ul><li>Entre 2.5 i 5 hores setmanals d'exercici aeròbic moderat.</li><li>5 dies/setmana, o 75-150 minuts/setmana a intensitat vigorosa 3 dies/setmana, o combinacions.</li></ul>",
+              "<ul><li>Caminar, senderisme.</li><li>Trotar, córrer, anar amb bici, ballar.</li><li>Natació, aquagym, gimnàs o aeròbic.</li><li>Esports de pista: pàdel, tenis, etc.</li></ul>"
+            ]
           ],
-          "areaColor": "section-blue",
-          "none": false,
-          "currentYear": "2025"
-        }
-      },
-      {
-        "type": "StateBar",
-        "props": {
-          "scales": [
-            {
-              "text": "A:0-2",
-              "subText": "Dependencia total"
-            },
-            {
-              "text": "B:3-4",
-              "subText": "",
-              "selected": true
-            },
-            {
-              "text": "C:5-6",
-              "subText": "Independencia"
-            }
-          ],
-          "areaColor": "secondary",
-          "none": false,
-          "currentYear": "2025"
+          "tableHeader": [
+            "CAPACITAT", 
+            "OBJECTIU", 
+            "DURADA,\nINTENSITAT I\nFREQÜÈNCIA", 
+            "TIPOLOGIA\nD'ACTIVITAT"
+          ]
         }
       }
     ],

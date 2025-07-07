@@ -27,7 +27,7 @@ export const renderText = (text: string | undefined) => {
         .map(item => item.replace(/<li>/g, '').trim())
 
       return (
-        <List key={index} items={listItems} fontSize="10px" lineHeight="1" marginLeft="[-20px]" marginRight={4} marginBottom={0} />
+        <List key={index} items={listItems} marginBottom={0} fontSize={null} lineHeight={null} />
       )
     }
     if (part.startsWith('<image src=') && part.endsWith('>')) {

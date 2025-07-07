@@ -6,8 +6,8 @@ import CheckboxChecked from '../../assets/images/checkbox--checked.png'
 
 interface ListProps {
   items: string[]
-  fontSize?: string
-  lineHeight?: string
+  fontSize?: string | null
+  lineHeight?: string | null
   itemsSeparation?: number | string
   marginBottom?: number | string
   marginTop?: number | string
@@ -33,9 +33,9 @@ const List = ({
     <View style={tw(`flex flex-col gap-2 mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
       {items?.map((item, index) => {
         return (
-          <View key={index} style={tw(`flex flex-row gap-2 ${haveCheckbox ? '' : ''} text-[${fontSize}] leading-[${lineHeight}] mb-${itemsSeparation}`)}>
+          <View key={index} style={tw(`flex flex-row gap-2 ${haveCheckbox ? '' : ''} ${fontSize ? `text-[${fontSize}]` : ''} ${lineHeight ? `leading-[${lineHeight}]` : ''}  mb-${itemsSeparation}`)}>
             {haveCheckbox ? <Image src={CheckboxChecked} style={tw('w-4 h-4 mt-0.5')} /> : <Text>•</Text>}
-            <Text>{renderText(item)}</Text>
+            <Text style={tw('flex-1')}>{renderText(item)}</Text>
           </View>
         )
       })}
