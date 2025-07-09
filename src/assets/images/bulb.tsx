@@ -7,7 +7,7 @@ interface BulbProps {
 }
 
 export const Bulb: React.FC<BulbProps> = ({ 
-  color = 'white',
+  color = '#333333',
   width = '14',
   height = '14',
 }) => (
@@ -15,7 +15,6 @@ export const Bulb: React.FC<BulbProps> = ({
     width={width}
     height={height}
     viewBox="0 0 14 14"
-    fill={color}
   >
     <Path d="M9.1875 10.5H4.8125V11.375H9.1875V10.5Z" fill={color} />
     <Path d="M8.3125 12.25H5.6875V13.125H8.3125V12.25Z" fill={color} />

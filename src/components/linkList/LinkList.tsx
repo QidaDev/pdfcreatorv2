@@ -1,6 +1,8 @@
 import { Text, View, Link, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { renderText } from '../../utils/renders'
+import { Bulb } from '../../assets/images/bulb'
+import { IconLaunch } from '../../assets/images/icon-launch'
 
 interface LinkListProps {
   title: string
@@ -11,8 +13,7 @@ interface LinkListProps {
   }[]
   color: string
   iconColor: string
-  icon: "idea" | "request"
-  src: string
+  iconSrc: string
   marginBottom?: number | string
   marginTop?: number | string
   marginLeft?: number | string
@@ -22,10 +23,8 @@ interface LinkListProps {
 const LinkList = ({ 
   title,
   list = [],
-  color = 'section-yellow',
-  iconColor = 'yellow',
-  icon = 'idea',
-  src = '',
+  iconColor = '',
+  iconSrc = '',
   marginBottom = 6,
   marginTop = 0,
   marginLeft = 0,
@@ -44,20 +43,21 @@ const LinkList = ({
         {list.map((link, index) => (
           <View key={index}>
             {index === 0 && (
-              <View style={tw('w-auto h-px bg-neutral-100 ml-10')}></View>
+              <View style={tw('w-auto h-px bg-neutral-100')}></View>
             )}
-            <View style={tw('flex flex-row items-center justify-between text-[13px] py-3')}>
+            <View style={tw('flex flex-row items-center justify-between text-[13px] p-3')}>
               <View style={tw('flex-1 flex flex-row items-center text-black')}>
-                <Image src={src || `images/link-list/${icon}-${iconColor}.png`} style={tw('w-[25px] h-[25px]')} />
-                <Text style={tw('flex-1 ml-2')}>{renderText(link.text)}</Text>
+                {iconSrc ? <Image src={iconSrc} style={tw('w-[20px] h-[20px]')} /> : <Bulb height="20" width="20" color={iconColor} />}
+                <Text style={tw('flex-1 ml-8')}>{renderText(link.text)}</Text>
               </View>
-              <View style={tw('ml-5 mr-10')}>
-                <Link src={link.linkSrc} style={tw(`text-${color} font-bold no-underline`)}>
-                  {renderText(link.linkText)}
+              <View style={tw('ml-5')}>
+                <Link src={link.linkSrc} style={tw(`text-neutral-900 flex flex-row items-center font-semibold`)}>
+                  <Text style={tw('mr-3 -mt-1')}>{renderText(link.linkText)}</Text>
+                  <IconLaunch height="13" width="13" />
                 </Link>
               </View>
             </View>
-            <View style={tw('w-auto h-px bg-neutral-100 ml-10')}></View>
+            <View style={tw('w-auto h-px bg-neutral-100')}></View>
           </View>
         ))}
       </View>

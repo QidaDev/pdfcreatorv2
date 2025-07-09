@@ -35,13 +35,13 @@ const ContentPanel = ({
   return (
     <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
       {title && (
-      <View style={tw(`py-3 px-4 flex flex-row justify-between text-white items-center text-[${titleFontSize}] font-semibold bg-${color}`)}>
+      <View style={tw(`py-3 px-3 flex flex-row justify-between text-neutral-900 items-center font-medium text-[${titleFontSize}] bg-${color}`)}>
         <Text style={tw('mt-[-1px]')}>{title}</Text>
-        {icon ? <Image src={icon} style={tw('w-[20px] h-[20px]')} /> : <Bulb height="20" width="20" />}
+        {icon ? <Image src={icon} style={tw('w-[18px] h-[18px]')} /> : <Bulb height="18" width="18" />}
       </View>
       )}
       { content && (
-        <View style={tw(`bg-${colorLight} p-4 text-[${fontSize}]`)}>
+        <View style={tw(`bg-${colorLight} p-4 text-[${fontSize}] ${!title ? 'rounded-lg' : ''}`)}>
           {Array.isArray(content) ? (
             content.map((content, key) => (RenderComponent(content, `${key}`))) 
           ) : ( 

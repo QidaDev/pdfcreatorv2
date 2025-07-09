@@ -180,12 +180,13 @@
           "tags": [
             {
               "text": "Atención",
-              "color": "tag-red",
-              "selected": true
+              "color": "tag-red"
             },
             {
               "text": "Mejora",
-              "color": "tag-orange"
+              "color": "tag-orange",
+              "selected": true,
+              "selectedFontColor": "black"
             },           
             {
               "text": "Sigue así",
@@ -599,7 +600,7 @@
         "type": "Table",
         "props": {
           "headerColor": "section-yellow",
-          "roundedCorners": true,
+          "headerTextColor": "neutral-900",
           "marginTop": "[-5px]",
           "marginBottom": 0,
           "tableRows": [
@@ -641,6 +642,7 @@
         "props": {
           "marginTop": 12,
           "color": "section-yellow",
+          "textColor": "neutral-900",
           "text": "Els canvis saludables comencen amb senzills passos. No hi ha hagut mai millor moment per cuidar la teva salut. Fem-ho!"
         }
       },
@@ -714,7 +716,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-yellow",
-          "iconColor": "yellow",
+          "iconColor": "#FDC646",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -976,6 +978,7 @@
         "type": "Banner",
         "props": {
           "color": "section-green",
+          "textColor": "neutral-900",
           "text": "La dieta mediterrània es caracteritza per un alt consum de fruites, verdures, llegums, fruits secs, peix, oli d'oliva i cereals integrals, i una baixa ingesta de carns vermelles, aliments processats i greixos saturats."
         }
       },
@@ -1389,6 +1392,7 @@
         "type": "Table",
         "props": {
           "headerColor": "section-green",
+          "headerTextColor": "neutral-900",
           "rowColor": "sectionLight-green",
           "headerCompressed": true,
           "fontSize": "11px",
@@ -1503,7 +1507,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-green",
-          "iconColor": "green",
+          "iconColor": "#9ECA38",
           "list": [
             {
               "text": "Dieta mediterrània i els seus beneficis",
@@ -1725,6 +1729,7 @@
         "type": "Banner",
         "props": {
           "color": "section-turquoise",
+          "textColor": "neutral-900",
           "text": "Una ment activa pot ser una bona aliada per a reduir el risc de desenvolupar una malaltia neurodegenerativa."
         }
       },
@@ -1861,7 +1866,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-turquoise",
-          "iconColor": "turquoise",
+          "iconColor": "#17AA9C",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -2325,7 +2330,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-purple",
-          "iconColor": "purple",
+          "iconColor": "#C763B1",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -2521,7 +2526,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-red",
-          "iconColor": "red",
+          "iconColor": "#DF3640",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -2849,7 +2854,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-orange",
-          "iconColor": "orange",
+          "iconColor": "#EE5A21",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",
@@ -3322,7 +3327,7 @@
         "props": {
           "title": "Enllaços d'ampliació",
           "color": "section-blue",
-          "iconColor": "blue",
+          "iconColor": "#4BA8DF",
           "list": [
             {
               "text": "Exercicis per a l'estimulació física: L'activitat fisica com a rutina. Aprèn a crear hàbits saludables",

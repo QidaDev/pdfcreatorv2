@@ -72,11 +72,11 @@ export const styles = {
   coverBottomLeftText1: `
     tracking-wider
     font-semibold
-    text-secondary
+    text-primary-DEFAULT
   `,
 
   coverBottomLeftText2: `
-    font-semibold
+    font-medium
   `,
 
   coverBottomRightText1: `

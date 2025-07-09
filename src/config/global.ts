@@ -8,7 +8,7 @@ export const pagePadding = {
 }
 
 export const defaultFontSize = '12px'
-export const defaultTitleFontSize = '14px'
+export const defaultTitleFontSize = '13px'
 export const defaultLineHeight = '1.3'
 export const defaultMarginBottom = 5
 export const defaultMarginTop = 0

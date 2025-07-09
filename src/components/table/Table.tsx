@@ -12,6 +12,7 @@ interface TableProps {
   roundedCorners?: boolean
   headerCompressed?: boolean
   headerColor?: string
+  headerTextColor?: string
   rowColor?: string
   fontSize?: string
   contentFontSize?: string
@@ -29,6 +30,7 @@ const Table = ({
   roundedCorners = false,
   headerCompressed = false,
   headerColor = "primary-DEFAULT",
+  headerTextColor = "white",
   rowColor = "neutral-100",
   fontSize = defaultFontSize,
   contentFontSize = defaultFontSize,
@@ -43,7 +45,7 @@ const Table = ({
     <View style={tw(`gap-2 flex flex-col justify-center mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-center text-neutral-900 font-bold`)}>
       <View wrap={false} style={tw('flex flex-row justify-center gap-2')}>
         {tableHeader.map((tableHeader, cellIndex) => (
-          <View key={`header-${cellIndex}`} style={tw(`${roundedCorners ? 'rounded-md' : ''} flex justify-center items-center bg-${headerColor} text-white ${headerCompressed ? 'py-3' : 'h-[62px]'}  flex-1`)}>
+          <View key={`header-${cellIndex}`} style={tw(`${roundedCorners ? 'rounded-md' : ''} flex justify-center items-center bg-${headerColor} text-${headerTextColor} ${headerCompressed ? 'py-3' : 'h-[62px]'}  flex-1`)}>
             <Text style={tw('uppercase')}>
               {renderText(tableHeader)}
             </Text>
