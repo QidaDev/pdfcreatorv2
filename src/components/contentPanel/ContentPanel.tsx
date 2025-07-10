@@ -35,9 +35,9 @@ const ContentPanel = ({
   return (
     <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
       {title && (
-      <View style={tw(`py-3 px-3 flex flex-row justify-between text-neutral-900 items-center font-medium text-[${titleFontSize}] bg-${color}`)}>
+      <View style={tw(`py-3 px-3 flex flex-row justify-between text-black items-center font-medium text-[${titleFontSize}] bg-${color}`)}>
         <Text style={tw('mt-[-1px]')}>{title}</Text>
-        {icon ? <Image src={icon} style={tw('w-[18px] h-[18px]')} /> : <Bulb height="18" width="18" />}
+        {icon ? <Image src={icon} style={tw('w-[18px] h-[18px]')} /> : <Bulb height="18" width="18" color="black" />}
       </View>
       )}
       { content && (

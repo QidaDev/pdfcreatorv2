@@ -5,8 +5,9 @@
         "type": "Cover",
         "props": {
           "title": "PLAN DE PREVENCIÓN Y\nREDUCCIÓN DE RIESGOS",
-          "subtitle": "PERSONALIZADO",
+          "subtitle": "PERSONALIZADO (2025)",
           "image": "images/cover/cover.png",
+          "roundedTag": "Seguimiento proactivo",
           "bottomLeftText1": "MYBOX VIDACARE",
           "bottomLeftText2": "María Cristina Mulet",
           "bottomRightText1": "19 de MAYO de 2025"
@@ -82,59 +83,53 @@
         "type": "Title",
         "props": {
           "color": "primary-DEFAULT",
-          "text": "LA IMPORTÀNCIA D'UN ENVELLIMENT SALUDABLE",
+          "text": "PREVENCIÓN CONTINUA PARA UNA VIDA PLENA",
           "marginTop": 6
         }
       },
       {
         "type": "Text",
         "props": {
-          "text": "La promoció de l'envelliment saludable, la prevenció i l'adopció d'hàbits i rutines saludables són unes de les principals tendències a dia d'avui. Cada cop disposem de més evidències científiques que apunten a que la possibilitat de desenvolupar certes malalties neurodegeneratives augmenta o disminueix en funció de la combinació de diferents factors de risc. D'acord amb les directrius de la Organització Mundial de la Salut (OMS) per a la reducció dels riscos de deteriorament cognitiu i demència, hi ha dos tipus de factors de risc:"
+          "text": "<p><bold>En primer lugar, queremos felicitarte por tu firme compromiso con el cuidado de tu salud</bold>. La prevención continua de factores de riesgo modificables y la evolución hacia hábitos saludables son componentes esenciales para una vida plena.</p><p>La evidencia científica respalda la idea de que la prevención no es simplemente un acto aislado, sino un pacto continuo a lo largo de la vida. Los beneficios acumulativos de la adopción y mantenimiento de hábitos saludables a lo largo del tiempo contribuyen no solo a reducir los riesgos de enfermedades neurodegenerativas, sino también a mejorar tu bienestar general. ¡Estás en el camino correcto!</p><p><bold>En segundo lugar, nos gustaría seguir siendo tus aliados y ayudarte en los siguientes pasos</bold>. Nuestro compromiso es ir más allá, ofreciéndote apoyo personalizado para fortalecer esos hábitos y abordar de manera integral los factores de riesgo modificables. ¿Avanzamos?</p>"
         }
       },
       {
-        "type": "NumberedList",
+        "type": "Title",
         "props": {
-          "column": true,
-          "color": "section-yellow",
-          "marginTop": 4,
-          "marginBottom": 0,
-          "items": [
-            {
-              "title": "Factors NO modificables",
-              "content": "Són factors NO modificables l'edat i altres factors genètics."
-            },
-            {
-              "title": "Factors modificables",
-              "content": [
-                { 
-                  "type": "Text",
-                  "props": {
-                    "text": "Són factors modificables el nivell educatiu, certes condicions de salut (diabetis, sobrepès,obesitat, hipertensió, pèrdua d'audició, depressió), hàbits de vida (alimentació, activitat física,activitat cognitiva, tabaquisme, consum d'alcohol, exposició al estrès) i l'absència de xarxes de suport familiar o social."
-                  }
-                },
-                {
-                  "type": "Text",
-                  "props": {
-                    "marginBottom": 0,
-                    "text": "Un estudi publicat a la revista científica The Lancet Neurology, va afirmar que el 35% de tots els casos d'Alzheimer es poden atribuir a aquests factors de risc potencialment modificables. Segons la Societat Espanyola de Neurologia, una reducció d'entre un 10% i un 25% en aquests factors de risc podrien prevenir entre 1 i 3 milions de casos d'Alzheimer al món."
-                  }
-                }
-              ]
-            }
-          ]
+          "color": "primary-DEFAULT",
+          "text": "14 razones para seguir cuidando tu salud"
         }
       },
       {
         "type": "Text",
         "props": {
-          "text": "El Pla personalitzat de prevenció i reducció de riscos és un conjunt de recomanacions i valoracions orientades a detectar, modificar i mitigar els factors que poden afavorir l'aparició de malalties neurodegeneratives, així com fomentar un envelliment saludable . Aquest pla serà revisat durant el seguiment anual programat amb Ariadna Puig, el teu/la teva Orientador/a Personal, on s'actualitzarà la valoració i recomanacions personalitzades en funció dels progressos realitzats. L'objectiu és proporcionar-te tranquil·litat i seguretat, i fomentar una millor qualitat de vida durant el major temps possible."
+          "text": "<p>La última actualización de la Comisión Lancet sobre prevención, intervención y atención (2024) afirma que alrededor del 45 % de los casos de demencia podrían prevenirse reduciendo 14 factores de riesgo potencialmente modificables (pérdida de visión no tratada, colesterol alto, obesidad, etcétera).</p><p>El potencial de prevención es alto y, en general, <bold>casi la mitad de las demencias podrían prevenirse eliminando estos 14 factores de riesgo.</bold></p><p>Los científicos inciden en la importancia de la prevención a lo largo de la vida para reducir los factores de riesgo modificables de forma temprana y mantenerlos bajos el mayor tiempo posible</p><p><bold>A continuación, te presentamos los 14 factores de riesgo modificables y el porcentaje en el que cada uno reduce la probabilidad de desarrollar demencia al ser eliminado:</bold></p>"
+        }
+      },
+      {
+        "type": "PageBreak"
+      },
+      {
+        "type": "Image",
+        "props": {
+          "src": "images/image/introduction-infography-es.png",
+          "width": "440px",
+          "marginBottom": 10
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "fontSize": "11px",
+          "lineHeight": "1.2",
+          "marginBottom": 14,
+          "text": "Fuente: Livingston G, Huntley J, Liu KY, et al. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. The Lancet 2024; published online July 31. Adaptado por Qida, 2024."
         }
       },
       {
         "type": "Banner",
         "props": {
-          "text": "Les recomanacions i activitats a fer són petits canvis en el teu estil de vida. La prevenció no sol requerir un canvi radical, sinó de seguir una rutina i hàbits saludables."
+          "text": "Nunca es demasiado temprano ni demasiado tarde para cuidar de tu salud"
         }
       }
     ],

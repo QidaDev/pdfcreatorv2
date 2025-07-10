@@ -30,7 +30,7 @@ const TipList = ({
     <View wrap={false} style={tw(`w-auto flex flex-row mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight} text-[${fontSize}] text-neutral-900`)}>
       <View style={tw(`w-1 h-full bg-${color}`)} />
       <View style={tw('flex flex-col py-3 flex-1 ml-10')} >
-        <Text style={tw(`font-medium mb-8`)}>{title}</Text>
+        <Text style={tw(`font-bold mb-8`)}>{title}</Text>
         <View style={tw(`flex flex-col gap-2`)}>
           {content && (
             <>

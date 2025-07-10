@@ -20,7 +20,7 @@ const Alert = ({
   marginTop = 0,
 }: AlertProps) => {
   return (
-    <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} text-neutral-900 shadow-md rounded-lg flex flex-row gap-2 items-center p-4 px-4 text-[${fontSize}] bg-warning-50 leading-[${lineHeight}]`)}>
+    <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} text-black shadow-md rounded-lg flex flex-row gap-2 items-center p-4 px-4 text-[${fontSize}] bg-warning-50 leading-[${lineHeight}]`)}>
       <Image src={iconWarning} style={tw('w-[16px] h-[16px]')} />
       <Text style={tw('flex-1 ml-2')}>{renderText(text)}</Text>
     </View>
