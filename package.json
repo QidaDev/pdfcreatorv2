@@ -1,6 +1,6 @@
 {
-  "name": "axis-pdf-creator",
-  "private": true,
+  "name": "pdfcreator",
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "repository": {
