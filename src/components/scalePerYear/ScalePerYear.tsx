@@ -52,7 +52,7 @@ const ScalePerYear = ({
                   `${background} ${height} ${textColor} flex-1 flex justify-center text-center`,
                 )}
               >
-                <Text>{text}</Text>
+                <Text>{renderText(text)}</Text>
               </View>
             )
           })}

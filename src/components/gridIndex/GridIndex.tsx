@@ -1,8 +1,6 @@
 import { View, Text } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 
-import { styles } from './styles'
-
 interface GridIndexProps {
   items: Array<{
     title?: string
