@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "noEmit": true
+  },
+  "include": ["src/index.ts", "src/config/fonts.ts", "src/core/Generator.tsx"],
+  "exclude": ["src/App.tsx", "src/main.tsx", "src/test/**/*", "src/**/*.test.*"]
+}
