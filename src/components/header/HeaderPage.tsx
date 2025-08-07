@@ -1,6 +1,7 @@
 import { View, Text } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { styles } from './styles'
+import { cleanStyle } from '../../utils/renders'
 
 export interface HeaderPageInterface {
   title?: string
@@ -22,25 +23,25 @@ const HeaderPage = ({
   return (
     <>
       <View fixed={showHeaderOnEveryPage}>
-        <Text style={tw(`${styles.headerText}`)}>
+        <Text style={tw(cleanStyle(`${styles.headerText}`))}>
           {smallText}
         </Text>
       </View>
       <View fixed={(showHeaderOnEveryPage && showSectionTitleOnEveryPage)}>
         {title && (
-          <View style={tw(`${styles.headerTitleWrapper}`)}>
-            <Text style={tw(`${styles.headerTitle}`)}>
+          <View style={tw(cleanStyle(`${styles.headerTitleWrapper}`))}>
+            <Text style={tw(cleanStyle(`${styles.headerTitle}`))}>
               {title}
             </Text>
-            <View style={tw(`${styles.headerDate}`)}>
-              <Text style={tw(`${styles.headerDateText}`)}>
+            <View style={tw(cleanStyle(`${styles.headerDate}`))}>
+              <Text style={tw(cleanStyle(`${styles.headerDateText}`))}>
                 <Text>{date}</Text>
               </Text>
-              <Text style={tw(`${styles.headerPersonName}`)}>{personName}</Text>
+              <Text style={tw(cleanStyle(`${styles.headerPersonName}`))}>{personName}</Text>
             </View>
           </View>
         )}
-        <View style={tw(`${styles.headerLine}`)}></View>
+        <View style={tw(cleanStyle(`${styles.headerLine}`))}></View>
       </View>
     </>
   )

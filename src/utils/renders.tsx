@@ -3,6 +3,10 @@ import { tw } from './tailwind'
 import { Image } from '@react-pdf/renderer'
 import List from '../components/list/List'
 
+export const cleanStyle = (style: string) => {
+  return style.replace(/\s+/g, ' ').replace(/^\s+|\s+$/g, '')
+}
+
 export const renderText = (text: string | undefined) => {
   if (!text) return ''
 

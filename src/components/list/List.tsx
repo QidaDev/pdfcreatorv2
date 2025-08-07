@@ -1,6 +1,6 @@
 import { Text, View, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import { defaultFontSize, defaultLineHeight } from '../../config/global'
 import CheckboxChecked from '../../assets/images/checkbox--checked.png'
 
@@ -30,12 +30,12 @@ const List = ({
   if (!items || !items.length || !Array.isArray(items)) return null
 
   return (
-    <View style={tw(`flex flex-col gap-2 mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
+    <View style={tw(cleanStyle(`flex flex-col gap-2 mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`))}>
       {items?.map((item, index) => {
         return (
-          <View key={index} style={tw(`flex flex-row gap-2 ${haveCheckbox ? '' : ''} ${fontSize ? `text-[${fontSize}]` : ''} ${lineHeight ? `leading-[${lineHeight}]` : ''}  mb-${itemsSeparation}`)}>
+          <View key={index} style={tw(cleanStyle(`flex flex-row gap-2 ${haveCheckbox ? '' : ''} ${fontSize ? `text-[${fontSize}]` : ''} ${lineHeight ? `leading-[${lineHeight}]` : ''}  mb-${itemsSeparation}`))}>
             {haveCheckbox ? <Image src={CheckboxChecked} style={tw('w-4 h-4 mt-0.5')} /> : <Text>•</Text>}
-            <Text style={tw('flex-1')}>{renderText(item)}</Text>
+            <Text style={tw(cleanStyle('flex-1'))}>{renderText(item)}</Text>
           </View>
         )
       })}

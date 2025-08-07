@@ -34,7 +34,7 @@ const BannerCommunication = ({
     <View style={tw(`bg-${backgroundColor} flex flex-col gap-12 p-12 pb-0 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop} ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`)}>
       <View style={tw('flex flex-col gap-4')}>
         <Text style={tw('text-[16px] font-semibold mb-4')}>{renderText(title)}</Text>
-        <Text style={tw('')}>{renderText(text)}</Text>
+        <Text>{renderText(text)}</Text>
       </View>
       <View style={tw('flex flex-row gap-16')}>
         <Image style={tw('flex-1')} src={image} />

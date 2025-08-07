@@ -5,7 +5,7 @@ import QidaLogo from '../../../assets/images/qida_logo.png'
 
 import { styles as footerStyles } from '../styles'
 import { styles } from './styles'
-import { renderText } from '../../../utils/renders'
+import { renderText, cleanStyle } from '../../../utils/renders'
 
 interface FooterCoverProps {
   name: string
@@ -17,12 +17,12 @@ const FooterCover = ({
   role
 }: FooterCoverProps) => {
   return (
-    <View fixed style={tw(`${footerStyles.footerWrapper} ${styles.footerCoverWrapper}`)}>
-      <View style={tw(`${styles.footerCoverText}`)}>
-        <Text>Realizado por: <Text style={tw(`font-bold`)}>{renderText(name)}</Text></Text>
-        <Text style={tw(`italic`)}>{renderText(role)}</Text>
+    <View fixed style={tw(cleanStyle(`${footerStyles.footerWrapper} ${styles.footerCoverWrapper}`))}>
+      <View style={tw(cleanStyle(`${styles.footerCoverText}`))}>
+        <Text>Realizado por: <Text style={tw(cleanStyle(`font-bold`))}>{renderText(name)}</Text></Text>
+        <Text style={tw(cleanStyle(`italic`))}>{renderText(role)}</Text>
       </View>
-      <Image style={tw(`${styles.footerCoverLogo}`)} src={QidaLogo} />
+      <Image style={tw(cleanStyle(`${styles.footerCoverLogo}`))} src={QidaLogo} />
     </View>
   )
 }

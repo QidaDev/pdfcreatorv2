@@ -6,6 +6,7 @@ import QidaLogoCat from '../../../assets/images/qida_logo_text_cat.png'
 
 import { styles as footerStyles } from '../styles'
 import { styles } from './styles'
+import { cleanStyle } from '../../../utils/renders'
 
 const isLangEs = true
 const getLogoSource = isLangEs ? QidaLogo : QidaLogoCat
@@ -14,12 +15,12 @@ const footerHeight = logoHeight + 18
 
 const FooterLogo = () => {
   return (
-    <View fixed style={tw(`${footerStyles.footerWrapper} h-[${footerHeight}px]`)}>
+    <View fixed style={tw(cleanStyle(`${footerStyles.footerWrapper} h-[${footerHeight}px]`))}>
       <Image
-        style={tw(`${styles.footerLogo} h-[${logoHeight}px]`)}
+        style={tw(cleanStyle(`${styles.footerLogo} h-[${logoHeight}px]`))}
         src={getLogoSource}
       />
-      <Text style={tw(`${footerStyles.footerPageNumber}`)} render={({ pageNumber }) => pageNumber} />
+      <Text style={tw(cleanStyle(`${footerStyles.footerPageNumber}`))} render={({ pageNumber }) => pageNumber} />
     </View>
   )
 }

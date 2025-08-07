@@ -32,7 +32,7 @@ const LinkList = ({
 }: LinkListProps) => {
   return (
     <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
-      <View style={tw('')}>
+      <View>
         {title && (
           <Text style={tw(`text-[13px] tracking-widest font-bold pt-4 pb-5`)}>
             {renderText(title)}

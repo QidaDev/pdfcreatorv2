@@ -41,7 +41,7 @@ const BannerCommunication = ({
         <Image style={tw('w-24 h-24 rounded-full')} source={image} />
       </View>
       <View style={tw('flex-1 flex flex-col gap-2 border-r border-gray-400 px-4')}>
-        <Text style={tw('text-primary text-lg font-semibold leading-5')}>
+        <Text style={tw('text-primary-DEFAULT text-lg font-semibold leading-5')}>
           {renderText(fullName)}
         </Text>
         <Text style={tw('text-gray-400')}>

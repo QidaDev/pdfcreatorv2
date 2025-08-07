@@ -1,6 +1,6 @@
 import { Text } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import { defaultLineHeight, defaultTitleFontSize } from '../../config/global'
 
 interface TitleProps {
@@ -28,7 +28,7 @@ const Title = ({
   marginRight = 0
 }: TitleProps) => {
   return (
-    <Text style={tw(`mt-${marginTop} mb-${marginBottom} ml-${marginLeft} mr-${marginRight} text-${color} text-[${fontSize}] font-bold leading-[${lineHeight}] ${trackingWidest ? 'tracking-widest' : ''}`)}>
+    <Text style={tw(cleanStyle(`mt-${marginTop} mb-${marginBottom} ml-${marginLeft} mr-${marginRight} text-${color} text-[${fontSize}] font-bold leading-[${lineHeight}] ${trackingWidest ? 'tracking-widest' : ''}`))}>
       {renderText(text)}
     </Text>
   )
