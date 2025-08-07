@@ -14,6 +14,7 @@ interface TitleProps {
   marginTop?: number
   marginLeft?: number
   marginRight?: number
+  id?: string
 }
 
 const Title = ({ 
@@ -25,7 +26,8 @@ const Title = ({
   marginBottom = 6,
   marginTop = 8,
   marginLeft = 0,
-  marginRight = 0
+  marginRight = 0,
+  id,
 }: TitleProps) => {
   return (
     <Text style={tw(cleanStyle(`mt-${marginTop} mb-${marginBottom} ml-${marginLeft} mr-${marginRight} text-${color} text-[${fontSize}] font-bold leading-[${lineHeight}] ${trackingWidest ? 'tracking-widest' : ''}`))}>
