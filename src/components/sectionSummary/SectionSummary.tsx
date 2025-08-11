@@ -1,7 +1,7 @@
 import { Text, View, Link, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import arrow from '../../assets/images/arrow-right.png'
 import { cleanStyle } from '../../utils/renders'
+import ArrowRight from '../../assets/images/arrow-right.png'
 
 interface SectionSummaryProps {
   number: number
@@ -16,6 +16,7 @@ interface SectionSummaryProps {
     selected?: boolean
     selectedFontColor?: string
   }[]
+  arrowImage?: string
 }
 
 const SectionSummary = ({ 
@@ -26,6 +27,7 @@ const SectionSummary = ({
   linkUrl,
   content,
   tags,
+  arrowImage = ArrowRight
 }: SectionSummaryProps) => {
   return (
     <>
@@ -80,7 +82,7 @@ const SectionSummary = ({
               )}
             >
               <Text style={tw(cleanStyle('mt-[-2px]'))}>{linkText}</Text>
-              <Image src={arrow} style={tw(cleanStyle('w-4 h-4'))} />
+              <Image src={arrowImage} style={tw(cleanStyle('w-4 h-4'))} />
             </View>
           </Link>
         </View>

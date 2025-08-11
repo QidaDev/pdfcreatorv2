@@ -1,15 +1,14 @@
 import { View, Text, Image } from '@react-pdf/renderer'
 import { tw } from '../../../utils/tailwind'
 
-import QidaLogo from '../../../assets/images/qida_logo_text_es.png'
-import QidaLogoCat from '../../../assets/images/qida_logo_text_cat.png'
-
 import { styles as footerStyles } from '../styles'
 import { styles } from './styles'
 import { cleanStyle } from '../../../utils/renders'
+import QidaLogoTextEs from '../../../assets/images/qida_logo_text_es.png'
+import QidaLogoTextCat from '../../../assets/images/qida_logo_text_cat.png'
 
 const isLangEs = true
-const getLogoSource = isLangEs ? QidaLogo : QidaLogoCat
+const getLogoSource = isLangEs ? QidaLogoTextEs : QidaLogoTextCat
 const logoHeight = isLangEs ? 16 : 29
 const footerHeight = logoHeight + 18
 

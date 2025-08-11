@@ -1,7 +1,7 @@
 import { Text, View, Link, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { renderText } from '../../utils/renders'
-import RightArrowSvg from '../../assets/images/icon-chevron-right.png'
+import IconChevronRight from '../../assets/images/icon-chevron-right.png'
 
 interface CardsProps {
   title: string
@@ -18,6 +18,7 @@ interface CardsProps {
   marginTop?: number | string
   marginLeft?: number | string
   marginRight?: number | string
+  arrowImage?: string
 }
 
 const Cards = ({ 
@@ -30,6 +31,7 @@ const Cards = ({
   marginTop = 0,
   marginLeft = 0,
   marginRight = 0,
+  arrowImage = IconChevronRight
 }: CardsProps) => {
   const backgroundColor = `bg-${colorLight}`
   const buttonColor = `bg-${color}`
@@ -61,7 +63,7 @@ const Cards = ({
                   src={item.linkSrc}
                 >
                   <Text style={tw('-mb-2')}>{renderText(item.linkText)}</Text>
-                  <Image src={RightArrowSvg} style={tw('ml-3 w-[14px]')} />
+                  <Image src={arrowImage} style={tw('ml-3 w-[14px]')} />
                 </Link>
               </View>
             </View>

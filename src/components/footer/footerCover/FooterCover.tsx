@@ -10,11 +10,13 @@ import { renderText, cleanStyle } from '../../../utils/renders'
 interface FooterCoverProps {
   name: string
   role: string
+  logo: string
 }
 
 const FooterCover = ({
   name,
-  role
+  role,
+  logo = QidaLogo
 }: FooterCoverProps) => {
   return (
     <View fixed style={tw(cleanStyle(`${footerStyles.footerWrapper} ${styles.footerCoverWrapper}`))}>
@@ -22,9 +24,10 @@ const FooterCover = ({
         <Text>Realizado por: <Text style={tw(cleanStyle(`font-bold`))}>{renderText(name)}</Text></Text>
         <Text style={tw(cleanStyle(`italic`))}>{renderText(role)}</Text>
       </View>
-      <Image style={tw(cleanStyle(`${styles.footerCoverLogo}`))} src={QidaLogo} />
+      <Image style={tw(cleanStyle(`${styles.footerCoverLogo}`))} src={logo} />
     </View>
   )
 }
 
 export default FooterCover 
+
