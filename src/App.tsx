@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { registerFonts } from './config/fonts'
 import componentsData from './componentsdata.json'
 
-// registerFonts()
+registerFonts()
 
 const HomePage = () => {
   const buttonStyle = `mx-4 bg-blue-600 text-white border-none rounded px-4 py-2 cursor-pointer text-base inline-block no-underline hover:bg-blue-700 transition-colors`

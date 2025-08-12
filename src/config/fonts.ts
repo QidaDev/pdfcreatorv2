@@ -12,40 +12,6 @@ import AeonikBlackItalic from "../assets/fonts/Aeonik-BlackItalic.ttf"
 
 export const registerFonts = () => {
   Font.register({
-    family: 'Montserrat',
-    fonts: [
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-Thin.ttf',
-        fontWeight: 300,
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-Regular.ttf',
-        fontWeight: 400,
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-Italic.ttf',
-        fontStyle: 'italic',
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-SemiBold.ttf',
-        fontWeight: 600,
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-Bold.ttf',
-        fontWeight: 700,
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-ExtraBold.ttf',
-        fontWeight: 800,
-      },
-      {
-        src: 'https://cdn.jsdelivr.net/npm/@typopro/web-montserrat@3.7.5/TypoPRO-Montserrat-Black.ttf',
-        fontWeight: 900,
-      },
-    ],
-  })
-
-  Font.register({
     family: 'Aeonik',
     fonts: [
       {

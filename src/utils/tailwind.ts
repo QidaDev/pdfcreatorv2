@@ -1,4 +1,6 @@
 import { createTw } from 'react-pdf-tailwind'
+import { registerFonts } from '../config/fonts'
+registerFonts()
 
 export const tw = createTw({
 		content: ['../index.css'],
@@ -87,7 +89,6 @@ export const tw = createTw({
 					green: '#008000',
 				},
 				fontFamily: {
-					montserrat: 'Montserrat',
 					aeonik: 'Aeonik',
 				},
 		},

@@ -6,10 +6,9 @@ export default defineConfig({
   external: ['react'],
   format: ['cjs'],
   esbuildOptions(options) {
-    options.assetNames = 'assets/images/pdf-report/[name]';
+    options.assetNames = 'assets/pdf-report/[name]'
   },
   loader: {
-    '.svg': 'file',
     '.png': 'file',
   },
 });
