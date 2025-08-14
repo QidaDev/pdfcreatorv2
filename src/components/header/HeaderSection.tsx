@@ -33,7 +33,7 @@ const HeaderSection = ({
           {smallText}
         </Text>
       </View>
-      <View fixed={(showHeaderOnEveryPage && showSectionTitleOnEveryPage)} style={tw('mt-[-8px]')}>
+      <View fixed={(showHeaderOnEveryPage && showSectionTitleOnEveryPage)} style={tw(cleanStyle(`mt-[-8px]`))}>
         <View style={tw(cleanStyle(`flex flex-row justify-between items-center mb-6 ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`))}>
           <View style={tw(cleanStyle(`flex flex-row w-[50%] pl-12 py-8 bg-${color}`))}>
             <View

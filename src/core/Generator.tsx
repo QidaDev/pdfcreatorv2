@@ -5,6 +5,7 @@ import { tw } from '../utils/tailwind'
 import { getFooterType } from '../utils/utils'
 import Section from '../components/section/Section'
 import RenderComponent from './RenderComponent'
+import { cleanStyle } from '../utils/renders'
 
 import testData from '../debugdata.json'
 
@@ -16,7 +17,7 @@ const Generator = ({
   data = testData 
 }: GeneratorProps) => {
   return (
-    <Document style={tw('font-aeonik')}>
+    <Document style={tw(cleanStyle('font-aeonik'))}>
       {Object.entries(data.sections).map(([sectionId, section]) => {
         return (
           <Section key={sectionId} footerType={getFooterType(section as any[])}>

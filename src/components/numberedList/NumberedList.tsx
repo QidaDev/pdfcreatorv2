@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Text, View } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import RenderComponent from '../../core/RenderComponent'
 import { defaultLineHeight, letters } from '../../config/global'
 
@@ -40,18 +40,18 @@ const NumberedList = ({
   if (!items || !items.length || !Array.isArray(items)) return null
 
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
+    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`))}>
       {items?.map((item, index) => (
-        <View style={tw(`text-[${fontSize}] leading-[${lineHeight}] mb-6`)} key={`pdf-view-2-${index}`}>
-          <View style={tw(`${column ? 'flex flex-col' : ''}`)} break>
-            <View style={tw(`flex flex-row items-center gap-4 h-[26px] mb-2 text-${color}`)}>
-              <Text style={tw(`font-semibold w-[10px] text-center text-[${titleFontSize}] text-${titleColor}`)}>
+        <View style={tw(cleanStyle(`text-[${fontSize}] leading-[${lineHeight}] mb-6`))} key={`pdf-view-2-${index}`}>
+          <View style={tw(cleanStyle(`${column ? 'flex flex-col' : ''}`))} break>
+            <View style={tw(cleanStyle(`flex flex-row items-center gap-4 h-[26px] mb-2 text-${color}`))}>
+              <Text style={tw(cleanStyle(`font-semibold w-[10px] text-center text-[${titleFontSize}] text-${titleColor}`))}>
                 {withLetters ? letters[index] : index + 1}
               </Text>
-              <View style={tw(`w-1 h-12 bg-${color} rounded-full`)}></View>
-              <Text style={tw(`font-semibold text-${titleColor} text-[${titleFontSize}]`)}>{renderText(item.title)}</Text>
+              <View style={tw(cleanStyle(`w-1 h-12 bg-${color} rounded-full`))}></View>
+              <Text style={tw(cleanStyle(`font-semibold text-${titleColor} text-[${titleFontSize}]`))}>{renderText(item.title)}</Text>
             </View>
-            <View style={tw('pl-12')}>
+            <View style={tw(cleanStyle(`pl-12`))}>
               {Array.isArray(item.content) ? (
                 item.content.map((content, key) => (RenderComponent(content, `${index}-${key}`)))
               ) : ( 

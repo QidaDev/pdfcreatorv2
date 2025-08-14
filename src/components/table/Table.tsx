@@ -41,42 +41,50 @@ const Table = ({
   cellHaveRightArrow = false,
   cellRightArrowColor = "#f0f0f0",
 }: TableProps) => {
+  const firstRow = tableRows[0]
+  const tableRowsWithoutFirstRow = tableRows.slice(1)
+
+  const renderRow = (tableRow: [string], rowIndex: number ) => {
+    return (
+      <View wrap={false} style={tw(cleanStyle(`flex flex-row justify-center gap-2`))} key={`row-${rowIndex}`}>
+        {tableRow.map((tableCell, cellIndex) => {
+          const isFirstCell = cellIndex === 0
+
+          return (
+            <View key={`cell-${cellIndex}`} style={tw(cleanStyle(`py-3 px-5 ${roundedCorners ? 'rounded-md' : ''} bg-${rowColor} h-full flex-1 pb-${cellBottomPadding}`))}>
+              <View style={tw(cleanStyle(`text-left ${isFirstCell ? '' : 'font-normal flex flex-row gap-2'} text-[${contentFontSize}] leading-[${contentLineHeight}]`))}>
+                {cellIndex !== 0 && cellHaveRightArrow && (
+                  <RightArrowSvg
+                    style={tw(cleanStyle(`mt-[2px]`))}
+                    width="10px"
+                    height="10px"
+                    color={cellRightArrowColor}
+                  />
+                )}
+                <View style={tw(cleanStyle(`flex-1`))}>{renderText(tableCell)}</View>
+              </View>
+            </View>
+          )
+        })}
+      </View>
+    )
+  }
+
   return (
     <View style={tw(cleanStyle(`gap-2 flex flex-col mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-center text-neutral-900 font-bold`))}>
-      <View wrap={false} style={tw(cleanStyle('flex flex-row justify-center gap-2'))}>
-        {tableHeader.map((tableHeader, cellIndex) => (
-          <View key={`header-${cellIndex}`} style={tw(cleanStyle(`${roundedCorners ? 'rounded-md' : ''} flex justify-center items-center bg-${headerColor} text-${headerTextColor} ${headerCompressed ? 'py-3' : 'h-[62px]'}  flex-1`))}>
-            <Text style={tw(cleanStyle('uppercase'))}>
-              {renderText(tableHeader)}
-            </Text>
-          </View>
-        ))}
+      <View wrap={false}>
+        <View style={tw(cleanStyle('flex flex-row justify-center gap-2 mb-2'))}>
+          {tableHeader.map((tableHeader, cellIndex) => (
+            <View key={`header-${cellIndex}`} style={tw(cleanStyle(`${roundedCorners ? 'rounded-md' : ''} flex justify-center items-center bg-${headerColor} text-${headerTextColor} ${headerCompressed ? 'py-3' : 'h-[62px]'}  flex-1`))}>
+              <Text style={tw(cleanStyle('uppercase'))}>
+                {renderText(tableHeader)}
+              </Text>
+            </View>
+          ))}
+        </View>
+        {renderRow(firstRow, 0)}
       </View>
-      {tableRows.map((tableRow, rowIndex) => {
-        return (
-          <View wrap={false} style={tw(cleanStyle(`flex flex-row justify-center gap-2`))} key={`row-${rowIndex}`}>
-            {tableRow.map((tableCell, cellIndex) => {
-              const isFirstCell = cellIndex === 0
-
-              return (
-                <View key={`cell-${cellIndex}`} style={tw(cleanStyle(`py-3 px-5 ${roundedCorners ? 'rounded-md' : ''} bg-${rowColor} h-full flex-1 pb-${cellBottomPadding}`))}>
-                  <View style={tw(cleanStyle(`text-left ${isFirstCell ? '' : 'font-normal flex flex-row gap-2'} text-[${contentFontSize}] leading-[${contentLineHeight}]`))}>
-                    {cellIndex !== 0 && cellHaveRightArrow && (
-                      <RightArrowSvg
-                        style={tw('mt-[2px]')}
-                        width="10px"
-                        height="10px"
-                        color={cellRightArrowColor}
-                      />
-                    )}
-                    <View style={tw(cleanStyle(`flex-1`))}>{renderText(tableCell)}</View>
-                  </View>
-                </View>
-              )
-            })}
-          </View>
-        )
-      })}
+      {tableRowsWithoutFirstRow.map((tableRow, rowIndex) => renderRow(tableRow, rowIndex))}
     </View>
   )
 }

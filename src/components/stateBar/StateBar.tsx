@@ -30,11 +30,11 @@ const StateBar = ({
       <View style={tw(cleanStyle(`flex flex-row items-center gap-0`))}>
         <View>
           <View style={tw(cleanStyle('w-full h-px bg-neutral-200'))}></View>
-          <Text style={tw('px-4 py-1')}>{currentYear}</Text>
+          <Text style={tw(cleanStyle('px-4 py-1'))}>{currentYear}</Text>
           <View style={tw(cleanStyle('w-full h-px bg-neutral-200'))}></View>
         </View>
         <View style={tw(cleanStyle('flex flex-row justify-between items-center h-[23px] flex-1 gap-0 bg-neutral-200'))}>
-          <View style={tw('flex justify-center text-center')}></View>
+          <View style={tw(cleanStyle('flex justify-center text-center'))}></View>
           {scales.map(({ selected, text }, index) => {
             const background = selected && !none ? `bg-${areaColor}` : ''
 
@@ -53,7 +53,7 @@ const StateBar = ({
         </View>
       </View>
       <View style={tw(cleanStyle('flex flex-row justify-between pt-2 px-2 gap-4 items-center text-[10px]'))}>
-        <Text style={tw('w-10')}></Text>
+        <Text style={tw(cleanStyle('w-10'))}></Text>
         {scales.map(({ subText }, index) => {
           return (
             <Text

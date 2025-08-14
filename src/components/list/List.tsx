@@ -36,7 +36,7 @@ const List = ({
       {items?.map((item, index) => {
         return (
           <View key={index} style={tw(cleanStyle(`flex flex-row gap-2 ${haveCheckbox ? '' : ''} ${fontSize ? `text-[${fontSize}]` : ''} ${lineHeight ? `leading-[${lineHeight}]` : ''}  mb-${itemsSeparation}`))}>
-            {haveCheckbox ? <Image src={checkboxImage} style={tw('w-4 h-4 mt-0.5')} /> : <Text>•</Text>}
+            {haveCheckbox ? <Image src={checkboxImage} style={tw(cleanStyle(`w-4 h-4 mt-0.5`))} /> : <Text>•</Text>}
             <Text style={tw(cleanStyle('flex-1'))}>{renderText(item)}</Text>
           </View>
         )

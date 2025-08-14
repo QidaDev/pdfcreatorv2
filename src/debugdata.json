@@ -614,10 +614,6 @@
         }
       },
       {
-        "type": "PageBreak",
-        "props": {}
-      },
-      {
         "type": "Table",
         "props": {
           "headerColor": "section-yellow",
@@ -2592,7 +2588,7 @@
         "type": "Text",
         "props": {
           "marginBottom": 20,
-          "text": "<bold>María Cristina Mulet</bold>,María Cristina Mulet</bold>María Cristina Mulet</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con el área social, que te ayudarán a alcanzar la meta deseada."
+          "text": "<bold>María Cristina Mulet</bold>, para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con el área social, que te ayudarán a alcanzar la meta deseada."
         }
       },
       {

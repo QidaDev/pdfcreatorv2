@@ -1,6 +1,6 @@
 import { Text, View, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import { defaultFontSize, defaultLineHeight } from '../../config/global'
 
 interface BannerCertifiedProps {
@@ -21,13 +21,13 @@ const BannerCertified = ({
   marginTop = 5,
 }: BannerCertifiedProps) => {
   return (
-    <View wrap={false} style={tw(`flex flex-col px-14 gap-6 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop}`)}>
-      <View style={tw('w-full h-1 bg-neutral-100')} />
-      <View style={tw('flex flex-row gap-10 items-center')}>
-        <Image style={tw('h-60')} src={image} />
-        <Text style={tw('flex-1 italic')}>{renderText(text)}</Text>
+    <View wrap={false} style={tw(cleanStyle(`flex flex-col px-14 gap-6 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop}`))}>
+      <View style={tw(cleanStyle(`w-full h-1 bg-neutral-100`))} />
+      <View style={tw(cleanStyle(`flex flex-row gap-10 items-center`))}>
+        <Image style={tw(cleanStyle(`h-60`))} src={image} />
+        <Text style={tw(cleanStyle(`flex-1 italic`))}>{renderText(text)}</Text>
       </View>
-      <View style={tw('w-full h-1 bg-neutral-100')} />
+      <View style={tw(cleanStyle(`w-full h-1 bg-neutral-100`))} />
     </View>
   )
 }

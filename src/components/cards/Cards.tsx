@@ -2,6 +2,7 @@ import { Text, View, Link, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { renderText } from '../../utils/renders'
 import IconChevronRight from '../../assets/images/icon-chevron-right.png'
+import { cleanStyle } from '../../utils/renders'
 
 interface CardsProps {
   title: string
@@ -37,33 +38,33 @@ const Cards = ({
   const buttonColor = `bg-${color}`
 
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
+    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`))}>
       <View>
         {title && (
-          <Text style={tw(`text-[13px] tracking-widest font-bold pt-4 pb-5`)}>
+          <Text style={tw(cleanStyle(`text-[13px] tracking-widest font-bold pt-4 pb-5`))}>
             {renderText(title)}
           </Text>
         )}
       </View>
-      <View style={tw('flex flex-row w-full flex-wrap justify-between')}>
+      <View style={tw(cleanStyle(`flex flex-row w-full flex-wrap justify-between`))}>
         {items.map((item, index) => {
           return (
             <View wrap={false} key={`${index}_worksheet`} style={tw(`w-[47%] ${backgroundColor} h-auto p-6 mb-6 rounded-lg text-[13px] leading-6 text-black flex flex-col justify-between`)}>
               <View>
-                <Text style={tw('font-medium')}>
+                <Text style={tw(cleanStyle(`font-medium`))}>
                   {renderText(item.text)}
                 </Text>
-                <Text style={tw('mt-3 font-normal')}>
+                <Text style={tw(cleanStyle(`mt-3 font-normal`))}>
                   {renderText(item.description)}
                 </Text>
               </View>
               <View>
                 <Link
-                  style={tw(`${buttonColor} w-[${linkWidth}] h-[24px] font-normal rounded-lg mt-5 no-underline flex flex-row items-center justify-center text-[11px] text-black`)}
+                  style={tw(cleanStyle(`${buttonColor} w-[${linkWidth}] h-[24px] font-normal rounded-lg mt-5 no-underline flex flex-row items-center justify-center text-[11px] text-black`))}
                   src={item.linkSrc}
                 >
-                  <Text style={tw('-mb-2')}>{renderText(item.linkText)}</Text>
-                  <Image src={arrowImage} style={tw('ml-3 w-[14px]')} />
+                  <Text style={tw(cleanStyle(`-mb-2`))}>{renderText(item.linkText)}</Text>
+                  <Image src={arrowImage} style={tw(cleanStyle(`ml-3 w-[14px]`))} />
                 </Link>
               </View>
             </View>

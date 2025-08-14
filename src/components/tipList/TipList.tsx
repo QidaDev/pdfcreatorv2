@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Text, View } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import RenderComponent from '../../core/RenderComponent'
 import { defaultFontSize } from '../../config/global'
 
@@ -27,11 +27,11 @@ const TipList = ({
   marginRight = 0,
 }: TipListProps) => {
   return (
-    <View wrap={false} style={tw(`w-auto flex flex-row mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight} text-[${fontSize}] text-neutral-900`)}>
-      <View style={tw(`w-1 h-full bg-${color}`)} />
-      <View style={tw('flex flex-col py-3 flex-1 ml-10')} >
-        <Text style={tw(`font-bold mb-8`)}>{renderText(title)}</Text>
-        <View style={tw(`flex flex-col gap-2`)}>
+    <View wrap={false} style={tw(cleanStyle(`w-auto flex flex-row mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight} text-[${fontSize}] text-neutral-900`))}>
+      <View style={tw(cleanStyle(`w-1 h-full bg-${color}`))} />
+      <View style={tw(cleanStyle('flex flex-col py-3 flex-1 ml-10'))} >
+        <Text style={tw(cleanStyle(`font-bold mb-8`))}>{renderText(title)}</Text>
+        <View style={tw(cleanStyle(`flex flex-col gap-2`))}>
           {content && (
             <>
               {Array.isArray(content) ? (

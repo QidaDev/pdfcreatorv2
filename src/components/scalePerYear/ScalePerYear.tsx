@@ -1,6 +1,6 @@
 import { Text, View } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 
 interface ScalePerYearProps {
   scales: {
@@ -26,17 +26,17 @@ const ScalePerYear = ({
   fontSize = '12px',
 }: ScalePerYearProps) => {
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}]`)}>
-      <View style={tw(`flex flex-row items-center`)}>
+    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}]`))}>
+      <View style={tw(cleanStyle(`flex flex-row items-center`))}>
         <View>
-          <View style={tw('w-full h-px bg-lightGrey')}></View>
-          <Text style={tw('px-2 py-1')}>{currentYear}</Text>
-          <View style={tw('w-full h-px bg-lightGrey')}></View>
+          <View style={tw(cleanStyle(`w-full h-px bg-lightGrey`))}></View>
+          <Text style={tw(cleanStyle(`px-2 py-1`))}>{currentYear}</Text>
+          <View style={tw(cleanStyle(`w-full h-px bg-lightGrey`))}></View>
         </View>
         <View
-          style={tw('flex flex-row justify-between items-center h-10 flex-1')}
+          style={tw(cleanStyle(`flex flex-row justify-between items-center h-10 flex-1`))}
         >
-          <View style={tw('flex justify-center text-center')}></View>
+          <View style={tw(cleanStyle(`flex justify-center text-center`))}></View>
           {scales.map(({ selected, text }, index) => {
             const background =
               selected && !none ? `bg-${areaColor}` : 'bg-lightGrey'
@@ -48,9 +48,7 @@ const ScalePerYear = ({
             return (
               <View
                 key={index}
-                style={tw(
-                  `${background} ${height} ${textColor} flex-1 flex justify-center text-center`,
-                )}
+                style={tw(cleanStyle(`${background} ${height} ${textColor} flex-1 flex justify-center text-center`))}
               >
                 <Text>{renderText(text)}</Text>
               </View>
@@ -58,22 +56,18 @@ const ScalePerYear = ({
           })}
         </View>
       </View>
-      <View
-        style={tw(
-          'flex flex-row justify-between pt-1 px-2 gap-4 items-center text-xs',
-        )}
-      >
-        <Text style={tw('w-10')}></Text>
+      <View style={tw(cleanStyle(`flex flex-row justify-between pt-1 px-2 gap-4 items-center text-xs`))}>
+        <Text style={tw(cleanStyle(`w-10`))}></Text>
         {scales.map(({ selected, subText }, index) => {
           const textColor =
             selected && !none ? `text-${areaColor} font-bold` : 'text-gray-400'
 
           return (
             <Text
-              style={tw(`flex-1 text-center ${textColor}`)}
+              style={tw(cleanStyle(`flex-1 text-center ${textColor}`))}
               key={`scale-per-year-${index}`}
             >
-              {(!none && subText) || ''}
+              {(!none && renderText(subText)) || ''}
             </Text>
           )
         })}

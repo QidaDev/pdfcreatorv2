@@ -1,6 +1,6 @@
 import { Text, View, Image } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
-import { renderText } from '../../utils/renders'
+import { renderText, cleanStyle } from '../../utils/renders'
 import { defaultFontSize, defaultLineHeight, pagePadding } from '../../config/global'
 
 interface BannerCommunicationProps {
@@ -31,19 +31,19 @@ const BannerCommunication = ({
   marginTop = 3,
 }: BannerCommunicationProps) => {
   return (
-    <View style={tw(`bg-${backgroundColor} flex flex-col gap-12 p-12 pb-0 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop} ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`)}>
-      <View style={tw('flex flex-col gap-4')}>
-        <Text style={tw('text-[16px] font-semibold mb-4')}>{renderText(title)}</Text>
+    <View style={tw(cleanStyle(`bg-${backgroundColor} flex flex-col gap-12 p-12 pb-0 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop} ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`))}>
+      <View style={tw(cleanStyle(`flex flex-col gap-4`))}>
+        <Text style={tw(cleanStyle(`text-[16px] font-semibold mb-4`))}>{renderText(title)}</Text>
         <Text>{renderText(text)}</Text>
       </View>
-      <View style={tw('flex flex-row gap-16')}>
-        <Image style={tw('flex-1')} src={image} />
-        <View style={tw('flex-1 flex flex-col gap-8')}>
+      <View style={tw(cleanStyle(`flex flex-row gap-16`))}>
+        <Image style={tw(cleanStyle(`flex-1`))} src={image} />
+        <View style={tw(cleanStyle(`flex-1 flex flex-col gap-8`))}>
           {items.map((item, index) => (
-            <View key={index} style={tw('flex flex-row items-center gap-4')}>
-              <Image style={tw('w-6 h-6')} src={item.image} />
-              <View style={tw('flex flex-col gap-2 flex-1')}>
-                <Text style={tw('font-semibold')}>{renderText(item.title)}</Text>
+            <View key={index} style={tw(cleanStyle(`flex flex-row items-center gap-4`))}>
+              <Image style={tw(cleanStyle(`w-6 h-6`))} src={item.image} />
+              <View style={tw(cleanStyle(`flex flex-col gap-2 flex-1`))}>
+                <Text style={tw(cleanStyle(`font-semibold`))}>{renderText(item.title)}</Text>
                 {item.text && (
                   <Text>{renderText(item.text)}</Text>
                 )}

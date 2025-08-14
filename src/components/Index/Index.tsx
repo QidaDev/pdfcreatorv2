@@ -1,6 +1,7 @@
 import { View, Text } from '@react-pdf/renderer'
 import { tw } from '../../utils/tailwind'
 import { letters } from '../../config/global'
+import { renderText, cleanStyle } from '../../utils/renders'
 
 interface IndexProps {
   items: Array<{
@@ -27,24 +28,24 @@ const Index = ({
   withLetters = false
 }: IndexProps) => {
   return (
-    <View style={tw(`flex flex-row justify-between flex-wrap gap-8 pt-8 w-full mb-${marginBottom} mt-${marginTop}`)}>
+    <View style={tw(cleanStyle(`flex flex-row justify-between flex-wrap gap-8 pt-8 w-full mb-${marginBottom} mt-${marginTop}`))}>
       {items.map((item, index) => {
         return (
-          <View key={index} style={tw(`flex flex-col ${oneColumn ? 'w-full' : 'w-[45%]'}`)}>
-            <View style={tw('flex flex-row items-center gap-4')}>
-              <Text style={tw(`font-bold text-neutral-900 text-center text-[${titleFontSize}] w-[10px]`)}>
+          <View key={index} style={tw(cleanStyle(`flex flex-col ${oneColumn ? 'w-full' : 'w-[45%]'}`))}>
+            <View style={tw(cleanStyle(`flex flex-row items-center gap-4`))}>
+              <Text style={tw(cleanStyle(`font-bold text-neutral-900 text-center text-[${titleFontSize}] w-[10px]`))}>
                 {withLetters ? letters[index] : index + 1}
               </Text>
-              <View style={tw(`w-1 h-12 bg-${color} rounded-full`)} />
+              <View style={tw(cleanStyle(`w-1 h-12 bg-${color} rounded-full`))} />
               {item.title && (
-                <Text style={tw(`font-bold text-neutral-900 text-[${titleFontSize}]`)}>
-                  {item.title}
+                <Text style={tw(cleanStyle(`font-bold text-neutral-900 text-[${titleFontSize}]`))}>
+                  {renderText(item.title)}
                 </Text>
               )}
             </View>
             {item.text && (
-              <Text style={tw(`text-neutral-900 ml-12 text-[${fontSize}]`)}>
-                {item.text}
+              <Text style={tw(cleanStyle(`text-neutral-900 ml-12 text-[${fontSize}]`))}>
+                {renderText(item.text)}
               </Text>
             )}
           </View>
