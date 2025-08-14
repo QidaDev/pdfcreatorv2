@@ -10,7 +10,7 @@ export const cleanStyle = (style: string) => {
 export const renderText = (text: string | undefined) => {
   if (!text) return ''
 
-  const parts = text.split(/(<bold>.*?<\/bold>|<b>.*?<\/b>|<italic>.*?<\/italic>|<underline>.*?<\/underline>|<boldunderline>.*?<\/boldunderline>|<bolditalic>.*?<\/bolditalic>|<br>|<image src='.*?'>|<ul>.*?<\/ul>|<a href='.*?'>.*?<\/a>)/g)
+  const parts = text.split(/(<bold>.*?<\/bold>|<b>.*?<\/b>|<italic>.*?<\/italic>|<underline>.*?<\/underline>|<boldunderline>.*?<\/boldunderline>|<bolditalic>.*?<\/bolditalic>|<br>|<image src='.*?'>|<image src=".*?">|<ul>.*?<\/ul>|<a href='.*?'>.*?<\/a>)/g)
 
   return parts.map((part, index) => {
     if (part === '<br>') {
@@ -35,7 +35,7 @@ export const renderText = (text: string | undefined) => {
       )
     }
     if (part.startsWith('<image src=') && part.endsWith('>')) {
-      const imageSrc = part.match(/src='(.*?)'/)?.[1] || ''
+      const imageSrc = part.match(/src='(.*?)'/)?.[1] || part.match(/src="(.*?)"/)?.[1] || ''
       return (
         <Image src={imageSrc} key={index} />
       )

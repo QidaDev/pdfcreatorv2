@@ -6,7 +6,7 @@ import { getFooterType } from '../utils/utils'
 import Section from '../components/section/Section'
 import RenderComponent from './RenderComponent'
 
-import testData from '../testdata.json'
+import testData from '../debugdata.json'
 
 interface GeneratorProps {
   data?: any

@@ -27,6 +27,7 @@ import BannerOP from '../components/bannerOP/BannerOP'
 import BannerCertified from '../components/bannerCertified/BannerCertified'
 import BannerSocialLinks from '../components/bannerSocialLinks/BannerSocialLinks'
 import AbsoluteCenter from '../components/absoluteCenter/AbsoluteCenter'
+import Unbreakable from '../components/unbreakable/Unbreakable'
 
 const componentsMap = {
   PageBreak,
@@ -56,7 +57,8 @@ const componentsMap = {
   BannerOP,
   BannerCertified,
   BannerSocialLinks,
-  AbsoluteCenter
+  AbsoluteCenter,
+  Unbreakable
 } as const
 
 const RenderComponent = (content: any, key: number | string) => {

@@ -25,7 +25,7 @@ const ImageBanner = ({
   marginTop = 0,
 }: ImageBannerProps) => {
   return (
-    <View style={tw(`mb-${marginBottom} mt-${marginTop} px-24 py-10 flex flex-row gap-4 items-center justify-center bg-${color} ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`)}>
+    <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} px-24 py-10 flex flex-row gap-4 items-center justify-center bg-${color} ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`)}>
       <Image src={src} style={tw('w-[120px] h-auto')} />
       <View style={tw(`flex-1 text-[${fontSize}] leading-[${lineHeight}]`)}>
         <Text style={tw('font-bold')}>{renderText(title)}</Text>

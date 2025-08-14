@@ -37,7 +37,7 @@ const Cards = ({
   const buttonColor = `bg-${color}`
 
   return (
-    <View wrap={false} style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
+    <View style={tw(`mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
       <View>
         {title && (
           <Text style={tw(`text-[13px] tracking-widest font-bold pt-4 pb-5`)}>
@@ -45,10 +45,10 @@ const Cards = ({
           </Text>
         )}
       </View>
-      <View wrap={false} style={tw('flex flex-row w-full flex-wrap justify-between')}>
+      <View style={tw('flex flex-row w-full flex-wrap justify-between')}>
         {items.map((item, index) => {
           return (
-            <View key={`${index}_worksheet`} style={tw(`w-[47%] ${backgroundColor} h-auto p-6 mb-6 rounded-lg text-[13px] leading-6 text-black flex flex-col justify-between`)}>
+            <View wrap={false} key={`${index}_worksheet`} style={tw(`w-[47%] ${backgroundColor} h-auto p-6 mb-6 rounded-lg text-[13px] leading-6 text-black flex flex-col justify-between`)}>
               <View>
                 <Text style={tw('font-medium')}>
                   {renderText(item.text)}

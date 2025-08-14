@@ -42,7 +42,7 @@ const Table = ({
   cellRightArrowColor = "#f0f0f0",
 }: TableProps) => {
   return (
-    <View style={tw(cleanStyle(`gap-2 flex flex-col justify-center mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-center text-neutral-900 font-bold`))}>
+    <View style={tw(cleanStyle(`gap-2 flex flex-col mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-center text-neutral-900 font-bold`))}>
       <View wrap={false} style={tw(cleanStyle('flex flex-row justify-center gap-2'))}>
         {tableHeader.map((tableHeader, cellIndex) => (
           <View key={`header-${cellIndex}`} style={tw(cleanStyle(`${roundedCorners ? 'rounded-md' : ''} flex justify-center items-center bg-${headerColor} text-${headerTextColor} ${headerCompressed ? 'py-3' : 'h-[62px]'}  flex-1`))}>

@@ -1,0 +1,3850 @@
+{
+  "sections": {
+    "portada": [
+      {
+        "type": "Cover",
+        "props": {
+          "title": "PLAN DE PREVENCIÓN Y\nREDUCCIÓN DE RIESGOS",
+          "subtitle": "PERSONALIZADO",
+          "image": "images/cover/cover.png",
+          "bottomLeftText1": "MyBox VidaCare",
+          "bottomLeftText2": "María Cristina Mulet",
+          "bottomRightText1": "12 de AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterCover",
+        "props": {
+          "name": "Marta Gimenez",
+          "role": "Descripción profesional OP"
+        }
+      }
+    ],
+    "contenido": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "Contenidos",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Index",
+        "props": {
+          "items": [
+            {
+              "title": "Introducción",
+              "text": "El Plan de Prevención va dirigido a promocionar un envejecimiento saludable y prevenir los factores de riesgo modificables asociados a la aparición de enfermedades neurodegenerativas."
+            },
+            {
+              "title": "Claves para tu bienestar",
+              "text": "Se presenta un resumen de la valoración realizada y de las recomendaciones a seguir para proporcionar una fotografía clara del punto de partida y de las principales acciones a llevar a cabo."
+            },
+            {
+              "title": "Recomendaciones",
+              "text": "Se establecen objetivos en cada área de recomendación para fomentar un envejecimiento saludable y prevenir el deterioro cognitivo y funcional. Se proporcionan pautas clave basadas en tu situación actual y con propuestas prácticas para alcanzar la meta deseada."
+            },
+            {
+              "title": "Próximos pasos",
+              "text": "Seguimiento periódico anual con tu Orientador/a Personal, para trabajar de manera conjunta la evolución y mejoras de tu Plan de Prevención, además de acompañarte en la resolución de dudas y futuras necesidades."
+            },
+            {
+              "title": "Autoría",
+              "text": "El equipo encargado de validar este Plan de Prevención es multidisciplinario y está compuesto por expertos en áreas, como Neuropsicología, Nutrición, Psicogerontología, Enfermería, Terapia Ocupacional, Fisioterapia, Trabajo Social y Educación Social, entre otros."
+            },
+            {
+              "title": "Bibliografía",
+              "text": "Las recomendaciones emitidas en el siguiente documento han sido elaboradas en base a las directrices de la Organización Mundial de la Salud (OMS) y en consonancia con fuentes bibliográficas de máximo rigor y evidencia científica."
+            }
+          ]
+        }
+      }
+    ],
+    "introduccion": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "1. Introducción",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "color": "primary-DEFAULT",
+          "text": "LA IMPORTANCIA DE UN ENVEJECIMIENTO SALUDABLE",
+          "marginTop": 6
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La promoción del <bold>envejecimiento saludable, la prevención y la adopción de hábitos y rutinas saludables</bold> son una de las principales tendencias a día de hoy. Cada vez disponemos de más evidencias científicas que apuntan a que la posibilidad de desarrollar ciertas enfermedades neurodegenerativas aumenta o disminuye en función de la combinación de diferentes factores de riesgo. De acuerdo con las directrices de la Organización Mundial de la Salud (OMS) para la reducción de los riesgos de deterioro cognitivo y demencia, existen dos tipos de factores de riesgo:"
+        }
+      },
+      {
+        "type": "NumberedList",
+        "props": {
+          "column": true,
+          "color": "section-yellow",
+          "marginTop": 4,
+          "marginBottom": 0,
+          "items": [
+            {
+              "title": "Factores NO modificables",
+              "content": "Son factores NO modificables la edad y otros factores genéticos."
+            },
+            {
+              "title": "Factores modificables",
+              "content": "Son factores modificables el nivel educativo, ciertas condiciones de salud (diabetes, sobrepeso, obesidad, hipertensión, pérdida de audición, depresión), hábitos de vida (alimentación, actividad física, actividad cognitiva, tabaquismo, consumo de alcohol, la exposición al estrés) y la ausencia de redes de apoyo familiar o social.\n\nUn estudio publicado en la revista científica The Lancet Neurology, afirmó que el <bold>35% de todos los casos de Alzheimer</bold> se pueden <bold>atribuir a estos factores de riesgo potencialmente modificables.</bold> Según la Sociedad Española de Neurología, una reducción de entre un 10% y un 25% en dichos factores de riesgo podría prevenir entre 1 y 3 millones de casos de Alzheimer en el mundo."
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "\nEl Plan de Prevención es un <bold>conjunto de recomendaciones y valoraciones orientadas a detectar, modificar y mitigar los factores</bold> que pueden favorecer la aparición de enfermedades neurodegenerativas, así como <bold>fomentar un envejecimiento saludable.</bold>\nEste plan será revisado durante el <bold>seguimiento anual programado con Marta Gimenez</bold>, tu Orientador/a Personal, donde se actualizará la valoración y recomendaciones personalizadas en función de los progresos realizados. El objetivo es proporcionarte tranquilidad y seguridad, y fomentar una mejor calidad de vida durante el mayor tiempo posible."
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "text": "Las recomendaciones y actividades a realizar son pequeños cambios en tu estilo de vida. La prevención no suele requerir de un cambio radical, sino de seguir una rutina y hábitos saludables."
+        }
+      }
+    ],
+    "claves-para-tu-bienestar": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "2. Claves para tu bienestar",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "marginLeft": 6,
+          "items": [
+            "<bold>Sigue así</bold>: representan aspectos de tu vida en los que estás haciendo un buen trabajo y que contribuyen positivamente a tu salud y bienestar. ¡Sigue así!",
+            "<bold>Áreas de mejora</bold>: hay margen para implementar mejoras que te ayudarán a alcanzar un mayor nivel de salud y bienestar. ¡Tienes la oportunidad de sentirte aún mejor!",
+            "<bold>Áreas que requieren atención</bold>: áreas prioritarias a trabajar para intentar adoptar un estilo de vida más saludable y mejorar tu calidad de vida. ¡Estamos aquí para ayudarte!"
+          ]
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 1,
+          "color": "section-yellow",
+          "title": "Actividad física",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#actividad_fisica"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 2,
+          "color": "section-green",
+          "title": "Nutricionales",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#nutricion"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 3,
+          "color": "section-turquoise",
+          "title": "Cognitivas",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#cognitiva"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 4,
+          "color": "section-purple",
+          "title": "Bienestar emocional",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#emocional"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 5,
+          "color": "section-red",
+          "title": "Sociales",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#social"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 6,
+          "color": "section-orange",
+          "title": "Auditivas y oculares",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#auditiva_y_ocular"
+        }
+      },
+      {
+        "type": "SectionSummary",
+        "props": {
+          "number": 7,
+          "color": "section-blue",
+          "title": "Tabaco y alcohol",
+          "content": "asd",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "tag-red",
+              "selected": true,
+              "selectedFontColor": "white"
+            },
+            {
+              "text": "Mejora",
+              "color": "tag-orange",
+              "selected": false,
+              "selectedFontColor": null
+            },
+            {
+              "text": "Sigue así",
+              "color": "tag-green",
+              "selected": false,
+              "selectedFontColor": null
+            }
+          ],
+          "linkText": "Ver fichas de trabajo recomendadas",
+          "linkUrl": "#tabaco_y_alcohol"
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      }
+    ],
+    "recomendaciones": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "3. Recomendaciones",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>La valoración realizada, a través de la información recogida en la entrevista con tu Orientador/a Personal, impacta en 7 categorías de recomendación:</bold> Actividad física, Nutricionales, Cognitivas, Bienestar emocional, Sociales, Auditivas y oculares, y Tabaco y alcohol. Cada una de estas 7 categorías, representadas con distintos colores, contiene los siguientes apartados:"
+        }
+      },
+      {
+        "type": "NumberedList",
+        "props": {
+          "column": true,
+          "withLetters": true,
+          "marginBottom": 0,
+          "items": [
+            {
+              "title": "Resultados de las escalas de valoración",
+              "content": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "marginBottom": 2,
+                    "text": "Recoge la <bold>valoración del área realizada con Marta Gimenez</bold>, tu Orientador/a Personal. El resultado de la escala incluye un indicativo:"
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "marginBottom": 2,
+                    "marginLeft": 10,
+                    "text": "<image src=\"images/image/check-icon.png\"> Si el resultado está por encima de la barra, se identifica con una marca de verificación para indicar un resultado positivo."
+                  }
+                },
+                {
+                  "type": "Text",
+                  "props": {
+                    "marginBottom": 0,
+                    "marginLeft": 10,
+                    "text": "<image src=\"images/image/warning-icon.png\"> Si el resultado está por debajo, se identifica con una señal de advertencia para señalar un resultado que requiere atención o mejora."
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Objetivos",
+              "content": "<bold>Se establecen propósitos o metas</bold> específicas en función de tu estado de salud e intereses."
+            },
+            {
+              "title": "Pautas clave",
+              "content": "Detalla un conjunto de <bold>recomendaciones prácticas y personalizadas</bold> basadas en tu situación actual para ayudarte a alcanzar la meta deseada."
+            },
+            {
+              "title": "Fichas de trabajo y enlaces de ampliación",
+              "content": "<bold>Incluye material de soporte de promoción de la salud, diseñado y seleccionado exclusivamente para ti</bold>, considerando tus gustos, preferencias y necesidades. A través de la plataforma de contenido en tu Portal de Cliente, podrás acceder a este material y a otras publicaciones relacionadas en cualquier momento."
+            },
+            {
+              "title": "Ten en cuenta que…",
+              "content": "<bold>Recoge orientaciones específicas</bold> que debes considerar y recordar antes de implementar cada una de las recomendaciones pautadas. "
+            },
+            {
+              "title": "¿Por qué debería seguir estas recomendaciones?",
+              "content": "<bold>Justifica el motivo y la importancia de seguir las recomendaciones</bold>, poniendo en valor la evidencia que sustenta cada una de las directrices para la reducción de los riesgos de deterioro cognitivo y demencia."
+            }
+          ]
+        }
+      }
+    ],
+    "actividad-fisica": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 01. ACTIVIDAD FÍSICA",
+          "title": "01. Actividad Física",
+          "color": "section-yellow",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Cuestionario internacional de actividad física (IPAQ)",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "IPAQ es un cuestionario internacional de actividad física que indica el tipo y nivel de actividad física que realizas en tu vida cotidiana."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "Nivel bajo o inactivo de actividad física"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-yellow",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "Bajo",
+              "subText": "Menor actividad",
+              "selected": true
+            },
+            {
+              "text": "Moderado",
+              "subText": "",
+              "selected": false
+            },
+            {
+              "text": "Alto",
+              "subText": "Mayor actividad",
+              "selected": false
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relación con el resultado, <bold>María Cristina Mulet, queremos animarte a realizar cambios en tu estilo de vida.</bold> Sabemos que no es fácil, pero sería recomendable que comiences a establecer una mayor actividad física, paulatinamente. Te sugerimos que valores la posibilidad de practicar aquella actividad física que más te motive, incluso si es de intensidad leve. Ten en cuenta que hacer algo de actividad física siempre es mejor que nada, y te proporcionará importantes beneficios para tu salud."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es dar el primer paso y comenzar a introducir la actividad física en tu día a día</bold>.\n\nNo importa cuán pequeño sea ese primer paso. A medida que avances, puedes ir aumentando gradualmente la intensidad y la frecuencia de tus actividades físicas. Esto te permitirá adaptarte de manera segura a un nivel de ejercicio cómodo y sostenible para ti. La clave está en la consistencia y la progresión."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "Los tipos más importantes de actividad física se pueden clasificar en 4 grandes grupos según la capacidad trabajada:"
+        }
+      },
+      {
+        "type": "NumberedList",
+        "props": {
+          "column": true,
+          "color": "section-yellow",
+          "items": [
+            {
+              "title": "Aeróbica",
+              "content": "<bold>Actividades físicas en las que las personas se mueven de forma rítmica y con una intensidad sostenida durante un periodo de tiempo.</bold> Por ejemplo: andar, correr, trotar, nadar, ir en bici, patinar, actividades en la naturaleza, etc."
+            },
+            {
+              "title": "Fuerza y resistencia",
+              "content": "<bold>Ejercicios de fortalecimiento que refuerzan y potencian la musculatura.</bold> Por ejemplo: subir escaleras, levantar cargas y saltar. "
+            },
+            {
+              "title": "Flexibilidad",
+              "content": "<bold>Actividades que aumentan la amplitud del movimiento articular.</bold> Por ejemplo: yoga, taichí, pilates, aquagym, etc."
+            },
+            {
+              "title": "Equilibrio y coordinación",
+              "content": "<bold>Actividades para prevenir las caídas.</bold> Por ejemplo: apoyarse sobre un solo pie, caminar sobre superficies inestables, practicar el paso talón-punta, ponerse de puntillas, lanzar y coger pelotas, saltar, realizar ejercicios de propiocepción y practicar yoga y taichí."
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, tus deseos y preferencias, te recomendamos realizar al menos las siguientes actividades para cada uno de los 4 grupos detallados:"
+        }
+      },
+      {
+        "type": "PageBreak",
+        "props": {}
+      },
+      {
+        "type": "Table",
+        "props": {
+          "headerColor": "section-yellow",
+          "headerTextColor": "neutral-900",
+          "roundedCorners": true,
+          "marginTop": "[-5px]",
+          "marginBottom": 0,
+          "tableHeader": [
+            "Capacidad",
+            "Objetivo",
+            "Duración,\nintensidad y \nfrecuencia",
+            "tipo de\nactividad"
+          ],
+          "tableRows": [
+            [
+              "1. Aeróbica",
+              "<ul><li>Mejorar la capacidad funcional.</li><li>Reducir la morbimortalidad.</li><li>Reducir los factores de riesgo cardiovascular (HTA, diabetes mellitus de tipo 2, dislipidemias, cáncer, etc.).</li><li>Controlar el peso y la composición corporal.</li><li>Aumentar el colesterol de HDL.</li><li>Aumentar las endorfinas y mejorar el estado de ánimo, el estrés, la ansiedad y la depresión.</li><li>Mejorar la calidad del sueño.</li></ul>",
+              "<ul><li>Entre 2.5 y 5 horas semanales de ejercicio aeróbico moderado.</li><li>5 días/semana, o 75- 150 minutos/semana a intensidad vigorosa 3 días/semana, o combinaciones.</li></ul>",
+              "<ul><li>Caminar y/o senderismo.</li><li>Trotar, correr, ir en bici y/o bailar.</li><li>Natación, aquagym, gimnasio y/o aeróbic.</li><li>Deportes de pista: pádel, tenis, etc.</li></ul>"
+            ],
+            [
+              "2. Fuerza y resistencia",
+              "<ul><li>Mejorar la capacidad funcional para las AVD.</li><li>Aumentar la masa y la fuerza muscular, el metabolismo basal, mejorar la estabilidad y la función articular.</li><li>Evitar lesiones y caídas.</li><li>Controlar el dolor articular.</li><li>Aumentar la masa ósea.</li></ul>",
+              "<ul><li>2 sesiones semanales como mínimo, no consecutivas.</li><li>2-3 series, de 8 a 12 repeticiones.</li><li>Descanso entre series: 40-60 segundos.</li></ul>",
+              "<ul><li>Subir y bajar escaleras, levantarse y sentarse en la silla, trabajar con gomas y pesas, flexiones, abdominales, juegos.</li><li>Bandas elásticas, peso libre.</li></ul>"
+            ],
+            [
+              "3. Flexibilidad",
+              "<ul><li>Aumentar la amplitud del movimiento articular.</li></ul>",
+              "<ul><li>Al inicio y final de cada entrenamiento.</li><li>Aguantar la tensión entre 10 y 30 segundos.</li></ul>",
+              "<ul><li>Estiramientos, yoga, taichí.</li></ul>"
+            ],
+            [
+              "4. Equilibrio y coordinación",
+              "<ul><li>Mejorar el equilibrio y la coordinación.</li><li>Evitar caídas.</li></ul>",
+              "<ul><li>Sesiones cortas de 5-10 minutos.</li><li>2-3 veces a la semana.</li></ul>",
+              "<ul><li>Apoyo con un solo pie, andar, talón-punta, talones, lanzar y coger pelotas, saltar, ejercicios propioceptivos, yoga, taichí.</li></ul>"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "marginTop": 12,
+          "color": "section-yellow",
+          "textColor": "black",
+          "text": "Los cambios saludables comienzan con sencillos pasos. Nunca ha habido mejor momento para cuidar tu salud. ¡Hagámoslo!"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "<bold>María Cristina Mulet,</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado material exclusivamente para ti, basado en tus gustos, preferencias y necesidades. Este material incluye artículos de interés para que puedas profundizar en temas relacionados con la actividad física, y fichas de trabajo que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-yellow",
+          "iconColor": "#FDC646",
+          "list": [
+            {
+              "text": "Beneficios de la actividad física en la salud",
+              "linkSrc": "http://localhost:4201/post/109",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Dar consejos sobre disminuir sedentarismo",
+              "linkSrc": "__t(common.actividad_fisica.linksAndWorkSheet.links.list.2.link)__",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Cómo incluir más actividad física en tu día a día?",
+              "linkSrc": "http://localhost:4201/post/60",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Consejos para mantenerse motivado para realizar actividad física",
+              "linkSrc": "http://localhost:4201/post/59",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Ejercicios de calentamiento",
+              "linkSrc": "http://localhost:4201/post/62",
+              "linkText": "Accede"
+            },
+            {
+              "text": "La importancia de la hidratación en la actividad física",
+              "linkSrc": "http://localhost:4201/post/61",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Cómo establecer un plan de progresión en la actividad física",
+              "linkSrc": "http://localhost:4201/post/57",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-yellow",
+          "items": [
+            {
+              "text": "Estimulación fisica a través de la marcha",
+              "description": "Da el primer paso. Camina un mínimo de entre 150 y 300 minutos a la semana",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-3.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Aprende a crear hábitos saludables",
+              "description": "Crea tu propio plan de actividad física",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-1.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Comienza el fortalecimiento muscular",
+              "description": "Ejercita tu musculatura con ejercicios moderados",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-4.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Mejora tu coordinación y equilibrio",
+              "description": "Potencia tu condición física mediante la fuerza y la coordinación",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-7.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "5 razones para lanzarse al agua",
+              "description": "La natación como forma de actividad física aeróbica de intensidad",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-2.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Ejercicios para realizar desde casa",
+              "description": "Comienza a activarte y practica estos ejercicios en tu rutina diaria",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-8.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Estiramientos",
+              "description": "Movimientos para aumentar la flexibilidad y prevenir lesiones musculares",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-5.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Actividades aeróbicas",
+              "description": "Suma beneficios a tu salud con dos rutinas sencillas",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/actividad-fisica/ejercicios-fisicos-6.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-yellow"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 2,
+          "items": [
+            "<bold>El riesgo de lesión se minimiza cuando la actividad física aumenta progresivamente.</bold> Primero aumentaremos la duración de las sesiones, después la intensidad y finalmente la frecuencia.",
+            "Es <bold>importante que comuniques a Marta Gimenez, tu Orientador/a Personal, cualquier factor de riesgo, síntoma o enfermedad</bold> no informada previamente, para adaptar la recomendación de actividad física realizada.",
+            "<bold>Haz siempre ejercicios de calentamiento y estiramientos</bold> para reducir el riesgo de lesiones.",
+            "Si durante el ejercicio físico <bold>aparece algún síntoma</bold> como dolor articular, muscular, disnea intensa, mareo, cefalea, dolor torácico, calambres musculares u otro síntoma que te preocupe, debes <bold>reducir el ritmo o parar y consultar con tu profesional de salud de referencia.</bold>"
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Según la Organización Mundial de la Salud (OMS), los beneficios de realizar actividad física regular y de ejercicio físico son múltiples:"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 2,
+          "items": [
+            "<bold>Reducción del riesgo de mortalidad por múltiples causas.</bold>",
+            "<bold>Prevención y control de enfermedades</bold> asociadas con un mayor riesgo de deterioro cognitivo, como enfermedades cardiovasculares, diabetes y síndrome metabólico, y reduce el riesgo de ciertos tipos de cáncer, así como el sobrepeso y obesidad.",
+            "<bold>Mejora la salud ósea</bold> reduciendo el riesgo de caídas, fracturas. Además, puede mejorar la artritis y otras patologías reumáticas.",
+            "<bold>Mejora la salud mental y el sueño.</bold> Contribuye a reducir el riesgo de desarrollar ansiedad y depresión, mejora el estado de ánimo, disminuye los síntomas de estrés y aumenta la autoestima.",
+            "<bold>Mejora de la salud cognitiva.</bold>"
+          ]
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS recomienda firmemente realizar actividad física para mantener una función cognitiva normal y reducir el riesgo de deterioro cognitivo."
+        }
+      }
+    ],
+    "nutricion": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 02. NUTRICIONALES",
+          "title": "02. Nutricionales",
+          "color": "section-green",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Índice de Masa Corporal (IMC)",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El Índice de Masa Corporal (IMC)* es una medida utilizada para evaluar si una persona tiene un peso saludable en relación con su altura. Se calcula dividiendo el peso de una persona en kilogramos por el cuadrado de su altura en metros (kg/m²)."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Peso",
+              "content": "170Kg"
+            },
+            {
+              "label": "Altura",
+              "content": "50cm"
+            },
+            {
+              "label": "IMC*",
+              "content": "25.0 (Sobrepeso I)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-green",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "< 18.5",
+              "subText": "Peso insuficiente",
+              "selected": false
+            },
+            {
+              "text": "18.5-24.9",
+              "subText": "Peso saludable",
+              "selected": false
+            },
+            {
+              "text": "25-26.9",
+              "subText": "Sobrepeso I",
+              "selected": true
+            },
+            {
+              "text": "27-29.9",
+              "subText": "Sobrepeso II",
+              "selected": false
+            },
+            {
+              "text": "30-34.9",
+              "subText": "Obesidad tipo I",
+              "selected": false
+            },
+            {
+              "text": "35-39.9",
+              "subText": "Obesidad tipo II",
+              "selected": false
+            },
+            {
+              "text": "40-49.9",
+              "subText": "Obesidad tipo III",
+              "selected": false
+            },
+            {
+              "text": "> 50",
+              "subText": "Obesidad tipo IV",
+              "selected": false
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "lineHeight": "1.6",
+          "text": "<italic>(*) Es importante tener en cuenta que el IMC no tiene en cuenta la distribución de grasa corporal, la masa muscular o la composición corporal general. Por lo tanto, es posible que una persona tenga un IMC alto pero sea saludable, o un IMC bajo pero tenga una cantidad excesiva de grasa corporal.</italic>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": " <bold>María Cristina Mulet</bold>, el resultado del IMC es de 680.0, lo que indica un sobrepeso de tipo I."
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Cuestionario MEDAS: Cuestionario de adherencia a la dieta mediterránea",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El cuestionario MEDAS es un instrumento utilizado para evaluar el grado de adherencia a la dieta mediterránea. Consta de 14 ítems que evalúan la frecuencia y cantidad de consumo de diferentes alimentos, así como aspectos relacionados con la forma de cocinar y la elección de alimentos."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "Baja adherencia a la dieta mediterránea"
+            }
+          ]
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-green",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "< 9",
+              "subText": "Baja adherencia a la dieta mediterránea",
+              "selected": true
+            },
+            {
+              "text": ">= 9",
+              "subText": "Buena adherencia a la dieta mediterránea",
+              "selected": false
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>María Cristina Mulet</bold>, el cuestionario MEDAS nos indica una"
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "color": "section-green",
+          "textColor": "black",
+          "text": "La dieta mediterránea se caracteriza por un alto consumo de frutas, verduras, legumbres, frutos secos, pescado, aceite de oliva y cereales integrales, y una baja ingesta de carnes rojas, alimentos procesados y grasas saturadas."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Según la Organización Mundial de la Salud (OMS), la composición exacta de una alimentación variada, equilibrada y saludable estará determinada por las características de cada persona (edad, sexo, hábitos de vida y grado de actividad física), el contexto cultural, los alimentos disponibles en el lugar y los hábitos alimentarios. No obstante, los principios básicos de la alimentación saludable siguen siendo los mismos.\n\n<bold>En base a las indicaciones de la OMS, se facilitan 12 recomendaciones y consejos nutricionales prácticos para mantener una alimentación saludable:</bold>"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "1. Verduras y hortalizas",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Las verduras y hortalizas son una importante fuente de vitaminas, minerales, fibra y antioxidantes. Consume hortalizas, como mínimo 2 veces al día</bold>, crudas (en ensaladas bien variadas) o cocidas (al vapor, salteadas, al horno, etc.), como plato principal o de acompañamiento."
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 2,
+                "text": "<underline>1 ración de hortalizas equivale a:</underline>"
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "marginTop": 0,
+                "marginBottom": 2,
+                "marginLeft": 6,
+                "items": [
+                  "1 plato de ensalada.",
+                  "1 plato de verdura cocida (judía tierna, menestra…).",
+                  "1-2 tomates, zanahorias o pepinos.",
+                  "1 pimiento, 1 calabacín."
+                ]
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "2. Fruta",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>El consumo de al menos 3 raciones de fruta al día contribuye a una alimentación saludable y a la prevención de múltiples enfermedades.</bold>"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "Consume la fruta entera o a trozos, evita tomar zumos de fruta aunque sea natural. También puedes consumir fruta desecada y deshidratada: pasas, higos secos, ciruelas pasas, etc."
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 2,
+                "text": "<bolditalic>1 ración de fruta equivale a:</bolditalic>"
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "marginTop": 0,
+                "marginBottom": 2,
+                "marginLeft": 6,
+                "items": [
+                  "1 naranja, plátano, manzana, pera, melocotón, nectarina.",
+                  "1-2 cortes de melón, sandía, piña."
+                ]
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "3. Legumbres",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Las legumbres son una excelente fuente de proteínas, fibras, vitaminas y minerales esenciales. También son bajas en grasas saturadas y no contienen colesterol.</bold>"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "Según la Organización Mundial de la Salud, una ingesta adecuada de legumbres (judías, lentejas, guisantes, garbanzos, etc.) puede ayudar a reducir el riesgo de enfermedades cardiovasculares, diabetes tipo 2, obesidad y ciertos tipos de cáncer."
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 2,
+                "text": "<bold>Consume legumbres de 3 a 4 veces a la semana</bold>. Se pueden cocinar y presentar de muchas maneras diferentes, y es fácil comprarlas cocidas."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "4. Frutos secos",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Los frutos secos contienen fibra, grasas saludables, proteínas, vitaminas, minerales y sustancias fitoquímicas protectoras. Consúmelos sin sal ni azúcar, y evita comerlos fritos</bold>, ya que suelen emplear aceites poco recomendables y añaden mucha sal."
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Se recomienda consumir una porción pequeña de frutos secos al día, que generalmente es alrededor de 30 gramos (aproximadamente un puñado).</bold>"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 2,
+                "text": "Si tienes alergia a los frutos secos, tales como las nueces, almendras, avellanas, pistachos, entre otros, debes evitar su consumo y buscar otras alternativas de alimentos saludables."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "5. Cereales integrales",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "Los cereales integrales y alimentos con harinas integrales son ricos en almidón, en fibras, vitaminas del grupo B y otros micronutrientes. <bold>Son opciones recomendables el maíz, mijo, avena, trigo o arroz integral sin procesar.</bold>"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Se recomienda un consumo diario</bold>, controlando el tamaño de las porciones y limitando los cereales procesados y azucarados."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucos para consumir más cereales integrales.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Compra solo las variedades integrales de los derivados de los cereales: pan integral, arroz integral, pasta integral, cuscús integral, etc.",
+                  "Escoge alimentos integrales mínimamente procesados, que solo contengan el cereal en cuestión o cuantos menos ingredientes mejor."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "6. Aceite de oliva virgen",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>El aceite de oliva virgen es una fuente importante de energía</bold>, ya que está compuesto en su totalidad por grasas. Aunque la aportación calórica es la misma que la de otros aceites vegetales, el tipo de grasas que contiene hace que el consumo se relacione con menos riesgo de padecer enfermedades cardiovasculares y algún tipo de cáncer."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "7. Pescado y huevos",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "Los pescados son una buena fuente de proteínas de elevada calidad, vitamina D y yodo, y son muy ricos en ácidos grasos poliinsaturados omega-3, especialmente pescados azules. <bold>La recomendación de consumo de pescado es de 2-3 veces a la semana.</bold>"
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "8. Carne roja procesada",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "La carne es un alimento rico en proteínas, algunos minerales y vitaminas. Contiene diferentes cantidades de grasas en función del animal y la parte. La Organización Mundial de la Salud recomienda <bold>reducir el consumo de carne roja y de carne procesada</bold>, puesto que el consumo excesivo se relaciona con un incremento del riesgo de ciertos problemas de salud (enfermedades cardiovasculares, hipertensión arterial, exceso de peso, diabetes mellitus de tipo 2, cáncer, etc.)."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "9. Sal",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "La sal es un condimento alimentario formado por cloruro de sodio. Ni el cloro ni el sodio de la sal son imprescindibles, ya que son elementos que se encuentran en muchos otros alimentos. En cambio, <bold>el consumo excesivo de sal se relaciona con mayor prevalencia de enfermedades</bold> (hipertensión arterial, infartos, ictus, cáncer de estómago y mortalidad en general)."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucos para reducir el consumo de sal.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Minimiza la cantidad de sal que añades a los alimentos.",
+                  "Reduce al máximo la ingesta de alimentos procesados ricos en sal, especialmente  los ultraprocesados como patatas chips, embutidos, jamón de York, jamón serrano, galletas, salsas, conservas y platos precocinados, entre otros.",
+                  "Fíjate en la cantidad de sal que contienen los alimentos o productos. Se considera que un producto tiene “mucha sal” cuando tiene 1,25 o más gramos de sal por cada 100 gramos, mientras se considera que aporta “poca sal” cuando tiene 0,25 gramos (o menos) de sal por cada 100 gramos de alimento.",
+                  "Sustituye la sal por especias (pimienta, clavo, canela, comino, cardamomo, nuez moscada, etc.), hierbas aromáticas (albahaca, perejil, cebollino, romero, orégano, laurel, tomillo, etc.) y otros condimentos (picada de ajo y perejil, zumo de limón, sésamo, pipas peladas sin sal, vinagre, ajo en polvo, etc.).",
+                  "Escoge frutos secos sin sal.",
+                  "Ten en cuenta que las salsas, en general, suelen tener mucha sal. En particular, la salsa de soja tiene mucha sal."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "10. Azúcar",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "La Organización Mundial de la Salud recomienda que <bold>la ingesta de azúcares libres no sobrepase el 10% de la energía total consumida al día, a pesar de que se indica que una ingesta de menos del 5% tendría beneficios para la salud adicionales.</bold>"
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucos para reducir el consumo de azúcar.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Evita al máximo alimentos procesados y ultraprocesados, tales como bollería, galletas, cereales del desayuno, postres lácteos, fruta en almíbar, entre otras.",
+                  "Minimiza la cantidad de azúcar que añades al café e infusiones.",
+                  "Utiliza la fruta para endulzar alimentos como el yogur.",
+                  "Prioriza el consumo de frutas enteras en lugar de zumos comerciales o caseros.",
+                  "Si preparas dulces en casa, reduce a la mitad la cantidad de azúcar que indica la receta. También puedes utilizar frutas muy maduras para endulzar. En las recetas de dulces, reduce a la mitad el azúcar. Puedes usar fruta muy madura para endulzar, en lugar de usar azúcar.",
+                  "A medida que vamos reduciendo el consumo de azúcar nuestro paladar se acostumbra y la necesidad de consumirlo cada vez es menor."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "11. Bebidas",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>La mejor opción siempre es el agua</bold>, ya que no contiene alcohol, ni azúcares, ni edulcorantes."
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "La Organización Mundial de la Salud recomienda a las personas <bold>beber suficiente agua durante todo el día</bold> para mantenerse hidratadas."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Trucos para beber más agua.",
+          "color": "section-green",
+          "content": [
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "No compres bebidas azucaradas o alcohólicas de manera habitual.",
+                  "Ten una botella de agua encima de la mesa durante la comida.",
+                  "Lleva siempre contigo una botella pequeña de agua para beber durante el día.",
+                  "Puedes darle sabor al agua agregando frutas como fresas, pepino, hierbas aromáticas, especias o infusiones."
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "title": "12. Lácteos",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "La Organización Mundial de la Salud recomienda que los lácteos sean parte de una dieta saludable, ya que son una <bold>fuente importante de nutrientes como proteínas, calcio, vitaminas D y B12, y ácido fólico</bold>. Sin embargo, también sugiere que se consuman con moderación y se elijan <bold>opciones bajas en grasa y sin azúcar.</bold>"
+              }
+            },
+            {
+              "type": "Text",
+              "props": {
+                "text": "No todas las personas pueden o deben consumir lácteos debido a alergias, intolerancias o elecciones dietéticas personales (por ejemplo, veganismo). En estos casos, es esencial asegurarse de obtener suficiente calcio y otros nutrientes a través de fuentes alternativas, como leches vegetales fortificadas y otros alimentos ricos en calcio."
+              }
+            }
+          ],
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<underline>Otros aspectos adicionales</underline>"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "marginLeft": 6,
+          "items": [
+            "Mantén un peso saludable.",
+            "Elimina o limita el consumo de dulces, bollería y refrescos.",
+            "Elimina los alimentos ultraprocesados: salsas industriales, snacks, embutidos, etc.",
+            "Elimina las harinas refinadas.",
+            "Evita el consumo de alcohol. Bebe agua."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "trackingWidest": false,
+          "text": "Resumen de la frecuencia de consumo recomendada por cada grupo de alimentos:"
+        }
+      },
+      {
+        "type": "Table",
+        "props": {
+          "headerColor": "section-green",
+          "headerTextColor": "neutral-900",
+          "rowColor": "sectionLight-green",
+          "headerCompressed": true,
+          "fontSize": "11px",
+          "cellHaveRightArrow": true,
+          "cellRightArrowColor": "#9eca38",
+          "cellBottomPadding": 8,
+          "tableHeader": [
+            "RECOMENDACIÓN",
+            "FRECUENCIA"
+          ],
+          "tableRows": [
+            [
+              "<bold>1. Verduras y hortalizas</bold>",
+              "Mínimo 2 veces al día."
+            ],
+            [
+              "<bold>2. Frutas</bold>",
+              "Al menos 3 raciones de fruta al día. <italic>Excepto en casos de alergia o intolerancia.</italic>"
+            ],
+            [
+              "<bold>3. Legumbres</bold>",
+              "De 3 a 4 veces a la semana."
+            ],
+            [
+              "<bold>4. Frutos secos</bold>",
+              "Un puñado cada día es buena opción. Se aconseja consumirlos crudos (no tostados ni con sal). <italic>Si tienes alergia o intolerancia a los frutos secos debes evitar su consumo.</italic>"
+            ],
+            [
+              "<bold>5. Cereales integrales</bold>",
+              "En cada comida. Son opciones recomendables el maíz, el mijo, la avena, el trigo o el arroz integral sin procesar. <italic>Ten en cuenta que existen opciones sin gluten.</italic>"
+            ],
+            [
+              "<bold>6. Aceite de oliva virgen</bold>",
+              "Consumo de entre 4 y 6 raciones al día."
+            ],
+            [
+              "<bold>7. Pescado y huevos</bold>",
+              "Consumo de pescado: 2-3 veces a la semana. Huevos: 3-4 veces a la semana. <italic>En caso de seguir una dieta que excluya el consumo de alimentos de origen animal, se recomienda consultar con un nutricionista o un profesional de la salud para una orientación más detallada y asegurar una dieta equilibrada y saludable.</italic>"
+            ],
+            [
+              "<bold>8. Carne</bold>",
+              "Las grasas presentes en el pescado y alimentos de origen vegetal son preferibles. Se puede consumir carne de 3 a 4 veces a la semana (máximo de 1 a 2 raciones de estas de carne roja). No tomes procesados (embutidos). <italic>En caso de seguir una dieta que excluya el consumo de alimentos de origen animal, se recomienda consultar con un nutricionista o un profesional de la salud para una orientación más detallada y asegurar una dieta equilibrada y saludable.</italic>"
+            ],
+            [
+              "<bold>9. Sal</bold>",
+              "Reducir consumo de sal. Menos de 5 gramos (aproximadamente una cucharadita) al día."
+            ],
+            [
+              "<bold>10. Azúcar</bold>",
+              "No existe un consumo seguro de azúcar; cuanto menos, mejor. La OMS recomienda que la ingesta de azúcares libres no sobrepase el 10% de la energía total consumida al día, a pesar de que se indica que una ingesta de menos del 5% tendría beneficios para la salud adicionales."
+            ],
+            [
+              "<bold>11. Bebidas</bold>",
+              "A diario. La mejor opción siempre es el agua, ya que no contiene alcohol, ni azúcares, ni edulcorantes."
+            ],
+            [
+              "<bold>12. Lácteos</bold>",
+              "Lácteos a diario, sin azúcar. <italic>En caso de intolerancia a la lactosa, alergia a la leche o seguir una dieta vegana, algunas alternativas pueden ser la leche vegetal fortificada con calcio (como la leche de almendra, soja o avena) y los yogures de origen vegetal.</italic>"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "<bold>María Cristina Mulet,</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, basado en tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con la nutrición, e infografías que te ayudarán a alcanzar la meta deseada"
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-green",
+          "iconColor": "#9ECA38",
+          "list": [
+            {
+              "text": "Las 7 técnicas de cocción más saludables",
+              "linkSrc": "http://localhost:4201/post/72",
+              "linkText": "Accede"
+            },
+            {
+              "text": "El etiquetado alimentario: el gran desconocido",
+              "linkSrc": "http://localhost:4201/post/71",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Cómo leer una etiqueta de información nutricional",
+              "linkSrc": "http://localhost:4201/post/70",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Dieta saludable, el resultado de una compra inteligente",
+              "linkSrc": "http://localhost:4201/post/186",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Es compatible comer sano y fuera de casa?",
+              "linkSrc": "http://localhost:4201/post/68",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Las 10 reglas de oro para la preparación higiénica de alimentos",
+              "linkSrc": "http://localhost:4201/post/67",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Sabes cuál es el impacto medioambiental de tu dieta?",
+              "linkSrc": "http://localhost:4201/post/66",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Libera tu cocina de utensilios tóxicos",
+              "linkSrc": "http://localhost:4201/post/65",
+              "linkText": "Accede"
+            },
+            {
+              "text": "3 pasos para crear tu propio menú",
+              "linkSrc": "http://localhost:4201/post/84",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-green",
+          "items": [
+            {
+              "text": "Menú saludable",
+              "description": "Un ejemplo de menú saludable, basado en la dieta mediterránea",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/nutricional/menu_saludable.pdf",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Crea tu propio menú",
+              "description": "Planifica tu propio menú semanal en tan solo 3 pasos",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/nutricional/crea-tu-menu.pdf",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Aprende a comprar de forma consciente",
+              "description": "Aprende a comprar de forma consciente para una alimentación saludable",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/nutricional/compra-inteligente.pdf",
+              "linkText": "Accede"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-green"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Las recomendaciones nutricionales proporcionadas deben ser consideradas como una guía básica para una alimentación saludable.</bold> Es fundamental tener en cuenta que podrían requerir ajustes según las intolerancias individuales, patrones nutricionales específicos o características personales, para garantizar una dieta adecuada y segura.",
+            "<bold>Siempre es recomendable hablar con un profesional de la salud para obtener recomendaciones personalizadas</bold> y específicas según cada situación o cualquier cambio que puedas experimentar en tu estado de salud general."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "Según la Organización Mundial de la Salud (OMS), la alimentación tiene una influencia trascendental en el funcionamiento adecuado del cerebro y en la reducción de factores modificables relacionados con las enfermedades neurodegenerativas. Además, la alimentación también puede influir en nuestro estado emocional y bienestar general."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS recomienda una alimentación similar a la mediterránea a los adultos con una función cognitiva normal o con un deterioro cognitivo leve, ya que puede reducir el riesgo de desarrollar deterioro cognitivo o de demencia."
+        }
+      }
+    ],
+    "cognitiva": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 03. COGNITIVAS",
+          "title": "03. Cognitivas",
+          "color": "section-turquoise",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Test de Pfeiffer",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El Test Pfeiffer es una prueba de cribado, diseñada para detectar posibles signos de deterioro cognitivo. Esta escala consta de 10 preguntas que evalúan diferentes aspectos de la función cognitiva, como la memoria, la atención, el razonamiento y el cálculo."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "{{pfeiffer_scale}} puntos (Sin posible deterioro cognitivo)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-turquoise",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "A:8-10",
+              "subText": "Posible deterioro",
+              "selected": false
+            },
+            {
+              "text": "B:5-7",
+              "subText": "",
+              "selected": false
+            },
+            {
+              "text": "C:3-4",
+              "subText": "",
+              "selected": false
+            },
+            {
+              "text": "D:0-2",
+              "subText": "Sin posible deterioro",
+              "selected": true
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuación de 8-10</underline>: posible deterioro cognitivo severo."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuación de 5-7</underline>: posible deterioro cognitivo moderado."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "C. <underline>Puntuación de 3-4</underline>: posible deterioro cognitivo leve."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "text": "D. <underline>Puntuación de 0-2</underline>: ausencia de posible deterioro cognitivo."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relación al resultado, <bold>María Cristina Mulet, indicas tener una conservación óptima de tus capacidades cognitivas. ¡Sigue así!</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es mantener y/o mejorar tus habilidades cognitivas, fortaleciendo las conexiones neuronales y aumentando la reserva cognitiva,</bold> con el fin de reducir el riesgo de aparición de deterioro cognitivo.\n\nLa estimulación cognitiva regular puede ser beneficiosa para mantener un rendimiento cognitivo óptimo y prevenir el deterioro cognitivo asociado con el envejecimiento."
+        }
+      },
+      {
+        "type": "Banner",
+        "props": {
+          "color": "section-turquoise",
+          "textColor": "black",
+          "text": "Una mente activa puede ser una buena aliada para reducir el riesgo de desarrollar una enfermedad neurodegenerativa."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, tus gustos y preferencias, te recomendamos las siguientes actividades:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-turquoise",
+          "title": "Actividades cognitivas",
+          "color": "section-turquoise",
+          "icon": "images/colored-table/cognitive-white.png"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Te recomendamos que hagas también una <bold>prospección de aquellas actividades que te interesan</bold> y explores los recursos disponibles en tu comunidad para realizarlas. Haz una lista, valora los beneficios de cada actividad y ordénalas por motivación (ver ficha de trabajo “Listado de intereses”)."
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-turquoise",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "Ejemplos de actividades",
+                "marginBottom": 4
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Cualquier tipo de educación o aprendizaje, como aprender un idioma o bailar.",
+                  "Desarrollar actividades creativas, como la danza, la pintura, el dibujo, tocar un instrumento musical o cantar.",
+                  "Hacer rompecabezas, crucigramas o jugar a juegos de mesa.",
+                  "Participar en actividades sociales, como reuniones o eventos en centros sociales.",
+                  "Colaborar con organizaciones, asociaciones o programas de voluntariado.",
+                  "Asistir a museos, conciertos, obras de teatro y otros eventos culturales.",
+                  "Jugar en el ordenador o tablet a actividades que estimulen el cerebro."
+                ],
+                "marginBottom": 4,
+                "marginRight": 4,
+                "marginLeft": 6
+              }
+            }
+          ],
+          "color": "section-turquoise"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "<bold>María Cristina Mulet,</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, basado en tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con el área cognitiva, y fichas de trabajo que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-turquoise",
+          "iconColor": "#17AA9C",
+          "list": [
+            {
+              "text": "Evidencias de una mente activa como estrategia de prevención de enfermedades neurodegenerativas",
+              "linkSrc": "http://localhost:4201/post/26",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Qué es la estimulación cogntiva? ¿Por qué es importante?",
+              "linkSrc": "http://localhost:4201/post/28",
+              "linkText": "Accede"
+            },
+            {
+              "text": "9 actividades de estimulación cognitiva",
+              "linkSrc": "http://localhost:4201/post/24",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Musicoterapia para mejorar tu salud cognitiva",
+              "linkSrc": "http://localhost:4201/post/25",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Arteterapia para mejorar la estimulación cognitiva",
+              "linkSrc": "http://localhost:4201/post/23",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Danza terapéutica: estimulación de la memoria",
+              "linkSrc": "http://localhost:4201/post/22",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-turquoise",
+          "items": [
+            {
+              "text": "1. Listado de intereses",
+              "description": "Identifica las actividades que te generan mayor satisfacción y enriquece tu vida",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/cognitivas/fichas-de-trabajo-cognitivas.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "2. Estimula tu capacidad cognitiva",
+              "description": "Mantén tu mente activa y fortalece las conexiones neuronales ",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/cognitivas/ejercicios-cognitivos.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-turquoise"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Es importante variar las actividades de estimulación cognitiva para desafiar diferentes habilidades cognitivas</bold> y evitar la monotonía.",
+            "Las actividades de estimulación cognitiva <bold>deben ser desafiantes, pero no deben generar frustración o ansiedad.</bold>",
+            "<bold>Se recomienda aumentar la dificultad de las actividades de estimulación cognitiva de manera gradual.</bold>",
+            "Para obtener beneficios a largo plazo, realiza actividades de <bold>estimulación cognitiva de forma regular y continuada en el tiempo.</bold>",
+            "Puedes realizar estas actividades <bold>tanto de manera individual como en grupo,</bold> según tus preferencias."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "La Organización Mundial de la Salud (OMS) destaca la importancia de la actividad cognitiva en la prevención del deterioro cognitivo. Se puede lograr una mayor actividad cognitiva mediante una terapia de estimulación o un entrenamiento cognitivo. Este tipo de terapias son una de las opciones principales para prevenir y controlar el deterioro cognitivo leve y demencias."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS recomienda realizar entrenamiento cognitivo con una función cognitiva normal o un deterioro cognitivo leve para reducir el riesgo de deterioro cognitivo o de demencia."
+        }
+      }
+    ],
+    "emocional": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 04. BIENESTAR EMOCIONAL",
+          "title": "04. Bienestar emocional",
+          "color": "section-purple",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Escala de Ansiedad y Depresión de Goldberg (EADG)",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "La Escala de Ansiedad y Depresión de Goldberg (EADG) es una herramienta utilizada para evaluar la presencia y gravedad de los síntomas de ansiedad y depresión en una persona. Consta de dos subescalas: una para evaluar los síntomas de ansiedad y otra para evaluar los síntomas de depresión.\n\nLa subescala de ansiedad contiene nueve ítems que evalúan síntomas como la inquietud, la tensión, la preocupación y el miedo. La subescala de depresión contiene nueve ítems que evalúan síntomas como la tristeza, la desesperanza, la falta de interés y el cansancio."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado subescala ansiedad",
+              "content": "0/9 puntos"
+            },
+            {
+              "label": "Resultado subescala depresión",
+              "content": "0/9 puntos"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "Unbreakable",
+        "props": {
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<underline>Subescala ansiedad</underline>",
+                "marginBottom": 2
+              }
+            },
+            {
+              "type": "StateBar",
+              "props": {
+                "areaColor": "section-purple",
+                "currentYear": "2025",
+                "scales": [
+                  {
+                    "text": "0-3",
+                    "subText": "Probabilidad baja de tener ansiedad",
+                    "selected": true
+                  },
+                  {
+                    "text": "4-9",
+                    "subText": "Probabilidad alta de tener ansiedad",
+                    "selected": false
+                  }
+                ],
+                "none": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Unbreakable",
+        "props": {
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<underline>Subescala depresión</underline>",
+                "marginBottom": 2
+              }
+            },
+            {
+              "type": "StateBar",
+              "props": {
+                "areaColor": "section-purple",
+                "currentYear": "2025",
+                "scales": [
+                  {
+                    "text": "0-1",
+                    "subText": "Probabilidad baja de tener depresión",
+                    "selected": true
+                  },
+                  {
+                    "text": "2-9",
+                    "subText": "Probabilidad alta de tener depresión",
+                    "selected": false
+                  }
+                ],
+                "none": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>\nAdicionalmente, y en relación con el resultado de la valoración del sueño, se ha detectado problemas del sueño.</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relación con el resultado, <bold>María Cristina Mulet, tras la realización de la Escala de Ansiedad y Depresión de Goldberg no se detecta evidencia de depresión ni ansiedad.</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Tenemos un doble objetivo:"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es mejorar el nivel de satisfacción del sueño.</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es mantener y mejorar tu bienestar emocional.</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, te recomendamos las siguientes <bold>pautas para mantener y mejorar tu bienestar emocional:</bold>"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-purple",
+          "marginBottom": 6,
+          "title": "Bienestar Emocional",
+          "color": "section-purple",
+          "icon": "images/colored-table/heart-white.png"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Conexiones sociales.",
+          "color": "section-purple",
+          "content": "<bold>Mantener relaciones sociales</bold> y establecer conexiones con otras personas es fundamental para el bienestar emocional.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Hábitos saludables.",
+          "color": "section-purple",
+          "content": "<bold>Hacer ejercicio físico de manera regular, llevar una dieta equilibrada y saludable, evitar el consumo de alcohol y tabaco,</bold> serían ejemplos de hábitos saludables que pueden mejorar la salud emocional.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Motivación.",
+          "color": "section-purple",
+          "content": "<bold>Identificar aquello que genera motivación</bold> impacta positivamente en la sensación de bienestar y confort.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Objetivos alcanzables.",
+          "color": "section-purple",
+          "content": "Marcar objetivos realizables ayuda a <bold>evitar la frustración y el desánimo.</bold>",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Emociones positivas.",
+          "color": "section-purple",
+          "content": "Dar importancia a las emociones positivas, <bold>celebrando los logros y disfrutando de los buenos momentos.</bold>",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Manejo del estrés.",
+          "color": "section-purple",
+          "content": "<bold>Aprender a manejar el estrés y a regular las emociones</bold> es crucial para adaptarse a las demandas y desafíos del entorno.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-purple",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "text": "<bold>Lista de actividades para una mente sana</bold>",
+                "marginBottom": 4
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "Yoga.",
+                  "Taichí.",
+                  "Pilates.",
+                  "Meditación.",
+                  "Musicoterapia o terapia artística.",
+                  "Contacto social:  Quedar para comer con un amigo/a de forma regular, visitar a familiares, participar en eventos, acudir a un club social, etc."
+                ],
+                "marginBottom": 4,
+                "marginRight": 4,
+                "marginLeft": 6
+              }
+            }
+          ],
+          "color": "section-purple"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, te recomendamos las siguientes pautas de higiene del sueño:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-purple",
+          "marginBottom": 6,
+          "title": "Higiene del sueño",
+          "color": "section-purple",
+          "icon": "images/colored-table/moon.png"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Horario",
+          "color": "section-purple",
+          "content": "<bold>Mantén un horario regular de sueño. </bold>Intenta acostarte y despertarte a la misma hora todos los días, incluso los fines de semana. Esto ayuda a mantener un ciclo de sueño constante.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Desconexión digital.",
+          "color": "section-purple",
+          "content": "<bold>Evita realizar otras actividades en la cama como ver la TV</bold>, escuchar la radio, usar dispositivos móviles. La luz azul emitida por dispositivos electrónicos como teléfonos, tabletas y computadoras puede interferir con la producción de melatonina, una hormona que regula el sueño. Trata de evitar estas pantallas al menos una hora antes de dormir.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Sustancias excitantes.",
+          "color": "section-purple",
+          "content": "<bold>Evita la ingesta de bebidas estimulantes que contengan cafeína, teína o cacao</bold>, ya que pueden interrumpir tu sueño y afectar su calidad. Además, evita el tabaco, el alcohol y las cenas copiosas.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Actividad física.",
+          "color": "section-purple",
+          "content": "<bold>Haz ejercicio regularmente</bold>, pero no 3 horas antes de dormir, ya que puede tener un efecto estimulante.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Indumentaria.",
+          "color": "section-purple",
+          "content": "<bold>Usa ropa de cama cómoda</bold> y acogedora.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Entorno.",
+          "color": "section-purple",
+          "content": "<bold>Duerme en ambientes tranquilos y sin ruidos</bold>, con adecuada temperatura, ventilación y oscuridad.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Busca ayuda profesional si es necesario.",
+          "color": "section-purple",
+          "content": "Si los problemas de sueño persisten o empeoran, es recomendable consultar a un profesional de la salud.<bold> Un médico o un especialista en sueño puede evaluar tu situación y proporcionar recomendaciones específicas o tratamiento,</bold> en caso de ser necesario.",
+          "marginBottom": 6
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "<bold>María Cristina Mulet</bold>, para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con el bienestar emocional, y fichas de trabajo que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-purple",
+          "iconColor": "#C763B1",
+          "list": [
+            {
+              "text": "Recomendaciones ansiedad nutricional",
+              "linkSrc": "__t(common.emocional.linksAndWorkSheet.links.list.1.link)__",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Recomendaciones actividad física",
+              "linkSrc": "__t(common.emocional.linksAndWorkSheet.links.list.2.link)__",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Consejos para mejorar el bienestar emocional",
+              "linkSrc": "http://localhost:4201/post/76",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Autorregulación emocional",
+              "linkSrc": "http://localhost:4201/post/34",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Qué es la respiración profunda?",
+              "linkSrc": "http://localhost:4201/post/37",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Arteterapia para mejorar tu bienestar emocional y mental",
+              "linkSrc": "http://localhost:4201/post/75",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Musicoterapia para el bienestar emocional",
+              "linkSrc": "http://localhost:4201/post/74",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Fortalece tus conexiones sociales",
+              "linkSrc": "http://localhost:4201/post/33",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Bienestar emocional y dispositivos digitales",
+              "linkSrc": "http://localhost:4201/post/35",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Recomendaciones depresión nutricional",
+              "linkSrc": "__t(common.emocional.linksAndWorkSheet.links.list.10.link)__",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Quiérete, desarrolla una imagen positiva de ti mismo/a",
+              "linkSrc": "http://localhost:4201/post/38",
+              "linkText": "Accede"
+            },
+            {
+              "text": "14 reglas para una correcta higiene del sueño",
+              "linkSrc": "http://localhost:4201/post/86",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Diario de sueño - vigilia",
+              "linkSrc": "http://localhost:4201/post/30",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Técnicas de relajación y respiración para inducir el sueño",
+              "linkSrc": "http://localhost:4201/post/31",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Técnicas conductuales y cognitivas utilizadas para el insomnio",
+              "linkSrc": "http://localhost:4201/post/29",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-purple",
+          "items": [
+            {
+              "text": "Atención plena",
+              "description": "Atención plena adaptada al ejercicio físico",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/bienestaremocional/ejercicio-para-el-bienestar-emocional.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Autorregulación emocional",
+              "description": "8 estrategias efectivas para la autorregulación emocional",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/bienestaremocional/autoregulacion-emocional.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-purple"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "El <bold>bienestar emocional</bold> puede estar relacionado con el <bold>apoyo social y la calidad de las relaciones interpersonales.</bold>",
+            "La <bold>cantidad y calidad del sueño</bold> pueden verse afectados por factores como el <bold>estrés, la ansiedad, el dolor y la falta de actividad física.</bold>"
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "Según la Organización Mundial de la Salud (OMS), el estrés emocional y los trastornos del estado del ánimo, como la depresión, son uno de los factores de riesgo para el desarrollo de enfermedades neurodegenerativas. Es prioritario adoptar hábitos saludables relacionados con una buena higiene del sueño y un estado emocional óptimo."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS recomienda realizar programas de prevención, ya que está demostrado que reducen la aparición de trastornos del ánimo, como la depresión, que a su vez es un factor de riesgo de enfermedades neurodegenerativas."
+        }
+      }
+    ],
+    "social": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 05. SOCIALES",
+          "title": "05. Sociales",
+          "color": "section-red",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relación al resultado obtenido en el área social, <bold>María Cristina Mulet, nos indicas un bajo grado de participación social.</bold>\n\n"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es mantener relaciones saludables que fomenten el bienestar físico y emocional, así como aumentar la participación social,</bold> estableciendo una rutina significativa que te permita conectarte con otras personas y actividades que te gusten.\n"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, tus gustos y preferencias, te recomendamos las siguientes actividades:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-red",
+          "marginBottom": 6,
+          "title": "Actividades sociales",
+          "color": "section-red",
+          "icon": "images/colored-table/heart-white.png"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 20,
+          "text": "<bold>María Cristina Mulet</bold>,María Cristina Mulet</bold>María Cristina Mulet</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos, preferencias y necesidades. Este material incluye artículos de interés, para que puedas profundizar en temas relacionados con el área social, que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-red",
+          "iconColor": "#DF3640",
+          "list": [
+            {
+              "text": "Los beneficios de la participación social",
+              "linkSrc": "http://localhost:4201/post/10",
+              "linkText": "Accede"
+            },
+            {
+              "text": "La soledad como riesgo de deterioro cognitivo",
+              "linkSrc": "http://localhost:4201/post/12",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Recomendaciones de actividades sociales, ocio y tiempo libre",
+              "linkSrc": "http://localhost:4201/post/11",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Actividades de ocio al aire libre",
+              "linkSrc": "http://localhost:4201/post/13",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-red",
+          "items": [
+            {
+              "text": "Listado de roles",
+              "description": "Reflexiona sobre los roles ocupacionales que desempeñas en tu día a día",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/sociales/listado-de-roles.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-red"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Existe una creciente evidencia científica que sugiere que una vida social activa y participativa puede proteger y mejorar la función cognitiva</bold> a medida que envejecemos.",
+            "<bold>Interactuar con personas de diferentes edades y orígenes también puede mejorar la flexibilidad cognitiva y la capacidad de adaptarse</bold> a situaciones nuevas y cambiantes."
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "Según la Organización Mundial de la Salud (OMS), la desconexión social incrementa el riesgo de que las personas mayores desarrollen trastornos cognitivos, discapacidad y demencia. Una menor participación social, el contacto social menos frecuente y la soledad están asociados con mayores tasas de incidencia de demencia."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS indica que la participación social y el apoyo social están altamente vinculados a una buena salud y al bienestar a lo largo de la vida. Por ello, recomienda fomentar la inclusión social en todas las etapas de la vida de una persona."
+        }
+      }
+    ],
+    "auditiva-y-ocular": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 06. AUDITIVAS Y OCULARES",
+          "title": "06. Auditivas y oculares",
+          "color": "section-orange",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En cuanto a la capacidad visual,  <bold>nos indicas que no presentas enfermedades oftalmológicas diagnosticadas ni problemas de visión.</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>María Cristina Mulet</bold>, en relación al área de valoración clínica, <bold>nos indicas que no presentas déficit auditivo.</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "El objetivo es doble:"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Adicionalmente, y en relación a la capacidad visual, <bold>el objetivo principal es mantener un cuidado ocular óptimo,</bold> limitando el riesgo de retinopatía diabética."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "<bold>El objetivo principal es mantener un cuidado auditivo óptimo, limitando el riesgo de pérdida auditiva.</bold>"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, te recomendamos las siguientes pautas para cuidar tu capacidad auditiva:"
+        }
+      },
+      {
+        "type": "Unbreakable",
+        "props": {
+          "content": [
+            {
+              "type": "ContentPanel",
+              "props": {
+                "colorLight": "sectionLight-orange",
+                "marginBottom": 6,
+                "title": "Capacidad auditiva",
+                "color": "section-orange",
+                "icon": "images/colored-table/hearing-white.png"
+              }
+            },
+            {
+              "type": "TipList",
+              "props": {
+                "title": "Higiene auditiva.",
+                "color": "section-orange",
+                "content": [
+                  {
+                    "type": "Text",
+                    "props": {
+                      "marginBottom": 4,
+                      "text": "<bold>Mantener una correcta higiene auditiva</bold>, es decir, un cuidado óptimo de tus oídos, evitando que se puedan dañar por prácticas perjudiciales que mantenemos en el tiempo."
+                    }
+                  },
+                  {
+                    "type": "List",
+                    "props": {
+                      "items": [
+                        "<bold>Lava y seca tus oídos</bold> con una toalla. <bold>Deja algo de cera</bold> para protegerte.",
+                        "<bold>Evita introducir objetos o  bastoncillos de algodón</bold> para evitar tapones o lesiones.",
+                        "<bold>Evita los sonidos fuertes o ruidos de alta intensidad.</bold>",
+                        "<bold>Utiliza protección auditiva</bold> en entornos ruidosos.",
+                        "<bold>No escuches música a alto volumen a través de auriculares.</bold> Mantén el volumen por debajo del 60% del máximo y limita el tiempo de exposición.",
+                        "<bold>Usa  tapones cuando practiques deportes acuáticos</bold> y evita nadar en agua sucia.",
+                        "<bold>Acude a un profesional de la salud</bold> si el oído supura líquido o si tienes un tapón o cuerpo extraño.",
+                        "<bold>No uses aceite, hierbas o remedios caseros,</bold> solo medicamentos prescritos por un profesional de salud."
+                      ],
+                      "haveCheckbox": true,
+                      "marginBottom": 0
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Seguimiento y valoración periódica.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Un seguimiento y valoración periódica para la prevención,</bold> la identificación y el tratamiento oportuno de la pérdida de audición."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Conciencia e información.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "__t(common.auditiva_y_ocular.keyGuidelines.auditory.rec_auditory_ocular_auditory_no_issues.2.text)__"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Medicación.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "<bold>Revisa la medicación con tu profesional de la salud de referencia</bold> para detectar posibles ototoxicidades."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, te recomendamos las siguientes pautas para cuidar tu capacidad ocular:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-orange",
+          "marginBottom": 6,
+          "title": "Capacidad ocular",
+          "color": "section-orange",
+          "icon": "images/colored-table/hearing-white.png"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "<bold>Higiene ocular.</bold>",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "Mantener una correcta higiene ocular ayuda a mejorar el bienestar visual:"
+              }
+            },
+            {
+              "type": "List",
+              "props": {
+                "items": [
+                  "<bold>Mantén una buena hidratación ocular</bold> con lágrimas artificiales.",
+                  "<bold>Mantén un ambiente ventilado y una temperatura confortable.</bold>",
+                  "<bold>Mantén una buena iluminación, trabaja con luz natural.</bold> De utilizar luz artificial, evita la luz directamente a los ojos y las sombras, que producen fatiga ocular.",
+                  "<bold>Evitar fumar</bold> ya que es un factor de riesgo para desarrollar degeneración macular.",
+                  "<bold>Realiza una alimentación rica en vitamina A</bold> (lácteos, carne, pescado, huevos, legumbres, verduras como zanahorias).",
+                  "<bold>Evita la visualización prolongada de medios electrónicos.</bold>",
+                  "Descansar la vista cada 20 minutos.",
+                  "<bold>Realiza actividades al aire libre</bold> para reducir el estrés visual.",
+                  "<bold>Lávate las manos frecuentemente y evita frotar los ojos y usar cosméticos.</bold>",
+                  "<bold>Protege tus ojos de la luz solar</bold> usando gafas de sol con filtro UV y sombreros.",
+                  "<bold>Acude a revisiones periódicas con profesionales de la salud.</bold>"
+                ],
+                "haveCheckbox": true,
+                "marginBottom": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Seguimiento y valoración periódica.",
+          "color": "section-orange",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "Realizar <bold>revisiones oftalmológicas cada año.</bold>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "D. ENLACES DE AMPLIACIÓN Y FICHAS DE TRABAJO",
+          "id": "auditiva_y_ocular"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "<bold>María Cristina Mulet,</bold> para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos y particularidades. Este material incluye artículos de interés que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-orange",
+          "iconColor": "#EE5A21",
+          "list": [
+            {
+              "text": "¿Sabes cómo cuidar la salud de tus oídos?",
+              "linkSrc": "http://localhost:4201/post/51",
+              "linkText": "Accede"
+            },
+            {
+              "text": "La importancia del cuidado auditivo en la prevención de la enfermedad neurodegenerativa",
+              "linkSrc": "http://localhost:4201/post/53",
+              "linkText": "Accede"
+            },
+            {
+              "text": "10 consejos para reconocer la pérdida auditiva",
+              "linkSrc": "http://localhost:4201/post/52",
+              "linkText": "Accede"
+            },
+            {
+              "text": "¿Sabes cómo cuidar la salud de tus ojos?",
+              "linkSrc": "http://localhost:4201/post/43",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Importancia del cuidado ocular en la prevención de enfermedades neurodegenerativas",
+              "linkSrc": "http://localhost:4201/post/44",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Recomendaciones higiene visual personal y ambiental",
+              "linkSrc": "__t(common.auditiva_y_ocular.linksAndWorkSheet.links.list.6.link)__",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-orange",
+          "items": [
+            {
+              "text": "¿Cuidas la salud de tus oídos?",
+              "description": "12 hábitos saludables para una correcta higiene auditiva",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/auditiva-ocular/cuidados-auditivos.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "¿Cuidas la salud de tus ojos?",
+              "description": "12 hábitos saludables para una correcta higiene visual",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/auditiva-ocular/cuidados-oculares.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-orange"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>Adquirir unos hábitos correctos y saludables para limitar el riesgo de pérdida visual y auditiva es fundamental</bold> para mantener tu salud y calidad de vida.",
+            "<bold>Debes solicitar una valoración auditiva y ocular</bold> si sospechas que tienes alguna pérdida de audición o de la capacidad visual.  "
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 16,
+          "text": "Según la Organización Mundial de la Salud (OMS), la pérdida ocular y auditiva se asocia con un mayor riesgo de deterioro cognitivo o demencia. En concreto, la pérdida de audición puede casi duplicar el riesgo de incidencia de demencia. Además, diversos estudios han evidenciado una relación directa entre la pérdida de audición y visión y el deterioro cognitivo. Esto se debe a que las personas con deficiencias en estos sentidos reciben menos estímulos del entorno, lo que puede provocar una disminución de sus capacidades cognitivas."
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "Es importante realizar un examen de detección periódico para la identificación y manejo de la pérdida visual y auditiva."
+        }
+      }
+    ],
+    "tabaco-y-alcohol": [
+      {
+        "type": "HeaderSection",
+        "props": {
+          "smallText": "RECOMENDACIONES: 07. TABACO Y ALCOHOL",
+          "title": "07. Tabaco y alcohol",
+          "color": "section-blue",
+          "tags": [
+            {
+              "text": "Atención",
+              "color": "error-700",
+              "selected": false
+            },
+            {
+              "text": "Mejora",
+              "color": "warning-300",
+              "selectedFontColor": "black",
+              "selected": false
+            },
+            {
+              "text": "Sigue así",
+              "color": "success-700",
+              "selected": true
+            }
+          ]
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "marginTop": 0,
+          "marginBottom": 4,
+          "text": "A. RESULTADO DE LAS ESCALAS DE VALORACIÓN"
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Test de Fagerström",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El test de Fagerström es una herramienta utilizada para evaluar la dependencia física y psicológica de una persona hacia la nicotina.\n\nConsta de una serie de preguntas que evalúan la cantidad de cigarrillos que una persona se fuma al día, el momento en que se fuma el primer cigarrillo del día, la dificultad para dejar de fumar, y otros síntomas asociados a la abstinencia.\n\nLa puntuación total del test indica el nivel de dependencia a la nicotina."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "Dependencia baja a la nicotina"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-blue",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "A:0-2",
+              "subText": "Dependencia alta a la nicotina"
+            },
+            {
+              "text": "B:3-4",
+              "subText": "Dependencia moderada a la nicotina"
+            },
+            {
+              "text": "C:5-6",
+              "subText": "Dependencia baja a la nicotina"
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "C. <underline>Puntuación de 5-6</underline>: dependencia alta a la nicotina."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuación de 3-4</underline>: dependencia moderada a la nicotina."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuación de 0-2</underline>: dependencia baja a la nicotina."
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "Test de Richmond",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El Test de Richmond se utiliza en el contexto del abandono del tabaco. Consta de 10 preguntas y se utiliza para evaluar el grado de dependencia física y psicológica de una persona al tabaco.\n\nAlgunas de las preguntas incluyen la frecuencia del consumo de tabaco, la cantidad de cigarrillos fumados por día, la dificultad para abstenerse de fumar, la necesidad de fumar en situaciones específicas y la experiencia de síntomas de abstinencia."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "{{richmond_scale}} puntos (Motivación nula o baja para dejar de fumar)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, de ninguna manera, un diagnóstico médico</bold> ni pretende sustituir un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-blue",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "A:0-3",
+              "subText": "Motivación nula o baja"
+            },
+            {
+              "text": "B:4-5",
+              "subText": "Motivación dudosa"
+            },
+            {
+              "text": "C:6-7",
+              "subText": "Motivación moderada"
+            },
+            {
+              "text": "D:8-10",
+              "subText": "Motivación alta"
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "D. <underline>Puntuación de 8-10</underline>: motivación alta para dejar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "C. <underline>Puntuación de 6-7</underline>: motivación moderada para dejar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "B. <underline>Puntuación de 4-5</underline>: motivación dudosa para dejar de fumar."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "marginBottom": 0,
+          "text": "A. <underline>Puntuación de 0-3</underline>: motivación nula o baja para dejar de fumar."
+        }
+      },
+      {
+        "type": "TableBlackHeader",
+        "props": {
+          "title": "AUDIT-C",
+          "list": [
+            {
+              "label": "Descripción de la escala de valoración",
+              "content": "El AUDIT-C es un breve cuestionario diseñado para detectar problemas relacionados con el consumo de alcohol, desarrollado por la Organización Mundial de la Salud (OMS). Consta de tres preguntas que se centran en la cantidad y frecuencia del consumo de alcohol.\n\nLa puntuación del AUDIT-C varía de 0 a 12, y se considera que una puntuación igual o mayor a 4  indica un mayor riesgo de problemas relacionados con el alcohol."
+            },
+            {
+              "label": "Fecha valoración",
+              "content": "12/08/2025"
+            },
+            {
+              "label": "Resultado",
+              "content": "0 puntos (Consumo de alcohol de bajo riesgo)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Alert",
+        "props": {
+          "marginBottom": 6,
+          "text": "<bold>El resultado facilitado no representa, en modo alguno, un diagnóstico médico</bold> ni pretende sustituir a un servicio de atención médica, así como tampoco determinar algún tratamiento a seguir."
+        }
+      },
+      {
+        "type": "StateBar",
+        "props": {
+          "areaColor": "section-blue",
+          "currentYear": "2025",
+          "scales": [
+            {
+              "text": "0-4",
+              "subText": "Consumo de alcohol de bajo riesgo"
+            },
+            {
+              "text": "5-12",
+              "subText": "Consumo de alcohol de riesgo o perjudicial"
+            }
+          ],
+          "none": false
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "text": "B. <underline>Puntuación menor a 5</underline>: consumo de alcohol de bajo riesgo."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginLeft": 7,
+          "text": "A. <underline>Puntuación mayor o igual a 5</underline>: consumo de alcohol de riesgo o perjudicial."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "María Cristina Mulet, <bold>¡felicidades por no haber fumado nunca, continúa así!</bold>"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En relación con el resultado obtenido sobre tu consumo de alcohol, <bold>María Cristina Mulet, ¡felicidades por no consumir alcohol!</bold> Esta es una decisión muy saludable que puede tener muchos beneficios para tu salud. Continúa así."
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "B. OBJETIVOS"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "El objetivo es doble:"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "Respecto al tabaco, <bold>el objetivo es mantener la conducta de no fumar.</bold> Es importante evitar el inicio del consumo de tabaco en cualquiera de sus formas y mantener un estilo de vida libre de tabaco.",
+            "Teniendo en cuenta que no consumes alcohol, <bold>el objetivo es seguir manteniendo esta elección a lo largo del tiempo y evitar el incio de consumo de alcohol.</bold>"
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "C. PAUTAS CLAVE"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, te recomendamos las siguientes pautas para mantener la conducta de no fumar:"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-blue",
+          "marginBottom": 6,
+          "title": "Tabaco",
+          "color": "section-blue",
+          "icon": "images/colored-table/hearing-white.png"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Consumo.",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "Si no fumas, <bold>es importante que no comiences a hacerlo.</bold>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Vivir en un ambiente libre de humo.",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "No existe un nivel seguro de exposición al humo. <bold>Evita los lugares donde se fuma y no permitas que se fume en casa o en el coche.</bold>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "En base a la valoración realizada, <bold>te recomendamos continuar sin beber alcohol.</bold>"
+        }
+      },
+      {
+        "type": "ContentPanel",
+        "props": {
+          "colorLight": "sectionLight-blue",
+          "marginBottom": 6,
+          "title": "Alcohol",
+          "color": "section-blue",
+          "icon": "images/colored-table/hearing-white.png"
+        }
+      },
+      {
+        "type": "TipList",
+        "props": {
+          "title": "Consumo.",
+          "color": "section-blue",
+          "content": [
+            {
+              "type": "Text",
+              "props": {
+                "marginBottom": 4,
+                "text": "Si no consumes bebidas alcohólicas, es importante <bold>no comiences a hacerlo.</bold>"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "Fichas de trabajo",
+          "id": "tabaco_y_alcohol"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "marginBottom": 10,
+          "text": "María Cristina Mulet, para que puedas comenzar a trabajar en el objetivo propuesto, hemos seleccionado el siguiente material, exclusivamente para ti, en función de tus gustos y particularidades. Este material incluye artículos de interés para que puedas profundizar en temas relacionados con el tabaco y el alcohol que te ayudarán a alcanzar la meta deseada."
+        }
+      },
+      {
+        "type": "LinkList",
+        "props": {
+          "title": "Enlaces de ampliación",
+          "color": "section-blue",
+          "iconColor": "#4BA8DF",
+          "list": [
+            {
+              "text": "10 problemas derivados del consumo de alcohol",
+              "linkSrc": "http://localhost:4201/post/17",
+              "linkText": "Accede"
+            },
+            {
+              "text": "12 mitos sobre el alcohol que escuchas cada día",
+              "linkSrc": "http://localhost:4201/post/20",
+              "linkText": "Accede"
+            },
+            {
+              "text": "7 Beneficios potenciales de la reducción del alcohol",
+              "linkSrc": "http://localhost:4201/post/19",
+              "linkText": "Accede"
+            },
+            {
+              "text": "8 recomendaciones para reducir el consumo de alcohol",
+              "linkSrc": "http://localhost:4201/post/4",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Consumo intensivo de alcohol y consecuencias",
+              "linkSrc": "http://localhost:4201/post/14",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Recursos útiles para problemas con el alcohol",
+              "linkSrc": "http://localhost:4201/post/184",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Conoce tu consumo de alcohol",
+              "linkSrc": "http://localhost:4201/post/18",
+              "linkText": "Accede"
+            },
+            {
+              "text": "7 recomendaciones para prevenir recaídas",
+              "linkSrc": "http://localhost:4201/post/176",
+              "linkText": "Accede"
+            },
+            {
+              "text": "12 beneficios de dejar de fumar",
+              "linkSrc": "http://localhost:4201/post/174",
+              "linkText": "Accede"
+            },
+            {
+              "text": "12 mitos sobre el tabaquismo que escuchas cada día",
+              "linkSrc": "http://localhost:4201/post/179",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Toma la decisión de dejar de fumar",
+              "linkSrc": "http://localhost:4201/post/175",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Prepárate para dejar de fumar en solo 10 pasos",
+              "linkSrc": "http://localhost:4201/post/171",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Tus motivos para dejar de fumar",
+              "linkSrc": "http://localhost:4201/post/177",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Conoce tu hábito de consumo de cigarrillos",
+              "linkSrc": "http://localhost:4201/post/180",
+              "linkText": "Accede"
+            },
+            {
+              "text": "11 consejos para afrontar los primeros días sin fumar",
+              "linkSrc": "http://localhost:4201/post/172",
+              "linkText": "Accede"
+            },
+            {
+              "text": "Las 6 mejores aplicaciones para dejar de fumar",
+              "linkSrc": "http://localhost:4201/post/178",
+              "linkText": "Accede"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Cards",
+        "props": {
+          "colorLight": "sectionLight-blue",
+          "items": [
+            {
+              "text": "Cómo reducir tu consumo de alcohol",
+              "description": "Conoce tu consumo y reduce la cantidad que bebes",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/tabacoyalcohol/reducir-consumo-alcohol.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Tomar la decisión de dejar de fumar",
+              "description": "Deja atrás el tabaco y empieza una vida más sana",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/tabacoyalcohol/decision-dejar-fumar-3.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "Motivos para dejar de fumar",
+              "description": "Existen numerosas razones para dejar de fumar. ¿Cuáles son las tuyas?",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/tabacoyalcohol/motivos-dejar-fumar.pdf",
+              "linkText": "Abrir ficha"
+            },
+            {
+              "text": "12 beneficios de dejar de fumar",
+              "description": "Date la oportunidad de disfrutar de los beneficios de una vida libre de humo",
+              "linkSrc": "https://vcx-informe-assets.s3.eu-west-1.amazonaws.com/tabacoyalcohol/beneficios-dejar-de-fumar.pdf",
+              "linkText": "Abrir ficha"
+            }
+          ],
+          "title": "Fichas de trabajo",
+          "color": "section-blue"
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "E. TEN EN CUENTA QUE...",
+          "marginTop": 4
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "itemsSeparation": 3,
+          "marginLeft": 6,
+          "items": [
+            "<bold>El consumo de alcohol y tabaco puede tener efectos negativos en la salud y el bienestar.</bold> Ambas sustancias son adictivas y pueden causar daños graves en la salud física y emocional. "
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "F. ¿POR QUÉ DEBERÍA SEGUIR ESTAS RECOMENDACIONES?"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Según la Organización Mundial de la Salud (OMS), <bold>los beneficios de no fumar son múltiples:</bold>"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "haveCheckbox": true,
+          "items": [
+            "Reduce el riesgo de mortalidad prematura y mejora la calidad y esperanza de vida.",
+            "Disminuye el riesgo de desarrollar enfermedades cardiovasculares, respiratorias, diferentes tipos de cánceres y enfermedades neurodegenerativas.",
+            "Mejora la salud oral y disminuye el riesgo de desarrollar enfermedades dentales.",
+            "Mejora la apariencia de la piel.",
+            "Mejora el bienestar emocional y aumenta el rendimiento físico.",
+            "Previene la pérdida de olfato y de gusto.",
+            "Protege la salud de amigos y familiares al no exponerlos al humo.",
+            "Supone un ahorro económico a largo plazo, tanto a nivel individual como social.",
+            "Reduce el impacto ambiental del tabaco."
+          ]
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Adicionalmente, y en cuanto a los <bold>múltiples beneficios de no beber alcohol,</bold> la Organización Mundial de la Salud (OMS) destaca:"
+        }
+      },
+      {
+        "type": "List",
+        "props": {
+          "haveCheckbox": true,
+          "marginBottom": 10,
+          "items": [
+            "Reduce el riesgo de desarrollar enfermedades crónicas, como enfermedades del corazón o hepáticas, trastornos del sistema nervioso y varios tipos de cáncer.",
+            "Mejora la salud mental y el bienestar emocional.",
+            "Mejora la calidad del sueño y fomenta un sueño más reparador.",
+            "Mejora la apariencia física y ayuda a mantener un peso saludable.",
+            "Mejora las capacidades cognitivas."
+          ]
+        }
+      },
+      {
+        "type": "ImageBanner",
+        "props": {
+          "src": "images/oms.png",
+          "title": "Recomendación de la Organización Mundial de la Salud",
+          "text": "La OMS recomienda evitar fumar y reducir o evitar el consumo de alcohol, ya que esto puede reducir el riesgo de deterioro cognitivo y demencia, además de aportar otros beneficios para la salud."
+        }
+      }
+    ],
+    "proximos-pasos": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "4. Próximos pasos",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Te invitamos a dar el primer paso y <bold>comenzar a incorporar estas recomendaciones y actividades personalizadas</bold> de manera práctica y efectiva.\n\nA través de este plan de acción, los materiales de ampliación, las fichas de trabajo y el apoyo  de tu Orientador/a Personal, <bold>cuentas con todos los recursos necesarios para llevarlo a cabo.</bold>\n\nEs importante que mantengas tu motivación y compromiso para implementar estos pequeños cambios en tu estilo de vida y actualizarlos en función de tu evolución. Para ello, <bold>realizaremos evaluaciones y seguimientos periódicos para valorar tu progreso y realizar los ajustes necesarios para actualizar tu Plan de Prevención.</bold> \n\nLa próxima comunicación programada con Marta Gimenez, tu Orientador/a personal, será dentro de un año. <bold>Nos pondremos en contacto contigo</bold> con dos meses de antelación para agendar la fecha exacta."
+        }
+      },
+      {
+        "type": "BannerCommunication",
+        "props": {
+          "title": "<bold>¿CÓMO COMUNICARTE CON NOSOTROS?</bold>",
+          "text": "Estamos a tu disposición para ayudarte en todo lo que necesites, cuando lo necesites.  Desde tu Portal del cliente podrás ponerte en contacto con Marta Gimenez, tu Orientador/a personal, ya sea mediante la mensajería integrada o por llamada telefónica directa.",
+          "image": "images/banner-communication/qida-iphone.png",
+          "items": [
+            {
+              "image": "images/banner-communication/application-web.png",
+              "title": "Acceso al Portal del cliente"
+            },
+            {
+              "image": "images/banner-communication/chat.png",
+              "title": "Mensajería",
+              "text": "Tu Orientador/a Personal te atenderá antes de 24 horas laborales."
+            },
+            {
+              "image": "images/banner-communication/phone-filled.png",
+              "title": "Línea telefónica",
+              "text": "Tu Orientador/a Personal te atenderá de lunes a viernes de 9 a 18 horas."
+            }
+          ]
+        }
+      }
+    ],
+    "autoria": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "5. Autoría",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025",
+          "showSectionTitleOnEveryPage": true
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "¿QUIÉN ES TU ORIENTADOR/A PERSONAL?",
+          "color": "primary-DEFAULT",
+          "marginTop": 6,
+          "marginBottom": 4
+        }
+      },
+      {
+        "type": "BannerOP",
+        "props": {
+          "fullName": "Marta Gimenez",
+          "professionalTitle": "Orientador/a Personal | Qida",
+          "academicTitle": "Tecnic@ de encendido de impresoras",
+          "collegiateNo": "Colegiada n° C9343534",
+          "image": "images/banner-op/op.png",
+          "items": [
+            {
+              "image": "images/banner-op/phone-filled.png",
+              "text": "+34 666777888"
+            },
+            {
+              "image": "images/banner-op/chat.png",
+              "linkSrc": "http://localhost:4201/mensajes",
+              "linkText": "Mensajería"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "EL EQUIPO QIDA",
+          "color": "primary-DEFAULT"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "El equipo que valida este informe está compuesto por <bold>profesionales altamente capacitados</bold> en diversas áreas, como la Psicogerontología, Neuropsicología, Terapia Ocupacional, Enfermería Familiar y Comunitaria, Trabajo social, Nutrición, Educación social y Fisioterapia. \n\nNuestra intervención se basa en un <bold>enfoque de atención integral y multidominio.</bold> La valoración integral se realiza a través de una entrevista clínica exhaustiva en la que, entre otros aspectos, <bold>se emplean escalas de valoración estandarizadas y validadas científicamente,</bold> cuya fiabilidad y precisión ha sido mostrada a lo largo del tiempo.\n\nEn base a la valoración, se establecen recomendaciones personalizadas que abordan los diferentes factores de riesgo modificables, como la actividad física, la alimentación, la estimulación cognitiva, el bienestar emocional, el apoyo social y el consumo de tabaco y alcohol. <bold>Estas dimensiones están interrelacionadas y se abordan de manera conjunta para promocionar un envejecimiento saludable y prevenir los riesgos asociados a la aparición de enfermedades neurodegenerativas.</bold>"
+        }
+      },
+      {
+        "type": "PageBreak",
+        "props": {}
+      },
+      {
+        "type": "Title",
+        "props": {
+          "text": "¿QUÉ ES QIDA?",
+          "color": "primary-DEFAULT"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "Qida es la empresa de impacto social líder en servicios y productos de alta calidad para la atención al segmento sénior en casa. <bold>Tiene el objetivo de que más personas vivan más tiempo y con mayor calidad de vida en casa</bold>, promocionando un envejecimiento saludable y facilitando un seguimiento proactivo y preventivo. \n\nPara ello, cuenta con dos misiones: por un lado, construir una atención domiciliaria humana, experta y de base tecnológica de alta calidad; y, por otro lado, contribuir a elevar el estatus social al colectivo cuidador.\n\nDesde su fundación (2018), Qida ha atendido las necesidades de más de 10.000 familias y ha realizado más de 5 millones de horas en atención domiciliaria en el Estado."
+        }
+      },
+      {
+        "type": "BannerCertified",
+        "props": {
+          "text": "Qida es la primera compañía de su sector en convertirse en B Corp en España al cumplir con los más altos estándares en términos de desempeño social y ambiental, transparencia y responsabilidad legal y compromiso de impacto positivo.",
+          "image": "images/banner-certified/bcorp.png"
+        }
+      },
+      {
+        "type": "BannerSocialLinks",
+        "props": {
+          "links": [
+            {
+              "src": "https://www.qida.es/",
+              "image": "images/banner-social-links/logo--qida.png",
+              "text": "Qida.es"
+            },
+            {
+              "src": "https://www.facebook.com/qidacare",
+              "image": "images/banner-social-links/logo--facebook.png",
+              "text": "Facebook"
+            },
+            {
+              "src": "https://www.linkedin.com/company/qida-atencion-domiciliaria-home-care",
+              "image": "images/banner-social-links/logo--linkedin.png",
+              "text": "Linkedin"
+            },
+            {
+              "src": "https://www.instagram.com/qida.care",
+              "image": "images/banner-social-links/logo--instagram.png",
+              "text": "Instagram"
+            }
+          ]
+        }
+      }
+    ],
+    "bibliografia": [
+      {
+        "type": "HeaderPage",
+        "props": {
+          "title": "6. Bibliografía",
+          "smallText": "Plan de prevención y reducción de riesgos personalizado",
+          "personName": "María Cristina Mulet",
+          "date": "AGOSTO de 2025"
+        }
+      },
+      {
+        "type": "FooterLogo",
+        "props": {}
+      },
+      {
+        "type": "List",
+        "props": {
+          "items": [
+            "Alcohol. Organización Mundial de la salud. 9 de mayo de 2022. Disponible en: <a href='http://www.google.com'>https://www.who.int/es/news-room/fact-sheets/detail/alcohol</a>.",
+            "Directrices de la OMS sobre actividad física y hábitos sedentarios: de un vistazo [WHO guidelines on physical activity and sedentary behaviour: at a glance]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IGO.",
+            "Estilos de vida saludables. Ministerio de sanidad. Disponible en: <a href='http://www.google.com'>https://estilosdevidasaludable.sanidad.gob.es/consumo/falsosMitos/estres/home.htm</a>",
+            "Global status report on alcohol and health 2018. Geneva: World Health Organization; 2018. Licence: CC BY-NC-SA 3.0 IGO.",
+            "Informe mundial sobre la visión [World report on vision]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IGO",
+            "Integrated care for older people (ICOPE): Guidance for person-centred assessment and pathways in primary care. Geneva: World Health Organization; 2019 (WHO/FWC/ALC/19.1). Licence: CC BY-NC-SA 3.0 IGO.",
+            "Livingston G, Huntley J, Liu KY, Costafreda SG, Selbæk G, Alladi S, Ames D, Banerjee S, Burns A, Brayne C, Fox NC, Ferri CP, Gitlin LN, Howard R, Kales HC, Kivimäki M, Larson EB, Nakasujja N, Rockwood K, Samus Q, Shirai K, Singh-Manoux A, Schneider LS, Walsh S, Yao Y, Sommerlad A, Mukadam N. Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission. Lancet. 2024 Jul 30:S0140-6736(24)01296-0. doi: 10.1016/S0140-6736(24)01296-0. Epub ahead of print. PMID: 39096926.",
+            "Livingston, G., Huntley, J., Sommerlad, A., Ames, D., Ballard, C., Banerjee, S., ... & Mukadam, N. (2020). Dementia prevention, intervention, and care: 2020 report of the Lancet Commission. The Lancet, 396(10248), 413-446.",
+            "Manual básico de cuidado del oído y la audición [Basic ear and hearing care resource]. Ginebra: Organización Mundial de la Salud; 2020. Licencia: CC BY-NC-SA 3.0 IG",
+            "Ministerio de Sanidad. Alimentación saludable. Disponible en: https://estilosdevidasaludable.sanidad.gob.es/alimentacionSaludable",
+            "Ministerio de Sanidad. Estilos de vida saludables. Prevención del tabaquismo. Disponible en:- https://estilosdevidasaludable.sanidad.gob.es/tabaco/home.htm",
+            "Organización Mundial de la Salud. Tabaco: beneficios para la salud de dejar de fumar. 25 de febrero de 2020.Disponible en:- https://www.who.int/es/news-room/questions-and-answers/item/tobacco-health-benefits-of-smoking-",
+            "Yassine, H. N., Samieri, C., Livingston, G., Glass, K., Wagner, M., Tangney, C., ... & Schneider, L. S. (2022). Nutrition state of science and dementia prevention: recommendations of the Nutrition for Dementia Prevention Working Group. The Lancet Healthy Longevity, 3(7), e501-e512."
+          ]
+        }
+      }
+    ],
+    "FIN": [
+      {
+        "type": "AbsoluteCenter",
+        "props": {
+          "content": [
+            {
+              "type": "Image",
+              "props": {
+                "src": "images/qida-logo.png",
+                "width": 150,
+                "marginLeft": "auto",
+                "marginRight": "auto"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

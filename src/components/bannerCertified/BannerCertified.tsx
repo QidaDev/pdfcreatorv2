@@ -21,7 +21,7 @@ const BannerCertified = ({
   marginTop = 5,
 }: BannerCertifiedProps) => {
   return (
-    <View style={tw(`flex flex-col px-14 gap-6 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop}`)}>
+    <View wrap={false} style={tw(`flex flex-col px-14 gap-6 text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop}`)}>
       <View style={tw('w-full h-1 bg-neutral-100')} />
       <View style={tw('flex flex-row gap-10 items-center')}>
         <Image style={tw('h-60')} src={image} />

@@ -26,7 +26,7 @@ const StateBar = ({
   fontSize = '12px',
 }: StateBarProps) => {
   return (
-    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-neutral-900`))} wrap={true}>
+    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-neutral-900 pt-2`))} wrap={true}>
       <View style={tw(cleanStyle(`flex flex-row items-center gap-0`))}>
         <View>
           <View style={tw(cleanStyle('w-full h-px bg-neutral-200'))}></View>
