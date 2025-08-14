@@ -47,7 +47,7 @@ const LinkList = ({
           </View>
           <View style={tw(cleanStyle(`ml-5 w-auto`))}>
             <Link src={link.linkSrc} style={tw(`text-neutral-900 items-center font-normal flex flex-row w-auto`)}>
-              <Text style={tw(cleanStyle(`mr-3 -mt-1 block`))}>{renderText(link.linkText)}</Text>
+              <Text style={tw(cleanStyle(`mr-3 -mt-1`))}>{renderText(link.linkText)}</Text>
               <View style={tw(cleanStyle(`ml-3`))}>
                 <IconLaunch height="13" width="13" />
               </View>

@@ -3,6 +3,7 @@ import { tw } from '../../utils/tailwind'
 import { renderText, cleanStyle } from '../../utils/renders'
 
 interface StateBarProps {
+  title: string
   scales: {
     selected: boolean
     text: string
@@ -17,6 +18,7 @@ interface StateBarProps {
 }
 
 const StateBar = ({ 
+  title,
   scales,
   areaColor,
   none,
@@ -26,7 +28,12 @@ const StateBar = ({
   fontSize = '12px',
 }: StateBarProps) => {
   return (
-    <View style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-neutral-900 pt-2`))} wrap={true}>
+    <View wrap={false} style={tw(cleanStyle(`mb-${marginBottom} mt-${marginTop} text-[${fontSize}] text-neutral-900 pt-2`))}>
+      {title && (
+        <Text style={tw(cleanStyle(`text-black pb-4`))}>
+          {renderText(title)}
+        </Text>
+      )}
       <View style={tw(cleanStyle(`flex flex-row items-center gap-0`))}>
         <View>
           <View style={tw(cleanStyle('w-full h-px bg-neutral-200'))}></View>

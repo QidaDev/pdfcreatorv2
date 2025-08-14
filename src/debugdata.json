@@ -147,6 +147,54 @@
         }
       },
       {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "text": "La siguiente sección proporciona un <bold>resumen de tu estado actual, con el propósito de identificar las principales áreas de trabajo.</bold> Se trata de una síntesis del bloque de Recomendaciones, donde podrás ampliar información tras esta primera visión general."
+        }
+      },
+      {
         "type": "List",
         "props": {
           "marginLeft": 6,
@@ -2062,6 +2110,7 @@
             {
               "type": "StateBar",
               "props": {
+                "title": "<underline>Subescala ansiedad</underline>",
                 "areaColor": "section-purple",
                 "currentYear": "2025",
                 "scales": [
