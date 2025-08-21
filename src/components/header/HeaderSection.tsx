@@ -37,7 +37,7 @@ const HeaderSection = ({
         <View style={tw(cleanStyle(`flex flex-row justify-between items-center mb-6 ml-[-${pagePadding.left}] mr-[-${pagePadding.right}]`))}>
           <View style={tw(cleanStyle(`flex flex-row w-[50%] pl-12 py-8 bg-${color}`))}>
             <View
-              style={tw(cleanStyle(`flex flex-row items-center text-[20px] font-black`))}
+              style={tw(cleanStyle(`flex flex-row items-center text-[20px] font-semibold tracking-wide`))}
             >
               <Text style={tw(cleanStyle('text-black'))}>{renderText(title)}</Text>
             </View>

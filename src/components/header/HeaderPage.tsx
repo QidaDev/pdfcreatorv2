@@ -24,7 +24,7 @@ const HeaderPage = ({
     <>
       <View fixed={showHeaderOnEveryPage}>
         <Text style={tw(cleanStyle(`${styles.headerText}`))}>
-          {smallText}
+          {smallText.toUpperCase()}
         </Text>
       </View>
       <View fixed={(showHeaderOnEveryPage && showSectionTitleOnEveryPage)}>

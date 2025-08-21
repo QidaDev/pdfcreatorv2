@@ -1884,7 +1884,8 @@
               "type": "Text",
               "props": {
                 "text": "Ejemplos de actividades",
-                "marginBottom": 4
+                "marginBottom": 4,
+                "fontWeight": "medium"
               }
             },
             {

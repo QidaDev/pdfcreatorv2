@@ -8,6 +8,7 @@ interface TextProps {
   fontSize?: string
   lineHeight?: string
   color?: string
+  fontWeight?: string
   marginBottom?: number | string
   marginTop?: number | string
   marginLeft?: number | string
@@ -19,6 +20,7 @@ const Text = ({
   fontSize = defaultFontSize,
   lineHeight = defaultLineHeight,
   color = 'black',
+  fontWeight = 'normal',
   marginBottom = 5,
   marginTop = 0,
   marginLeft = 0,
@@ -29,7 +31,7 @@ const Text = ({
   return (
     <View>
       {paragraphs.map((paragraph, index) => (
-        <TextComponent key={index} style={tw(`text-${color} text-[${fontSize}] leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
+        <TextComponent key={index} style={tw(`text-${color} text-[${fontSize}] font-${fontWeight} leading-[${lineHeight}] mb-${marginBottom} mt-${marginTop} ml-${marginLeft} mr-${marginRight}`)}>
           {renderText(paragraph)}
         </TextComponent>
       ))}

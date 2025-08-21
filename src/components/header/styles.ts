@@ -1,6 +1,6 @@
 export const styles = {
     headerText: `
-        text-neutral-300 pb-6 text-[10px] font-normal
+        text-neutral-700 pb-6 text-[10px] font-normal
     `,
 
     headerTitleWrapper: `
